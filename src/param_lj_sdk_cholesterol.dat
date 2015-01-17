@@ -1,0 +1,44 @@
+# -*- mode: conf -*-
+# add here derivative LJ pairs if different from base
+
+## OAB / OA 
+#pair    EST1 OAB  lj9_6  0.4715  3.9957 #Geometric Combining rules (EST1-OA) CMM/19092013 
+#pair    EST2 OAB  lj9_6  0.4715  3.9957 #Geometric Combining rules (EST2-OA) CMM/19092013 
+#pair    GL   OAB  lj9_6  0.4343  4.0903 #Geometric Combining rules (GL-OA) CMM/19092013 
+#pair    NC   OAB  lj9_6  0.5607  4.6206 #Geometric Combining rules (NC-OA) CMM/19092013 
+#pair    PH   OAB  lj9_6  0.7929  4.4777 #Geometric Combining rules (PH-OA) CMM/19092013 
+
+pair     EST1     OA      lj9_6    0.4715    3.9957 #Geometric Combining rules (EST1-OA) CMM/19092013 
+pair     EST2     OA      lj9_6    0.4715    3.9957 #Geometric Combining rules (EST2-OA) CMM/19092013 
+pair     GL       OA      lj9_6    0.4343    4.0903 #Geometric Combining rules (GL-OA) CMM/19092013 
+pair     NC       OA      lj9_6    0.5607    4.6206 #Geometric Combining rules (NC-OA) CMM/19092013 
+pair     PH       OA      lj9_6    0.7929    4.4777 #RDF CMM/13012014 DPPC+Hexanol 
+
+pair     CM2R     CM2R    lj9_6    0.1800    3.9743 # CM2R CM2R From cyclohexane CMM 18062014
+pair     CM2R     CMR     lj9_6    0.1988    4.5672 # CM2R CMR  From bicyclooctane-a CMM 18062014 
+pair     CMR      CMR     lj9_6    0.2142    4.7313 # CMR CMR   From bicyclooctane-a CMM 18062014 
+#pair     CM2R     CMB     lj9_6    0.1950    4.6116 # CM2R CMB  From bicyclooctane-b CMM 18062014 
+#pair     CMB      CMB     lj9_6    0.2100    4.6862 # CMB CMB   From bicyclooctane-b CMM 18062014 
+pair     CM2R     CMB     lj9_6    0.2300    4.4342 # CM2R CMB  From decalin CMM 18062014
+pair     CMB      CMB     lj9_6    0.2478    4.5060 # CMB CMB   From decalin CMM 18062014
+pair     C2T     C2T      lj9_6    0.4003    4.8115 # C2T C2T From isopentane CMM 18062014 
+#pair     C2T     C2T     lj9_6    0.4086    4.8570 # C2T C2T from isohexane CMM 18062014
+pair     C2T     CT       lj9_6    0.4080    4.8601 # C2T CT  0.87 1.06 From isohexane CMM 18062014 
+pair     C2T     CT2      lj9_6    0.3269    4.6205 # C2T CT2 From Isopentane CMM 18062014
+pair     CMDB    CMDB     lj9_6    0.2652    5.0157 # CMDB CMDB From ethylcyclohexane CM 19062014 
+pair     CMDB    CMR      lj9_6    0.3077    4.3790 # CMDB CMR From ethylcyclohexane CM 19062014 
+pair     CMDB    CT2      lj9_6    0.2652    4.2364 # CMDB CT2 From ethylcyclohexane CM 19062014 
+pair     CMR     CT2      lj9_6    0.3620    4.3635 # CMR CT2 From ethylcyclohexane CM 19062014 
+
+pair     CM4   CM4   lj9_6   0.5586    4.6412 # CM4 CM4 #from octane CMM 
+pair     CM4   CT2   lj9_6   0.4815    4.4944 # CM4 CT2 #from octane CMM 
+pair     CM4   W    lj12_4   0.4182    4.6604 # CM4 W   #from octane/water CMM 
+
+pair     CM2   CM2  lj9_6    0.2688    4.4159 # CM2 CM2 #from octane CMM 
+pair     CM2   CT   lj9_6    0.3107    4.4546 # CM2 CT  #from octane CMM 
+pair     CM2   CT2  lj9_6    0.2317    4.2763 # CM2 CT2 #from octane CMM 
+pair     CM2   W   lj12_4    0.2788    4.1722 # CM2 W   #from octane/water CMM 
+
+
+
+
