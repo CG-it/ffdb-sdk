@@ -20,12 +20,12 @@ proc param2json {args} {
 
 	foreach l [split $data "\n"] {
 	    switch -glob $l {
-		"bond*"  {bond2json  $l s}
-		"angle*" {angle2json $l s}
-		"pair*"  {pair2json  $l s}
-		"pair*"  {dihed2json  $l s}
-		"#*"     {continue}
-		default  {continue}
+		"bond*"      {bond2json  $l s}
+		"angle*"     {angle2json $l s}
+		"dihedral*"  {dihed2json $l s}
+		"pair*"      {pair2json  $l s}
+		"#*"         {continue}
+		default      {continue}
 	    }
 	}
     }
@@ -63,9 +63,9 @@ proc angle2json {line jsonstr} {
 
     upvar $jsonstr s
 
-    #"angle":{
+    #{
     #   "param":"angle",
-    #   "types":["C2T","CM2" "CTB"],
+    #   "types":["C2T","CM2", "CTB"],
     #   "potential":"sdk",
     #   "k":110.00,
     #   "theta0": 2.54,
@@ -73,40 +73,14 @@ proc angle2json {line jsonstr} {
     #}
 
     lassign $line param atype1 atype2 atype3\
-	potential k r0 comment
+	potential k theta0 comment
 
     lappend s "  {"
     lappend s "    \"param\":\"angle\","
-    lappend s "    \"types\":\[\"$atype1\",\"$atype2\"\],"
+    lappend s "    \"types\":\[\"$atype1\",\"$atype2\",\"$atype3\"\],"
     lappend s "    \"potential\":\"$potential\","
     lappend s "    \"k\":$k,"
-    lappend s "    \"r0\":$r0,"
-    lappend s "    \"comment\":\"$comment\""
-    lappend s "  },"
-}
-
-proc pair2json {line jsonstr} {
-
-    upvar $jsonstr s
-
-    #"pair":{
-    #   "param":"pair",
-    #   "types":["CM2R","CM2R"],
-    #   "potential":"lj9_6",
-    #   "epsilon":0.1800,
-    #   "sigma": 3.9743,
-    #   "comment":""
-    #}
-
-    lassign $line param atype1 atype2\
-	potential epsilon sigma comment
-
-    lappend s "  {"
-    lappend s "    \"param\":\"pair\","
-    lappend s "    \"types\":\[\"$atype1\",\"$atype2\"\],"
-    lappend s "    \"potential\":\"$potential\","
-    lappend s "    \"epsilon\":$epsilon,"
-    lappend s "    \"sigma\":$sigma,"
+    lappend s "    \"theta0\":$theta0,"
     lappend s "    \"comment\":\"$comment\""
     lappend s "  },"
 }
@@ -115,7 +89,7 @@ proc dihed2json {line jsonstr} {
 
     upvar $jsonstr s
 
-    #"pair":{
+    #{
     #   "param":"dihedral",
     #   "types":["CM2R","CM2R","CM2R",CM2R"],
     #   "potential":"harmonic",
@@ -133,6 +107,32 @@ proc dihed2json {line jsonstr} {
     lappend s "    \"potential\":\"$potential\","
     lappend s "    \"k\":$k,"
     lappend s "    \"chi0\":$chi0,"
+    lappend s "    \"comment\":\"$comment\""
+    lappend s "  },"
+}
+
+proc pair2json {line jsonstr} {
+
+    upvar $jsonstr s
+
+    #{
+    #   "param":"pair",
+    #   "types":["CM2R","CM2R"],
+    #   "potential":"lj9_6",
+    #   "epsilon":0.1800,
+    #   "sigma": 3.9743,
+    #   "comment":""
+    #}
+
+    lassign $line param atype1 atype2\
+	potential epsilon sigma comment
+
+    lappend s "  {"
+    lappend s "    \"param\":\"pair\","
+    lappend s "    \"types\":\[\"$atype1\",\"$atype2\"\],"
+    lappend s "    \"potential\":\"$potential\","
+    lappend s "    \"epsilon\":$epsilon,"
+    lappend s "    \"sigma\":$sigma,"
     lappend s "    \"comment\":\"$comment\""
     lappend s "  },"
 }
