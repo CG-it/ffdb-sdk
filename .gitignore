@@ -1,4 +1,5 @@
 CVS/
+*.pyc
 *~
 \#*\#
 /.emacs.desktop
