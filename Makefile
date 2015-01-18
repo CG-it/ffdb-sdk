@@ -1,4 +1,4 @@
-.PHONY: all clean install
+.PHONY: all clean
 
 TCL = /usr/bin/tclsh8.5
 VERSION = 1
