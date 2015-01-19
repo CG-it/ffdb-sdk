@@ -10,8 +10,9 @@ proc param2json {args} {
 
     set s {}
     lappend s "{"
-    lappend s "\"fftype\":\"sdk\","
+    lappend s "\"author\":\"$::env(USER)\"," 
     lappend s "\"date\":[clock format [clock seconds] -format \"%Y-%m-%dT%H:%M:%S\"],"
+    lappend s "\"fftype\":\"sdk\","
     lappend s "\"params\":\["
 
     foreach f $args {
