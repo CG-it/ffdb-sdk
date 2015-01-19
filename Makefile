@@ -1,4 +1,4 @@
-.PHONY: all clean
+.PHONY: all clean par_all${VERSION}_sdk.json par_all${VERSION}_sdk.dat
 
 TCL = /usr/bin/tclsh8.5
 VERSION = 1

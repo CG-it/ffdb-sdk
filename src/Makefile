@@ -1,7 +1,10 @@
+# -*- makefile -*-
+
 ## Construct *_all.dat parameter files automatically
 
-.PHONY: clean all
 VERSION = 1
+
+.PHONY: clean all par_all$(VERSION)_sdk.dat
 
 complete_databases = par_all$(VERSION)_sdk.dat param_lj_sdk_all.dat param_bond_sdk_all.dat param_angle_sdk_all.dat
 
