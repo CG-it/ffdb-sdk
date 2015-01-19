@@ -1,3 +1,8 @@
+
+## Compiled databases should be ignored, except the "official" 
+## file that will be used and distributed by us
+*all*.dat
+
 CVS/
 *.pyc
 *~
