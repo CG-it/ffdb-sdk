@@ -1,5 +1,6 @@
 {
 "fftype":"sdk",
+"date":"2015-01-19T16:14:52",
 "params":[
   {
     "param":"pair",
@@ -1427,6 +1428,22 @@
   },
   {
     "param":"pair",
+    "types":["EST1","OA"],
+    "potential":"lj9_6",
+    "epsilon":0.4715,
+    "sigma":3.9957,
+    "comment":"#Geometric"
+  },
+  {
+    "param":"pair",
+    "types":["EST1","OAB"],
+    "potential":"lj9_6",
+    "epsilon":0.4715,
+    "sigma":3.9957,
+    "comment":"#Geometric"
+  },
+  {
+    "param":"pair",
     "types":["EST1","PH"],
     "potential":"lj9_6",
     "epsilon":0.5000,
@@ -1552,6 +1569,22 @@
     "epsilon":0.7500,
     "sigma":4.4750,
     "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["EST2","OA"],
+    "potential":"lj9_6",
+    "epsilon":0.4715,
+    "sigma":3.9957,
+    "comment":"#Geometric"
+  },
+  {
+    "param":"pair",
+    "types":["EST2","OAB"],
+    "potential":"lj9_6",
+    "epsilon":0.4715,
+    "sigma":3.9957,
+    "comment":"#Geometric"
   },
   {
     "param":"pair",
@@ -1699,6 +1732,22 @@
   },
   {
     "param":"pair",
+    "types":["GL","OA"],
+    "potential":"lj9_6",
+    "epsilon":0.4343,
+    "sigma":4.0903,
+    "comment":"#Geometric"
+  },
+  {
+    "param":"pair",
+    "types":["GL","OAB"],
+    "potential":"lj9_6",
+    "epsilon":0.4343,
+    "sigma":4.0903,
+    "comment":"#Geometric"
+  },
+  {
+    "param":"pair",
     "types":["GL","PH"],
     "potential":"lj9_6",
     "epsilon":0.3000,
@@ -1840,6 +1889,22 @@
     "epsilon":0.8800,
     "sigma":5.1750,
     "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["NC","OA"],
+    "potential":"lj9_6",
+    "epsilon":0.5607,
+    "sigma":4.6206,
+    "comment":"#Geometric"
+  },
+  {
+    "param":"pair",
+    "types":["NC","OAB"],
+    "potential":"lj9_6",
+    "epsilon":0.5607,
+    "sigma":4.6206,
+    "comment":"#Geometric"
   },
   {
     "param":"pair",
@@ -2200,6 +2265,22 @@
     "epsilon":0.2800,
     "sigma":4.8105,
     "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["PH","OA"],
+    "potential":"lj9_6",
+    "epsilon":0.7929,
+    "sigma":4.4777,
+    "comment":"#RDF"
+  },
+  {
+    "param":"pair",
+    "types":["PH","OAB"],
+    "potential":"lj9_6",
+    "epsilon":0.7929,
+    "sigma":4.4777,
+    "comment":"#RDF"
   },
   {
     "param":"pair",
