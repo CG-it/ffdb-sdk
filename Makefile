@@ -1,6 +1,7 @@
 .PHONY: all clean par_all${VERSION}_sdk.json par_all${VERSION}_sdk.dat
 
-TCL = /usr/bin/tclsh8.5
+TCL = $(shell which tclsh8.5)
+
 VERSION = 1
 
 complete_databases = par_all${VERSION}_sdk.dat par_all${VERSION}_sdk.json 
@@ -12,12 +13,12 @@ clean:
 	rm -f $(complete_databases)
 
 par_all${VERSION}_sdk.json: par_all${VERSION}_sdk.dat
-	cd src; \
+	@cd src; \
 	$(TCL) ../tools/param2json.tcl $^ > $@
-	mv src/$@ .
+	@mv src/$@ .
 
 par_all${VERSION}_sdk.dat:
-	cd src; \
+	@cd src; \
 	$(MAKE) "VERSION = $(VERSION)" -f Makefile.clol
 
 hooks:
