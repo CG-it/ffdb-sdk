@@ -1,0 +1,15 @@
+#!/bin/sh
+#
+# Automatically update the files to be installed
+# and generate the "all" sdk parameter files 
+set -e
+
+# Redirect output to stderr.
+exec 1>&2
+
+MAKE=`which make`
+#${MAKE} -f Makefile update   || exit 
+${MAKE} -f Makefile all       || exit 
+#
+#git add .rsync-include
+git add ./par_all*_sdk.json 

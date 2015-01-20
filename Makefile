@@ -20,3 +20,5 @@ par_all${VERSION}_sdk.dat:
 	cd src; \
 	$(MAKE) "VERSION = $(VERSION)" -f Makefile.clol
 
+hooks:
+	cp tools/pre-commit .git/hooks/.
