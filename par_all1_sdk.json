@@ -1,6 +1,6 @@
 {
 "author":"macdercm",
-"date":"2015-01-26T20:27:19",
+"date":"2015-01-26T22:07:54",
 "fftype":"sdk",
 "params":[
   {
@@ -105,6 +105,54 @@
     "potential":"lj9_6",
     "epsilon":0.4372,
     "sigma":4.0330,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CM","CM"],
+    "potential":"lj9_6",
+    "epsilon":0.4200,
+    "sigma":4.5060,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CM","CMB"],
+    "potential":"lj9_6",
+    "epsilon":0.4200,
+    "sigma":4.5060,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CM","CMR"],
+    "potential":"lj9_6",
+    "epsilon":0.4200,
+    "sigma":4.5060,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CM","CMR5"],
+    "potential":"lj9_6",
+    "epsilon":0.4200,
+    "sigma":4.5060,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CM","OA"],
+    "potential":"lj9_6",
+    "epsilon":0.3650,
+    "sigma":3.9870,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CM","OAB"],
+    "potential":"lj9_6",
+    "epsilon":0.3650,
+    "sigma":3.9870,
     "comment":"#"
   },
   {
@@ -221,6 +269,14 @@
   },
   {
     "param":"pair",
+    "types":["CM2","W"],
+    "potential":"lj12_4",
+    "epsilon":0.2788,
+    "sigma":4.1722,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
     "types":["CM2R","CM"],
     "potential":"lj9_6",
     "epsilon":0.3899,
@@ -273,14 +329,6 @@
     "potential":"lj9_6",
     "epsilon":0.3724,
     "sigma":3.9128,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CM2","W"],
-    "potential":"lj12_4",
-    "epsilon":0.2788,
-    "sigma":4.1722,
     "comment":"#"
   },
   {
@@ -361,38 +409,6 @@
     "potential":"lj9_6",
     "epsilon":0.3650,
     "sigma":3.9870,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CM","CM"],
-    "potential":"lj9_6",
-    "epsilon":0.4200,
-    "sigma":4.5060,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CM","CMB"],
-    "potential":"lj9_6",
-    "epsilon":0.4200,
-    "sigma":4.5060,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CM","CMR"],
-    "potential":"lj9_6",
-    "epsilon":0.4200,
-    "sigma":4.5060,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CM","CMR5"],
-    "potential":"lj9_6",
-    "epsilon":0.4200,
-    "sigma":4.5060,
     "comment":"#"
   },
   {
@@ -677,62 +693,6 @@
   },
   {
     "param":"pair",
-    "types":["CM","OA"],
-    "potential":"lj9_6",
-    "epsilon":0.3650,
-    "sigma":3.9870,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CM","OAB"],
-    "potential":"lj9_6",
-    "epsilon":0.3650,
-    "sigma":3.9870,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CMR5","CMB"],
-    "potential":"lj9_6",
-    "epsilon":0.2304,
-    "sigma":4.6173,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CMR5","CMR"],
-    "potential":"lj9_6",
-    "epsilon":0.2142,
-    "sigma":4.7313,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CMR5","CMR5"],
-    "potential":"lj9_6",
-    "epsilon":0.2142,
-    "sigma":4.7313,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CMR5","OA"],
-    "potential":"lj9_6",
-    "epsilon":0.3650,
-    "sigma":3.9870,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CMR5","OAB"],
-    "potential":"lj9_6",
-    "epsilon":0.3650,
-    "sigma":3.9870,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
     "types":["CMR","CMB"],
     "potential":"lj9_6",
     "epsilon":0.2304,
@@ -785,6 +745,118 @@
     "potential":"lj9_6",
     "epsilon":0.3650,
     "sigma":3.9870,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CMR5","CMB"],
+    "potential":"lj9_6",
+    "epsilon":0.2304,
+    "sigma":4.6173,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CMR5","CMR"],
+    "potential":"lj9_6",
+    "epsilon":0.2142,
+    "sigma":4.7313,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CMR5","CMR5"],
+    "potential":"lj9_6",
+    "epsilon":0.2142,
+    "sigma":4.7313,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CMR5","OA"],
+    "potential":"lj9_6",
+    "epsilon":0.3650,
+    "sigma":3.9870,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CMR5","OAB"],
+    "potential":"lj9_6",
+    "epsilon":0.3650,
+    "sigma":3.9870,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CT","CM"],
+    "potential":"lj9_6",
+    "epsilon":0.4440,
+    "sigma":4.5455,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CT","CM2R"],
+    "potential":"lj9_6",
+    "epsilon":0.4124,
+    "sigma":4.4737,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CT","CMB"],
+    "potential":"lj9_6",
+    "epsilon":0.4440,
+    "sigma":4.5455,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CT","CMR"],
+    "potential":"lj9_6",
+    "epsilon":0.4440,
+    "sigma":4.5455,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CT","CMR5"],
+    "potential":"lj9_6",
+    "epsilon":0.4440,
+    "sigma":4.5455,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CT","CT"],
+    "potential":"lj9_6",
+    "epsilon":0.4690,
+    "sigma":4.5850,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CT","CTB"],
+    "potential":"lj9_6",
+    "epsilon":0.4690,
+    "sigma":4.5850,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CT","OA"],
+    "potential":"lj9_6",
+    "epsilon":0.4372,
+    "sigma":4.0330,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CT","OAB"],
+    "potential":"lj9_6",
+    "epsilon":0.4372,
+    "sigma":4.0330,
     "comment":"#"
   },
   {
@@ -873,6 +945,70 @@
     "potential":"lj9_6",
     "epsilon":0.3800,
     "sigma":3.8400,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CTB","CM"],
+    "potential":"lj9_6",
+    "epsilon":0.4440,
+    "sigma":4.5455,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CTB","CM2R"],
+    "potential":"lj9_6",
+    "epsilon":0.2201,
+    "sigma":4.1912,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CTB","CMB"],
+    "potential":"lj9_6",
+    "epsilon":0.2582,
+    "sigma":4.4609,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CTB","CMR"],
+    "potential":"lj9_6",
+    "epsilon":0.2400,
+    "sigma":4.5711,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CTB","CMR5"],
+    "potential":"lj9_6",
+    "epsilon":0.2400,
+    "sigma":4.5711,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CTB","CTB"],
+    "potential":"lj9_6",
+    "epsilon":0.2688,
+    "sigma":4.4159,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CTB","OA"],
+    "potential":"lj9_6",
+    "epsilon":0.4372,
+    "sigma":4.0330,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CTB","OAB"],
+    "potential":"lj9_6",
+    "epsilon":0.4372,
+    "sigma":4.0330,
     "comment":"#"
   },
   {
@@ -1025,142 +1161,6 @@
     "potential":"lj9_6",
     "epsilon":0.3800,
     "sigma":3.8400,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CTB","CM"],
-    "potential":"lj9_6",
-    "epsilon":0.4440,
-    "sigma":4.5455,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CTB","CM2R"],
-    "potential":"lj9_6",
-    "epsilon":0.2201,
-    "sigma":4.1912,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CTB","CMB"],
-    "potential":"lj9_6",
-    "epsilon":0.2582,
-    "sigma":4.4609,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CTB","CMR"],
-    "potential":"lj9_6",
-    "epsilon":0.2400,
-    "sigma":4.5711,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CTB","CMR5"],
-    "potential":"lj9_6",
-    "epsilon":0.2400,
-    "sigma":4.5711,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CTB","CTB"],
-    "potential":"lj9_6",
-    "epsilon":0.2688,
-    "sigma":4.4159,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CTB","OA"],
-    "potential":"lj9_6",
-    "epsilon":0.4372,
-    "sigma":4.0330,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CTB","OAB"],
-    "potential":"lj9_6",
-    "epsilon":0.4372,
-    "sigma":4.0330,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CT","CM"],
-    "potential":"lj9_6",
-    "epsilon":0.4440,
-    "sigma":4.5455,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CT","CM2R"],
-    "potential":"lj9_6",
-    "epsilon":0.4124,
-    "sigma":4.4737,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CT","CMB"],
-    "potential":"lj9_6",
-    "epsilon":0.4440,
-    "sigma":4.5455,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CT","CMR"],
-    "potential":"lj9_6",
-    "epsilon":0.4440,
-    "sigma":4.5455,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CT","CMR5"],
-    "potential":"lj9_6",
-    "epsilon":0.4440,
-    "sigma":4.5455,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CT","CT"],
-    "potential":"lj9_6",
-    "epsilon":0.4690,
-    "sigma":4.5850,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CT","CTB"],
-    "potential":"lj9_6",
-    "epsilon":0.4690,
-    "sigma":4.5850,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CT","OA"],
-    "potential":"lj9_6",
-    "epsilon":0.4372,
-    "sigma":4.0330,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CT","OAB"],
-    "potential":"lj9_6",
-    "epsilon":0.4372,
-    "sigma":4.0330,
     "comment":"#"
   },
   {
@@ -2101,30 +2101,6 @@
   },
   {
     "param":"pair",
-    "types":["OAB","CMD2"],
-    "potential":"lj9_6",
-    "epsilon":0.3650,
-    "sigma":3.9870,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["OAB","CMDB"],
-    "potential":"lj9_6",
-    "epsilon":0.3650,
-    "sigma":3.9870,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["OAB","OAB"],
-    "potential":"lj9_6",
-    "epsilon":0.4491,
-    "sigma":3.7130,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
     "types":["OA","CMD2"],
     "potential":"lj9_6",
     "epsilon":0.3650,
@@ -2150,6 +2126,30 @@
   {
     "param":"pair",
     "types":["OA","OAB"],
+    "potential":"lj9_6",
+    "epsilon":0.4491,
+    "sigma":3.7130,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["OAB","CMD2"],
+    "potential":"lj9_6",
+    "epsilon":0.3650,
+    "sigma":3.9870,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["OAB","CMDB"],
+    "potential":"lj9_6",
+    "epsilon":0.3650,
+    "sigma":3.9870,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["OAB","OAB"],
     "potential":"lj9_6",
     "epsilon":0.4491,
     "sigma":3.7130,
@@ -2265,6 +2265,46 @@
     "potential":"lj9_6",
     "epsilon":0.2800,
     "sigma":4.8105,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["PH","OA"],
+    "potential":"lj9_6",
+    "epsilon":0.7929,
+    "sigma":4.4777,
+    "comment":"#RDF"
+  },
+  {
+    "param":"pair",
+    "types":["PH","OAB"],
+    "potential":"lj9_6",
+    "epsilon":0.7929,
+    "sigma":4.4777,
+    "comment":"#RDF"
+  },
+  {
+    "param":"pair",
+    "types":["PH","PH"],
+    "potential":"lj9_6",
+    "epsilon":1.4000,
+    "sigma":5.4000,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["PH","PHE"],
+    "potential":"lj9_6",
+    "epsilon":1.4000,
+    "sigma":5.0000,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["PH","W"],
+    "potential":"lj12_4",
+    "epsilon":1.0000,
+    "sigma":4.0300,
     "comment":"#"
   },
   {
@@ -2421,46 +2461,6 @@
   },
   {
     "param":"pair",
-    "types":["PH","OA"],
-    "potential":"lj9_6",
-    "epsilon":0.7929,
-    "sigma":4.4777,
-    "comment":"#RDF"
-  },
-  {
-    "param":"pair",
-    "types":["PH","OAB"],
-    "potential":"lj9_6",
-    "epsilon":0.7929,
-    "sigma":4.4777,
-    "comment":"#RDF"
-  },
-  {
-    "param":"pair",
-    "types":["PH","PH"],
-    "potential":"lj9_6",
-    "epsilon":1.4000,
-    "sigma":5.4000,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["PH","PHE"],
-    "potential":"lj9_6",
-    "epsilon":1.4000,
-    "sigma":5.0000,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["PH","W"],
-    "potential":"lj12_4",
-    "epsilon":1.0000,
-    "sigma":4.0300,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
     "types":["W","C2T"],
     "potential":"lj12_4",
     "epsilon":0.3600,
@@ -2581,94 +2581,6 @@
   },
   {
     "param":"bond",
-    "types":["C2T","CM2"],
-    "potential":"harmonic",
-    "k":110.00,
-    "r0":2.54,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CM2","CT"],
-    "potential":"harmonic",
-    "k":9.000,
-    "r0":3.070,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CM2","CT2"],
-    "potential":"harmonic",
-    "k":17.000,
-    "r0":2.530,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CM2","CTB"],
-    "potential":"harmonic",
-    "k":85.00,
-    "r0":2.93,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CM2R","CM2R"],
-    "potential":"harmonic",
-    "k":19.000,
-    "r0":2.320,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CM2R","CTBA"],
-    "potential":"harmonic",
-    "k":90.00,
-    "r0":2.41,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CM2R","OAB"],
-    "potential":"harmonic",
-    "k":100.00,
-    "r0":2.58,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CMB","CMDB"],
-    "potential":"harmonic",
-    "k":150.00,
-    "r0":3.45,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CMB","CMR5"],
-    "potential":"harmonic",
-    "k":100.00,
-    "r0":3.00,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CMB","CTBA"],
-    "potential":"harmonic",
-    "k":70.00,
-    "r0":3.44,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CMB","CTBB"],
-    "potential":"harmonic",
-    "k":100.00,
-    "r0":3.00,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
     "types":["CM","CM"],
     "potential":"harmonic",
     "k":6.160,
@@ -2681,30 +2593,6 @@
     "potential":"harmonic",
     "k":6.160,
     "r0":3.650,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CMD2","CM"],
-    "potential":"harmonic",
-    "k":8.000,
-    "r0":3.030,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CMDB","CTBA"],
-    "potential":"harmonic",
-    "k":80.00,
-    "r0":2.50,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CMDB","OAB"],
-    "potential":"harmonic",
-    "k":110.00,
-    "r0":3.07,
     "comment":"#"
   },
   {
@@ -2725,58 +2613,34 @@
   },
   {
     "param":"bond",
-    "types":["CMR5","CTBB"],
-    "potential":"harmonic",
-    "k":120.00,
-    "r0":2.25,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CMR","CTBA"],
-    "potential":"harmonic",
-    "k":100.00,
-    "r0":2.99,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CMR","CTBB"],
-    "potential":"harmonic",
-    "k":110.00,
-    "r0":2.52,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CT2","CM"],
+    "types":["CM2","CT"],
     "potential":"harmonic",
     "k":9.000,
-    "r0":3.130,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CT2","EO"],
-    "potential":"harmonic",
-    "k":10.000,
     "r0":3.070,
     "comment":"#"
   },
   {
     "param":"bond",
-    "types":["CT2","OA"],
+    "types":["CM2","CT2"],
     "potential":"harmonic",
-    "k":14.000,
+    "k":17.000,
     "r0":2.530,
     "comment":"#"
   },
   {
     "param":"bond",
-    "types":["CTB","CTBB"],
+    "types":["CM2R","CM2R"],
     "potential":"harmonic",
-    "k":50.00,
-    "r0":3.44,
+    "k":19.000,
+    "r0":2.320,
+    "comment":"#"
+  },
+  {
+    "param":"bond",
+    "types":["CMD2","CM"],
+    "potential":"harmonic",
+    "k":8.000,
+    "r0":3.030,
     "comment":"#"
   },
   {
@@ -2809,6 +2673,30 @@
     "potential":"harmonic",
     "k":6.955,
     "r0":3.050,
+    "comment":"#"
+  },
+  {
+    "param":"bond",
+    "types":["CT2","CM"],
+    "potential":"harmonic",
+    "k":9.000,
+    "r0":3.130,
+    "comment":"#"
+  },
+  {
+    "param":"bond",
+    "types":["CT2","EO"],
+    "potential":"harmonic",
+    "k":10.000,
+    "r0":3.070,
+    "comment":"#"
+  },
+  {
+    "param":"bond",
+    "types":["CT2","OA"],
+    "potential":"harmonic",
+    "k":14.000,
+    "r0":2.530,
     "comment":"#"
   },
   {
@@ -2909,6 +2797,14 @@
   },
   {
     "param":"bond",
+    "types":["PH","GL"],
+    "potential":"harmonic",
+    "k":8.900,
+    "r0":3.520,
+    "comment":"#"
+  },
+  {
+    "param":"bond",
     "types":["PHE","GL"],
     "potential":"harmonic",
     "k":8.900,
@@ -2917,10 +2813,114 @@
   },
   {
     "param":"bond",
-    "types":["PH","GL"],
+    "types":["C2T","CM2"],
     "potential":"harmonic",
-    "k":8.900,
-    "r0":3.520,
+    "k":110.00,
+    "r0":2.54,
+    "comment":"#"
+  },
+  {
+    "param":"bond",
+    "types":["CM2","CTB"],
+    "potential":"harmonic",
+    "k":85.00,
+    "r0":2.93,
+    "comment":"#"
+  },
+  {
+    "param":"bond",
+    "types":["CM2R","CTBA"],
+    "potential":"harmonic",
+    "k":90.00,
+    "r0":2.41,
+    "comment":"#"
+  },
+  {
+    "param":"bond",
+    "types":["CM2R","OAB"],
+    "potential":"harmonic",
+    "k":100.00,
+    "r0":2.58,
+    "comment":"#"
+  },
+  {
+    "param":"bond",
+    "types":["CMB","CMDB"],
+    "potential":"harmonic",
+    "k":150.00,
+    "r0":3.45,
+    "comment":"#"
+  },
+  {
+    "param":"bond",
+    "types":["CMB","CMR5"],
+    "potential":"harmonic",
+    "k":100.00,
+    "r0":3.00,
+    "comment":"#"
+  },
+  {
+    "param":"bond",
+    "types":["CMB","CTBA"],
+    "potential":"harmonic",
+    "k":70.00,
+    "r0":3.44,
+    "comment":"#"
+  },
+  {
+    "param":"bond",
+    "types":["CMB","CTBB"],
+    "potential":"harmonic",
+    "k":100.00,
+    "r0":3.00,
+    "comment":"#"
+  },
+  {
+    "param":"bond",
+    "types":["CMDB","CTBA"],
+    "potential":"harmonic",
+    "k":80.00,
+    "r0":2.50,
+    "comment":"#"
+  },
+  {
+    "param":"bond",
+    "types":["CMDB","OAB"],
+    "potential":"harmonic",
+    "k":110.00,
+    "r0":3.07,
+    "comment":"#"
+  },
+  {
+    "param":"bond",
+    "types":["CMR","CTBA"],
+    "potential":"harmonic",
+    "k":100.00,
+    "r0":2.99,
+    "comment":"#"
+  },
+  {
+    "param":"bond",
+    "types":["CMR","CTBB"],
+    "potential":"harmonic",
+    "k":110.00,
+    "r0":2.52,
+    "comment":"#"
+  },
+  {
+    "param":"bond",
+    "types":["CMR5","CTBB"],
+    "potential":"harmonic",
+    "k":120.00,
+    "r0":2.25,
+    "comment":"#"
+  },
+  {
+    "param":"bond",
+    "types":["CTB","CTBB"],
+    "potential":"harmonic",
+    "k":50.00,
+    "r0":3.44,
     "comment":"#"
   },
   {
@@ -2929,6 +2929,54 @@
     "potential":"sdk",
     "k":18.0,
     "theta0":155.0,
+    "comment":"#"
+  },
+  {
+    "param":"angle",
+    "types":["CM","CM","CM"],
+    "potential":"sdk",
+    "k":1.190,
+    "theta0":173.0,
+    "comment":"#"
+  },
+  {
+    "param":"angle",
+    "types":["CM","CM","CT"],
+    "potential":"sdk",
+    "k":1.190,
+    "theta0":175.0,
+    "comment":"#"
+  },
+  {
+    "param":"angle",
+    "types":["CM","CM","EO"],
+    "potential":"sdk",
+    "k":1.500,
+    "theta0":172.0,
+    "comment":"#"
+  },
+  {
+    "param":"angle",
+    "types":["CM","CMD2","CM"],
+    "potential":"sdk",
+    "k":6.000,
+    "theta0":110.0,
+    "comment":"#"
+  },
+  {
+    "param":"angle",
+    "types":["CM","EO","CM"],
+    "potential":"sdk",
+    "k":1.800,
+    "theta0":171.0,
+    "comment":"#"
+  },
+  {
+    "param":"angle",
+    "types":["CM","EO","EO"],
+    "potential":"sdk",
+    "k":3.200,
+    "theta0":146.0,
     "comment":"#"
   },
   {
@@ -3021,14 +3069,6 @@
   },
   {
     "param":"angle",
-    "types":["CMB","CTBB","CMR5"],
-    "potential":"harmonic",
-    "k":50.0,
-    "theta0":68.2,
-    "comment":"#"
-  },
-  {
-    "param":"angle",
     "types":["CMB","CTBB","CMR"],
     "potential":"harmonic",
     "k":100.0,
@@ -3037,42 +3077,18 @@
   },
   {
     "param":"angle",
+    "types":["CMB","CTBB","CMR5"],
+    "potential":"harmonic",
+    "k":50.0,
+    "theta0":68.2,
+    "comment":"#"
+  },
+  {
+    "param":"angle",
     "types":["CMB","CTBB","CTB"],
     "potential":"harmonic",
     "k":70.0,
     "theta0":120.7,
-    "comment":"#"
-  },
-  {
-    "param":"angle",
-    "types":["CM","CM","CM"],
-    "potential":"sdk",
-    "k":1.190,
-    "theta0":173.0,
-    "comment":"#"
-  },
-  {
-    "param":"angle",
-    "types":["CM","CM","CT"],
-    "potential":"sdk",
-    "k":1.190,
-    "theta0":175.0,
-    "comment":"#"
-  },
-  {
-    "param":"angle",
-    "types":["CM","CM","EO"],
-    "potential":"sdk",
-    "k":1.500,
-    "theta0":172.0,
-    "comment":"#"
-  },
-  {
-    "param":"angle",
-    "types":["CM","CMD2","CM"],
-    "potential":"sdk",
-    "k":6.000,
-    "theta0":110.0,
     "comment":"#"
   },
   {
@@ -3117,18 +3133,18 @@
   },
   {
     "param":"angle",
-    "types":["CM","EO","CM"],
-    "potential":"sdk",
-    "k":1.800,
-    "theta0":171.0,
+    "types":["CMR","CTBB","CMR5"],
+    "potential":"harmonic",
+    "k":150.0,
+    "theta0":107.0,
     "comment":"#"
   },
   {
     "param":"angle",
-    "types":["CM","EO","EO"],
-    "potential":"sdk",
-    "k":3.200,
-    "theta0":146.0,
+    "types":["CMR","CTBB","CTB"],
+    "potential":"harmonic",
+    "k":75.0,
+    "theta0":110.1,
     "comment":"#"
   },
   {
@@ -3157,18 +3173,26 @@
   },
   {
     "param":"angle",
-    "types":["CMR","CTBB","CMR5"],
-    "potential":"harmonic",
-    "k":150.0,
-    "theta0":107.0,
+    "types":["CT","CM","CT"],
+    "potential":"sdk",
+    "k":1.093,
+    "theta0":175.5,
     "comment":"#"
   },
   {
     "param":"angle",
-    "types":["CMR","CTBB","CTB"],
-    "potential":"harmonic",
-    "k":75.0,
-    "theta0":110.1,
+    "types":["CT","CMD2","CT"],
+    "potential":"sdk",
+    "k":7.700,
+    "theta0":116.0,
+    "comment":"#"
+  },
+  {
+    "param":"angle",
+    "types":["CT","EO","EO"],
+    "potential":"sdk",
+    "k":2.200,
+    "theta0":145.0,
     "comment":"#"
   },
   {
@@ -3257,30 +3281,6 @@
     "potential":"harmonic",
     "k":30.0,
     "theta0":115.0,
-    "comment":"#"
-  },
-  {
-    "param":"angle",
-    "types":["CT","CM","CT"],
-    "potential":"sdk",
-    "k":1.093,
-    "theta0":175.5,
-    "comment":"#"
-  },
-  {
-    "param":"angle",
-    "types":["CT","CMD2","CT"],
-    "potential":"sdk",
-    "k":7.700,
-    "theta0":116.0,
-    "comment":"#"
-  },
-  {
-    "param":"angle",
-    "types":["CT","EO","EO"],
-    "potential":"sdk",
-    "k":2.200,
-    "theta0":145.0,
     "comment":"#"
   },
   {
@@ -3405,22 +3405,6 @@
   },
   {
     "param":"angle",
-    "types":["PHE","GL","EST1"],
-    "potential":"sdk",
-    "k":1.400,
-    "theta0":124.0,
-    "comment":"#"
-  },
-  {
-    "param":"angle",
-    "types":["PHE","GL","EST2"],
-    "potential":"sdk",
-    "k":2.000,
-    "theta0":138.0,
-    "comment":"#"
-  },
-  {
-    "param":"angle",
     "types":["PH","GL","EST1"],
     "potential":"sdk",
     "k":1.400,
@@ -3430,6 +3414,22 @@
   {
     "param":"angle",
     "types":["PH","GL","EST2"],
+    "potential":"sdk",
+    "k":2.000,
+    "theta0":138.0,
+    "comment":"#"
+  },
+  {
+    "param":"angle",
+    "types":["PHE","GL","EST1"],
+    "potential":"sdk",
+    "k":1.400,
+    "theta0":124.0,
+    "comment":"#"
+  },
+  {
+    "param":"angle",
+    "types":["PHE","GL","EST2"],
     "potential":"sdk",
     "k":2.000,
     "theta0":138.0,

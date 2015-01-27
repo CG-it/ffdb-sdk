@@ -28,7 +28,7 @@ if {![namespace exists ::CGtools]} {
 #       type DPPC    15
 
 # charge DPPC   | mass DPPC | name DPPC | segname DPPC                                                                           | type DPPC |
-# +0.1118033989 | 87.1647   | NC        | N C11 H11A H11B C12 H12A H12B C13 H13A H13B H13C C14 H14A H14B H14C C15 H15A H15B H15C | NC        |
+# 0.1118033989 | 87.1647   | NC        | N C11 H11A H11B C12 H12A H12B C13 H13A H13B H13C C14 H14A H14B H14C C15 H15A H15B H15C | NC        |
 # -0.1118033989 | 94.9716   | PH        | P O11 O12 O13 O14                                                                      | PH        |
 # 0.0           | 41.0725   | GL        | C1 HA HB C2 HS C3 HX HY                                                                | GL        |
 # 0.0           | 58.0358   | EST1      | O21 C21 O22 C22 H2R H2S                                                                | EST1      |
@@ -112,7 +112,7 @@ proc ::CGtools::map_dppc {} {
     }
 
     set map([list charge DPPC]) {
-        +0.1118033989          
+        0.1118033989          
         -0.1118033989          
         0.0                    
         0.0                    
