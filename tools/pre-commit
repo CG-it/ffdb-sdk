@@ -12,4 +12,5 @@ MAKE=`which make`
 ${MAKE} -f Makefile all       || exit 
 #
 #git add .rsync-include
-git add ./par_all*_sdk.json 
+git add ./par_all*_sdk.json
+git add ./top_all*_sdk.json
