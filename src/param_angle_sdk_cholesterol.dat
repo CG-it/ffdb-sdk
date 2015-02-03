@@ -1,27 +1,31 @@
-angle  C2T CM2 CTB     sdk        18.0    155.0  # bimodal
-angle  CM2 CTB CTBB    sdk        10.0    126.0  #
-angle  CM2R CTBA CMB   harmonic   80.0    112.5  #
-angle  CM2R CTBA CMDB  harmonic   45.0     75.9  #
-angle  CM2R CTBA CMR   harmonic   70.0     98.7  #
-angle  CM2R OAB CMDB   harmonic   80.0     63.9  #
-angle  CMB CMDB CTBA   harmonic   90.0     68.6  #
-angle  CMB CMDB OAB    harmonic  130.0    146.6  #
-angle  CMB CMR5 CTBB   harmonic   70.0     67.8  #
-angle  CMB CTBA CMDB   harmonic   50.0     68.9  #
-angle  CMB CTBA CMR    harmonic  150.0     47.8  #
-angle  CMB CTBB CMR5   harmonic   50.0     68.2  #
-angle  CMB CTBB CMR    harmonic  100.0     56.3  #
-angle  CMB CTBB CTB    harmonic   70.0    120.7  #
-angle  CMDB CMB CMR5   harmonic  300.0    175.6  #
-angle  CMDB CMB CTBA   harmonic  125.0     42.5  #
-angle  CMDB CMB CTBB   harmonic   50.0    134.2  #
-angle  CMDB CTBA CMR   harmonic  100.0    108.6  #
-angle  CMR5 CMB CTBA   harmonic   30.0    135.8  #
-angle  CMR5 CMB CTBB   harmonic   90.0     44.0  #
-angle  CMR5 CTBB CTB   harmonic  100.0     62.7  #
-angle  CMR CTBB CMR5   harmonic  150.0    107.0  #
-angle  CMR CTBB CTB    harmonic   75.0    110.1  #
-angle  CTBA CM2R OAB   harmonic   50.0    107.4  #
-angle  CTBA CMB CTBB   harmonic   40.0     92.2  #
-angle  CTBA CMDB OAB   harmonic   40.0     91.8  #
-angle  CTBA CMR CTBB   harmonic   30.0    115.0  #
+angle  C2T     CM2     CTB    sdk        36.0    155.0  # bimodal
+angle  CM2     CTB     CTBB   sdk        20.0    126.0  #
+angle  CM2R    CTBA    CMB    harmonic   80.0    112.5  #
+angle  CM2R    CTBA    CMDB   harmonic   45.0     75.9  #
+angle  CM2R    CTBA    CMR    harmonic   70.0     98.7  #
+angle  CM2R    OAB     CMDB   harmonic   80.0     63.9  #
+angle  CMB     CMDB    CTBA   harmonic   90.0     68.6  #
+angle  CMB     CMDB    OAB    harmonic  130.0    146.6  #
+angle  CMB     CMR5    CTBB   harmonic   70.0     67.8  #
+angle  CMB     CTBA    CMDB   harmonic   50.0     68.9  #
+angle  CMB     CTBA    CMR    harmonic  150.0     47.8  #
+angle  CMB     CTBB    CMR5   harmonic   50.0     68.2  #
+angle  CMB     CTBB    CMR    harmonic  100.0     56.3  #
+angle  CMB     CTBB    CTB    sdk        70.0    120.7  #
+angle  CMDB    CMB     CMR5   harmonic  300.0    175.6  #
+angle  CMDB    CMB     CTBA   harmonic  125.0     42.5  #
+angle  CMDB    CMB     CTBB   harmonic   50.0    134.2  #
+angle  CMDB    CTBA    CMR    harmonic  100.0    108.6  #
+angle  CMR5    CMB     CTBA   harmonic   30.0    135.8  #
+angle  CMR5    CMB     CTBB   harmonic   90.0     44.0  #
+angle  CMR5    CTBB    CTB    sdk       100.0     62.7  #
+angle  CMR     CTBB    CMR5   harmonic  150.0    107.0  #
+angle  CMR     CTBB    CTB    sdk        75.0    110.1  #
+angle  CTBA    CM2R    OAB    harmonic   50.0    107.4  #
+angle  CTBA    CMB     CTBB   harmonic   40.0     92.2  #
+angle  CTBA    CMDB    OAB    harmonic   40.0     91.8  #
+angle  CTBA    CMR     CTBB   harmonic   30.0    115.0  #
+#angle  CMB     CMR5    CTB    harmonic  176.0    131.7  # From 40%Clol-POPC CMM 29JAN2015
+#angle  CTBB    CMR5    CTB    harmonic  191.3     77.4  # From 40%Clol-POPC CMM 29JAN2015
+#angle  CM2     CTB     CMR5   harmonic   12.4    117.4  # From 40%Clol-POPC CMM 29JAN2015
+#angle  CMR5    CTB     CTBB   harmonic  300.0     39.7  # From 40%Clol-POPC CMM 29JAN2015
