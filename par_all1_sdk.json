@@ -1,6 +1,6 @@
 {
 "author":"macdercm",
-"date":"2015-01-26T22:12:45",
+"date":"2015-02-03T22:26:26",
 "fftype":"sdk",
 "params":[
   {
@@ -109,54 +109,6 @@
   },
   {
     "param":"pair",
-    "types":["CM","CM"],
-    "potential":"lj9_6",
-    "epsilon":0.4200,
-    "sigma":4.5060,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CM","CMB"],
-    "potential":"lj9_6",
-    "epsilon":0.4200,
-    "sigma":4.5060,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CM","CMR"],
-    "potential":"lj9_6",
-    "epsilon":0.4200,
-    "sigma":4.5060,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CM","CMR5"],
-    "potential":"lj9_6",
-    "epsilon":0.4200,
-    "sigma":4.5060,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CM","OA"],
-    "potential":"lj9_6",
-    "epsilon":0.3650,
-    "sigma":3.9870,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CM","OAB"],
-    "potential":"lj9_6",
-    "epsilon":0.3650,
-    "sigma":3.9870,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
     "types":["CM2","C2T"],
     "potential":"lj9_6",
     "epsilon":0.3283,
@@ -261,22 +213,6 @@
   },
   {
     "param":"pair",
-    "types":["CM2","OAB"],
-    "potential":"lj9_6",
-    "epsilon":0.3209,
-    "sigma":3.9373,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CM2","W"],
-    "potential":"lj12_4",
-    "epsilon":0.2788,
-    "sigma":4.1722,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
     "types":["CM2R","CM"],
     "potential":"lj9_6",
     "epsilon":0.3899,
@@ -325,10 +261,10 @@
   },
   {
     "param":"pair",
-    "types":["CM2R","OAB"],
-    "potential":"lj9_6",
-    "epsilon":0.3724,
-    "sigma":3.9128,
+    "types":["CM2","W"],
+    "potential":"lj12_4",
+    "epsilon":0.2788,
+    "sigma":4.1722,
     "comment":"#"
   },
   {
@@ -405,10 +341,34 @@
   },
   {
     "param":"pair",
-    "types":["CMB","OAB"],
+    "types":["CM","CM"],
     "potential":"lj9_6",
-    "epsilon":0.3650,
-    "sigma":3.9870,
+    "epsilon":0.4200,
+    "sigma":4.5060,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CM","CMB"],
+    "potential":"lj9_6",
+    "epsilon":0.4200,
+    "sigma":4.5060,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CM","CMR"],
+    "potential":"lj9_6",
+    "epsilon":0.4200,
+    "sigma":4.5060,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CM","CMR5"],
+    "potential":"lj9_6",
+    "epsilon":0.4200,
+    "sigma":4.5060,
     "comment":"#"
   },
   {
@@ -693,6 +653,46 @@
   },
   {
     "param":"pair",
+    "types":["CM","OA"],
+    "potential":"lj9_6",
+    "epsilon":0.3650,
+    "sigma":3.9870,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CMR5","CMB"],
+    "potential":"lj9_6",
+    "epsilon":0.2304,
+    "sigma":4.6173,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CMR5","CMR"],
+    "potential":"lj9_6",
+    "epsilon":0.2142,
+    "sigma":4.7313,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CMR5","CMR5"],
+    "potential":"lj9_6",
+    "epsilon":0.2142,
+    "sigma":4.7313,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CMR5","OA"],
+    "potential":"lj9_6",
+    "epsilon":0.3650,
+    "sigma":3.9870,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
     "types":["CMR","CMB"],
     "potential":"lj9_6",
     "epsilon":0.2304,
@@ -737,126 +737,6 @@
     "potential":"lj9_6",
     "epsilon":0.3650,
     "sigma":3.9870,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CMR","OAB"],
-    "potential":"lj9_6",
-    "epsilon":0.3650,
-    "sigma":3.9870,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CMR5","CMB"],
-    "potential":"lj9_6",
-    "epsilon":0.2304,
-    "sigma":4.6173,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CMR5","CMR"],
-    "potential":"lj9_6",
-    "epsilon":0.2142,
-    "sigma":4.7313,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CMR5","CMR5"],
-    "potential":"lj9_6",
-    "epsilon":0.2142,
-    "sigma":4.7313,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CMR5","OA"],
-    "potential":"lj9_6",
-    "epsilon":0.3650,
-    "sigma":3.9870,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CMR5","OAB"],
-    "potential":"lj9_6",
-    "epsilon":0.3650,
-    "sigma":3.9870,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CT","CM"],
-    "potential":"lj9_6",
-    "epsilon":0.4440,
-    "sigma":4.5455,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CT","CM2R"],
-    "potential":"lj9_6",
-    "epsilon":0.4124,
-    "sigma":4.4737,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CT","CMB"],
-    "potential":"lj9_6",
-    "epsilon":0.4440,
-    "sigma":4.5455,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CT","CMR"],
-    "potential":"lj9_6",
-    "epsilon":0.4440,
-    "sigma":4.5455,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CT","CMR5"],
-    "potential":"lj9_6",
-    "epsilon":0.4440,
-    "sigma":4.5455,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CT","CT"],
-    "potential":"lj9_6",
-    "epsilon":0.4690,
-    "sigma":4.5850,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CT","CTB"],
-    "potential":"lj9_6",
-    "epsilon":0.4690,
-    "sigma":4.5850,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CT","OA"],
-    "potential":"lj9_6",
-    "epsilon":0.4372,
-    "sigma":4.0330,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CT","OAB"],
-    "potential":"lj9_6",
-    "epsilon":0.4372,
-    "sigma":4.0330,
     "comment":"#"
   },
   {
@@ -941,78 +821,6 @@
   },
   {
     "param":"pair",
-    "types":["CT2","OAB"],
-    "potential":"lj9_6",
-    "epsilon":0.3800,
-    "sigma":3.8400,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CTB","CM"],
-    "potential":"lj9_6",
-    "epsilon":0.4440,
-    "sigma":4.5455,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CTB","CM2R"],
-    "potential":"lj9_6",
-    "epsilon":0.2201,
-    "sigma":4.1912,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CTB","CMB"],
-    "potential":"lj9_6",
-    "epsilon":0.2582,
-    "sigma":4.4609,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CTB","CMR"],
-    "potential":"lj9_6",
-    "epsilon":0.2400,
-    "sigma":4.5711,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CTB","CMR5"],
-    "potential":"lj9_6",
-    "epsilon":0.2400,
-    "sigma":4.5711,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CTB","CTB"],
-    "potential":"lj9_6",
-    "epsilon":0.2688,
-    "sigma":4.4159,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CTB","OA"],
-    "potential":"lj9_6",
-    "epsilon":0.4372,
-    "sigma":4.0330,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CTB","OAB"],
-    "potential":"lj9_6",
-    "epsilon":0.4372,
-    "sigma":4.0330,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
     "types":["CTBA","CM"],
     "potential":"lj9_6",
     "epsilon":0.3620,
@@ -1070,14 +878,6 @@
   {
     "param":"pair",
     "types":["CTBA","OA"],
-    "potential":"lj9_6",
-    "epsilon":0.3800,
-    "sigma":3.8400,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["CTBA","OAB"],
     "potential":"lj9_6",
     "epsilon":0.3800,
     "sigma":3.8400,
@@ -1157,10 +957,138 @@
   },
   {
     "param":"pair",
-    "types":["CTBB","OAB"],
+    "types":["CTB","CM"],
     "potential":"lj9_6",
-    "epsilon":0.3800,
-    "sigma":3.8400,
+    "epsilon":0.4440,
+    "sigma":4.5455,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CTB","CM2R"],
+    "potential":"lj9_6",
+    "epsilon":0.2201,
+    "sigma":4.1912,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CTB","CMB"],
+    "potential":"lj9_6",
+    "epsilon":0.2582,
+    "sigma":4.4609,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CTB","CMR"],
+    "potential":"lj9_6",
+    "epsilon":0.2400,
+    "sigma":4.5711,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CTB","CMR5"],
+    "potential":"lj9_6",
+    "epsilon":0.2400,
+    "sigma":4.5711,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CTB","CTB"],
+    "potential":"lj9_6",
+    "epsilon":0.2688,
+    "sigma":4.4159,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CTB","OA"],
+    "potential":"lj9_6",
+    "epsilon":0.4372,
+    "sigma":4.0330,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CTB","OAB"],
+    "potential":"lj9_6",
+    "epsilon":0.4372,
+    "sigma":4.0330,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CT","CM"],
+    "potential":"lj9_6",
+    "epsilon":0.4440,
+    "sigma":4.5455,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CT","CM2R"],
+    "potential":"lj9_6",
+    "epsilon":0.4124,
+    "sigma":4.4737,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CT","CMB"],
+    "potential":"lj9_6",
+    "epsilon":0.4440,
+    "sigma":4.5455,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CT","CMR"],
+    "potential":"lj9_6",
+    "epsilon":0.4440,
+    "sigma":4.5455,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CT","CMR5"],
+    "potential":"lj9_6",
+    "epsilon":0.4440,
+    "sigma":4.5455,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CT","CT"],
+    "potential":"lj9_6",
+    "epsilon":0.4690,
+    "sigma":4.5850,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CT","CTB"],
+    "potential":"lj9_6",
+    "epsilon":0.4690,
+    "sigma":4.5850,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CT","OA"],
+    "potential":"lj9_6",
+    "epsilon":0.4372,
+    "sigma":4.0330,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CT","OAB"],
+    "potential":"lj9_6",
+    "epsilon":0.4372,
+    "sigma":4.0330,
     "comment":"#"
   },
   {
@@ -1429,22 +1357,6 @@
   },
   {
     "param":"pair",
-    "types":["EST1","OA"],
-    "potential":"lj9_6",
-    "epsilon":0.4715,
-    "sigma":3.9957,
-    "comment":"#Geometric"
-  },
-  {
-    "param":"pair",
-    "types":["EST1","OAB"],
-    "potential":"lj9_6",
-    "epsilon":0.4715,
-    "sigma":3.9957,
-    "comment":"#Geometric"
-  },
-  {
-    "param":"pair",
     "types":["EST1","PH"],
     "potential":"lj9_6",
     "epsilon":0.5000,
@@ -1570,22 +1482,6 @@
     "epsilon":0.7500,
     "sigma":4.4750,
     "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["EST2","OA"],
-    "potential":"lj9_6",
-    "epsilon":0.4715,
-    "sigma":3.9957,
-    "comment":"#Geometric"
-  },
-  {
-    "param":"pair",
-    "types":["EST2","OAB"],
-    "potential":"lj9_6",
-    "epsilon":0.4715,
-    "sigma":3.9957,
-    "comment":"#Geometric"
   },
   {
     "param":"pair",
@@ -1733,22 +1629,6 @@
   },
   {
     "param":"pair",
-    "types":["GL","OA"],
-    "potential":"lj9_6",
-    "epsilon":0.4343,
-    "sigma":4.0903,
-    "comment":"#Geometric"
-  },
-  {
-    "param":"pair",
-    "types":["GL","OAB"],
-    "potential":"lj9_6",
-    "epsilon":0.4343,
-    "sigma":4.0903,
-    "comment":"#Geometric"
-  },
-  {
-    "param":"pair",
     "types":["GL","PH"],
     "potential":"lj9_6",
     "epsilon":0.3000,
@@ -1890,22 +1770,6 @@
     "epsilon":0.8800,
     "sigma":5.1750,
     "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["NC","OA"],
-    "potential":"lj9_6",
-    "epsilon":0.5607,
-    "sigma":4.6206,
-    "comment":"#Geometric"
-  },
-  {
-    "param":"pair",
-    "types":["NC","OAB"],
-    "potential":"lj9_6",
-    "epsilon":0.5607,
-    "sigma":4.6206,
-    "comment":"#Geometric"
   },
   {
     "param":"pair",
@@ -2101,6 +1965,150 @@
   },
   {
     "param":"pair",
+    "types":["OAB","CM"],
+    "potential":"lj9_6",
+    "epsilon":0.5610,
+    "sigma":4.0930,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["OAB","CM2"],
+    "potential":"lj9_6",
+    "epsilon":0.4160,
+    "sigma":4.0463,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["OAB","CM2R"],
+    "potential":"lj9_6",
+    "epsilon":0.4828,
+    "sigma":4.0211,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["OAB","CMB"],
+    "potential":"lj9_6",
+    "epsilon":0.3650,
+    "sigma":3.9870,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["OAB","CMD2"],
+    "potential":"lj9_6",
+    "epsilon":0.3099,
+    "sigma":3.8425,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["OAB","CMDB"],
+    "potential":"lj9_6",
+    "epsilon":0.4170,
+    "sigma":3.9658,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["OAB","CMR"],
+    "potential":"lj9_6",
+    "epsilon":0.5610,
+    "sigma":4.0930,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["OAB","CMR5"],
+    "potential":"lj9_6",
+    "epsilon":0.5610,
+    "sigma":4.0930,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["OAB","CT2"],
+    "potential":"lj9_6",
+    "epsilon":0.4155,
+    "sigma":3.9505,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["OAB","CTBA"],
+    "potential":"lj9_6",
+    "epsilon":0.3800,
+    "sigma":3.8400,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["OAB","CTBB"],
+    "potential":"lj9_6",
+    "epsilon":0.3800,
+    "sigma":3.8400,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["OAB","EST1"],
+    "potential":"lj9_6",
+    "epsilon":1.1000,
+    "sigma":3.9900,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["OAB","EST2"],
+    "potential":"lj9_6",
+    "epsilon":1.1000,
+    "sigma":3.9900,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["OAB","GL"],
+    "potential":"lj9_6",
+    "epsilon":0.6693,
+    "sigma":4.0930,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["OAB","NC"],
+    "potential":"lj9_6",
+    "epsilon":0.6370,
+    "sigma":3.9319,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["OAB","OAB"],
+    "potential":"lj9_6",
+    "epsilon":0.5800,
+    "sigma":3.6800,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["OAB","PH"],
+    "potential":"lj9_6",
+    "epsilon":0.9280,
+    "sigma":3.6166,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["OAB","W"],
+    "potential":"lj9_6",
+    "epsilon":1.0260,
+    "sigma":4.0255,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
     "types":["OA","CMD2"],
     "potential":"lj9_6",
     "epsilon":0.3650,
@@ -2126,30 +2134,6 @@
   {
     "param":"pair",
     "types":["OA","OAB"],
-    "potential":"lj9_6",
-    "epsilon":0.4491,
-    "sigma":3.7130,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["OAB","CMD2"],
-    "potential":"lj9_6",
-    "epsilon":0.3650,
-    "sigma":3.9870,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["OAB","CMDB"],
-    "potential":"lj9_6",
-    "epsilon":0.3650,
-    "sigma":3.9870,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["OAB","OAB"],
     "potential":"lj9_6",
     "epsilon":0.4491,
     "sigma":3.7130,
@@ -2265,46 +2249,6 @@
     "potential":"lj9_6",
     "epsilon":0.2800,
     "sigma":4.8105,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["PH","OA"],
-    "potential":"lj9_6",
-    "epsilon":0.7929,
-    "sigma":4.4777,
-    "comment":"#RDF"
-  },
-  {
-    "param":"pair",
-    "types":["PH","OAB"],
-    "potential":"lj9_6",
-    "epsilon":0.7929,
-    "sigma":4.4777,
-    "comment":"#RDF"
-  },
-  {
-    "param":"pair",
-    "types":["PH","PH"],
-    "potential":"lj9_6",
-    "epsilon":1.4000,
-    "sigma":5.4000,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["PH","PHE"],
-    "potential":"lj9_6",
-    "epsilon":1.4000,
-    "sigma":5.0000,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["PH","W"],
-    "potential":"lj12_4",
-    "epsilon":1.0000,
-    "sigma":4.0300,
     "comment":"#"
   },
   {
@@ -2461,6 +2405,30 @@
   },
   {
     "param":"pair",
+    "types":["PH","PH"],
+    "potential":"lj9_6",
+    "epsilon":1.4000,
+    "sigma":5.4000,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["PH","PHE"],
+    "potential":"lj9_6",
+    "epsilon":1.4000,
+    "sigma":5.0000,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["PH","W"],
+    "potential":"lj12_4",
+    "epsilon":1.0000,
+    "sigma":4.0300,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
     "types":["W","C2T"],
     "potential":"lj12_4",
     "epsilon":0.3600,
@@ -2565,250 +2533,10 @@
   },
   {
     "param":"pair",
-    "types":["W","OAB"],
-    "potential":"lj12_4",
-    "epsilon":0.7000,
-    "sigma":3.9500,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
     "types":["W","W"],
     "potential":"lj12_4",
     "epsilon":0.8950,
     "sigma":4.3710,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CM","CM"],
-    "potential":"harmonic",
-    "k":6.160,
-    "r0":3.640,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CM","CT"],
-    "potential":"harmonic",
-    "k":6.160,
-    "r0":3.650,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CM","EO"],
-    "potential":"harmonic",
-    "k":7.100,
-    "r0":3.560,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CM","OA"],
-    "potential":"harmonic",
-    "k":7.500,
-    "r0":3.010,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CM2","CT"],
-    "potential":"harmonic",
-    "k":9.000,
-    "r0":3.070,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CM2","CT2"],
-    "potential":"harmonic",
-    "k":17.000,
-    "r0":2.530,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CM2R","CM2R"],
-    "potential":"harmonic",
-    "k":19.000,
-    "r0":2.320,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CMD2","CM"],
-    "potential":"harmonic",
-    "k":8.000,
-    "r0":3.030,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CT","CMD2"],
-    "potential":"harmonic",
-    "k":8.000,
-    "r0":3.090,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CT","CT"],
-    "potential":"harmonic",
-    "k":6.955,
-    "r0":3.710,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CT","EO"],
-    "potential":"harmonic",
-    "k":7.100,
-    "r0":3.610,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CT","OA"],
-    "potential":"harmonic",
-    "k":6.955,
-    "r0":3.050,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CT2","CM"],
-    "potential":"harmonic",
-    "k":9.000,
-    "r0":3.130,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CT2","EO"],
-    "potential":"harmonic",
-    "k":10.000,
-    "r0":3.070,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CT2","OA"],
-    "potential":"harmonic",
-    "k":14.000,
-    "r0":2.530,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["EO","EO"],
-    "potential":"harmonic",
-    "k":4.900,
-    "r0":3.280,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["EO","OA"],
-    "potential":"harmonic",
-    "k":15.000,
-    "r0":2.790,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["EOT","EO"],
-    "potential":"harmonic",
-    "k":5.400,
-    "r0":3.340,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["EOT","EOT"],
-    "potential":"harmonic",
-    "k":5.500,
-    "r0":3.330,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["EST1","CM"],
-    "potential":"harmonic",
-    "k":4.700,
-    "r0":3.550,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["EST2","CM"],
-    "potential":"harmonic",
-    "k":5.100,
-    "r0":3.610,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["GL","EST1"],
-    "potential":"harmonic",
-    "k":30.000,
-    "r0":2.880,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["GL","EST2"],
-    "potential":"harmonic",
-    "k":8.400,
-    "r0":3.480,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["NC","PH"],
-    "potential":"harmonic",
-    "k":4.800,
-    "r0":4.250,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["NH","PHE"],
-    "potential":"harmonic",
-    "k":9.400,
-    "r0":3.600,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["OA","OA"],
-    "potential":"harmonic",
-    "k":63.000,
-    "r0":2.160,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["PH","CM"],
-    "potential":"harmonic",
-    "k":12.000,
-    "r0":3.690,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["PH","GL"],
-    "potential":"harmonic",
-    "k":8.900,
-    "r0":3.520,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["PHE","GL"],
-    "potential":"harmonic",
-    "k":8.900,
-    "r0":3.520,
     "comment":"#"
   },
   {
@@ -2821,11 +2549,35 @@
   },
   {
     "param":"bond",
+    "types":["CM2","CT"],
+    "potential":"harmonic",
+    "k":9.000,
+    "r0":3.070,
+    "comment":"# heptane(B), GF 2013"
+  },
+  {
+    "param":"bond",
+    "types":["CM2","CT2"],
+    "potential":"harmonic",
+    "k":17.000,
+    "r0":2.530,
+    "comment":"# heptane(B), GF 2013"
+  },
+  {
+    "param":"bond",
     "types":["CM2","CTB"],
     "potential":"harmonic",
     "k":85.00,
     "r0":2.93,
     "comment":"#"
+  },
+  {
+    "param":"bond",
+    "types":["CM2R","CM2R"],
+    "potential":"harmonic",
+    "k":19.000,
+    "r0":2.320,
+    "comment":"# cyclohexane, GF 2013"
   },
   {
     "param":"bond",
@@ -2857,7 +2609,7 @@
     "potential":"harmonic",
     "k":100.00,
     "r0":3.00,
-    "comment":"#"
+    "comment":"#  offset in ro"
   },
   {
     "param":"bond",
@@ -2877,11 +2629,35 @@
   },
   {
     "param":"bond",
+    "types":["CM","CM"],
+    "potential":"harmonic",
+    "k":6.160,
+    "r0":3.640,
+    "comment":"# Mol Sim 2007"
+  },
+  {
+    "param":"bond",
+    "types":["CM","CT"],
+    "potential":"harmonic",
+    "k":6.160,
+    "r0":3.650,
+    "comment":"# Mol Sim 2007"
+  },
+  {
+    "param":"bond",
+    "types":["CMD2","CM"],
+    "potential":"harmonic",
+    "k":8.000,
+    "r0":3.030,
+    "comment":"# JPCB 2010  "
+  },
+  {
+    "param":"bond",
     "types":["CMDB","CTBA"],
     "potential":"harmonic",
     "k":80.00,
     "r0":2.50,
-    "comment":"#"
+    "comment":"#  offset in ro"
   },
   {
     "param":"bond",
@@ -2890,6 +2666,30 @@
     "k":110.00,
     "r0":3.07,
     "comment":"#"
+  },
+  {
+    "param":"bond",
+    "types":["CM","EO"],
+    "potential":"harmonic",
+    "k":7.100,
+    "r0":3.560,
+    "comment":"# Mol Sim 2007"
+  },
+  {
+    "param":"bond",
+    "types":["CM","OA"],
+    "potential":"harmonic",
+    "k":7.500,
+    "r0":3.010,
+    "comment":"# Mol Sim 2007"
+  },
+  {
+    "param":"bond",
+    "types":["CMR5","CTBB"],
+    "potential":"harmonic",
+    "k":120.00,
+    "r0":2.25,
+    "comment":"#  offset in ro"
   },
   {
     "param":"bond",
@@ -2909,11 +2709,27 @@
   },
   {
     "param":"bond",
-    "types":["CMR5","CTBB"],
+    "types":["CT2","CM"],
     "potential":"harmonic",
-    "k":120.00,
-    "r0":2.25,
-    "comment":"#"
+    "k":9.000,
+    "r0":3.130,
+    "comment":"# Mol Sim 2007"
+  },
+  {
+    "param":"bond",
+    "types":["CT2","EO"],
+    "potential":"harmonic",
+    "k":10.000,
+    "r0":3.070,
+    "comment":"# Mol Sim 2007"
+  },
+  {
+    "param":"bond",
+    "types":["CT2","OA"],
+    "potential":"harmonic",
+    "k":14.000,
+    "r0":2.530,
+    "comment":"# Mol Sim 2007"
   },
   {
     "param":"bond",
@@ -2924,66 +2740,162 @@
     "comment":"#"
   },
   {
+    "param":"bond",
+    "types":["CT","CMD2"],
+    "potential":"harmonic",
+    "k":8.000,
+    "r0":3.090,
+    "comment":"# JPCB 2010  "
+  },
+  {
+    "param":"bond",
+    "types":["CT","CT"],
+    "potential":"harmonic",
+    "k":6.955,
+    "r0":3.710,
+    "comment":"# Mol Sim 2007"
+  },
+  {
+    "param":"bond",
+    "types":["CT","EO"],
+    "potential":"harmonic",
+    "k":7.100,
+    "r0":3.610,
+    "comment":"# Mol Sim 2007"
+  },
+  {
+    "param":"bond",
+    "types":["CT","OA"],
+    "potential":"harmonic",
+    "k":6.955,
+    "r0":3.050,
+    "comment":"# Mol Sim 2007"
+  },
+  {
+    "param":"bond",
+    "types":["EO","EO"],
+    "potential":"harmonic",
+    "k":4.900,
+    "r0":3.280,
+    "comment":"# Mol Sim 2007"
+  },
+  {
+    "param":"bond",
+    "types":["EO","OA"],
+    "potential":"harmonic",
+    "k":15.000,
+    "r0":2.790,
+    "comment":"# Mol Sim 2007"
+  },
+  {
+    "param":"bond",
+    "types":["EOT","EO"],
+    "potential":"harmonic",
+    "k":5.400,
+    "r0":3.340,
+    "comment":"# Mol Sim 2007"
+  },
+  {
+    "param":"bond",
+    "types":["EOT","EOT"],
+    "potential":"harmonic",
+    "k":5.500,
+    "r0":3.330,
+    "comment":"# Mol Sim 2007"
+  },
+  {
+    "param":"bond",
+    "types":["EST1","CM"],
+    "potential":"harmonic",
+    "k":4.700,
+    "r0":3.550,
+    "comment":"# JPCB 2010  "
+  },
+  {
+    "param":"bond",
+    "types":["EST2","CM"],
+    "potential":"harmonic",
+    "k":5.100,
+    "r0":3.610,
+    "comment":"# JPCB 2010  "
+  },
+  {
+    "param":"bond",
+    "types":["GL","EST1"],
+    "potential":"harmonic",
+    "k":30.000,
+    "r0":2.880,
+    "comment":"# JPCB 2010 "
+  },
+  {
+    "param":"bond",
+    "types":["GL","EST2"],
+    "potential":"harmonic",
+    "k":8.400,
+    "r0":3.480,
+    "comment":"# JPCB 2010  "
+  },
+  {
+    "param":"bond",
+    "types":["NC","PH"],
+    "potential":"harmonic",
+    "k":4.800,
+    "r0":4.250,
+    "comment":"# JPCB 2010"
+  },
+  {
+    "param":"bond",
+    "types":["NH","PHE"],
+    "potential":"harmonic",
+    "k":9.400,
+    "r0":3.600,
+    "comment":"# JPCB 2010  "
+  },
+  {
+    "param":"bond",
+    "types":["OA","OA"],
+    "potential":"harmonic",
+    "k":63.000,
+    "r0":2.160,
+    "comment":"# Mol Sim 2007"
+  },
+  {
+    "param":"bond",
+    "types":["PH","CM"],
+    "potential":"harmonic",
+    "k":12.000,
+    "r0":3.690,
+    "comment":"# JPCB 2010"
+  },
+  {
+    "param":"bond",
+    "types":["PHE","GL"],
+    "potential":"harmonic",
+    "k":8.900,
+    "r0":3.520,
+    "comment":"# JPCB 2010  "
+  },
+  {
+    "param":"bond",
+    "types":["PH","GL"],
+    "potential":"harmonic",
+    "k":8.900,
+    "r0":3.520,
+    "comment":"# JPCB 2010 "
+  },
+  {
     "param":"angle",
     "types":["C2T","CM2","CTB"],
     "potential":"sdk",
-    "k":18.0,
+    "k":36.0,
     "theta0":155.0,
-    "comment":"#"
-  },
-  {
-    "param":"angle",
-    "types":["CM","CM","CM"],
-    "potential":"sdk",
-    "k":1.190,
-    "theta0":173.0,
-    "comment":"#"
-  },
-  {
-    "param":"angle",
-    "types":["CM","CM","CT"],
-    "potential":"sdk",
-    "k":1.190,
-    "theta0":175.0,
-    "comment":"#"
-  },
-  {
-    "param":"angle",
-    "types":["CM","CM","EO"],
-    "potential":"sdk",
-    "k":1.500,
-    "theta0":172.0,
-    "comment":"#"
-  },
-  {
-    "param":"angle",
-    "types":["CM","CMD2","CM"],
-    "potential":"sdk",
-    "k":6.000,
-    "theta0":110.0,
-    "comment":"#"
-  },
-  {
-    "param":"angle",
-    "types":["CM","EO","CM"],
-    "potential":"sdk",
-    "k":1.800,
-    "theta0":171.0,
-    "comment":"#"
-  },
-  {
-    "param":"angle",
-    "types":["CM","EO","EO"],
-    "potential":"sdk",
-    "k":3.200,
-    "theta0":146.0,
-    "comment":"#"
+    "comment":"# bimodal"
   },
   {
     "param":"angle",
     "types":["CM2","CTB","CTBB"],
     "potential":"sdk",
-    "k":10.0,
+    "k":20.0,
     "theta0":126.0,
     "comment":"#"
   },
@@ -2993,7 +2905,7 @@
     "potential":"sdk",
     "k":1.000,
     "theta0":60.0,
-    "comment":"#"
+    "comment":"# TO BE REFINED: cyclohexane, GF 2013"
   },
   {
     "param":"angle",
@@ -3069,14 +2981,6 @@
   },
   {
     "param":"angle",
-    "types":["CMB","CTBB","CMR"],
-    "potential":"harmonic",
-    "k":100.0,
-    "theta0":56.3,
-    "comment":"#"
-  },
-  {
-    "param":"angle",
     "types":["CMB","CTBB","CMR5"],
     "potential":"harmonic",
     "k":50.0,
@@ -3085,11 +2989,51 @@
   },
   {
     "param":"angle",
-    "types":["CMB","CTBB","CTB"],
+    "types":["CMB","CTBB","CMR"],
     "potential":"harmonic",
+    "k":100.0,
+    "theta0":56.3,
+    "comment":"#"
+  },
+  {
+    "param":"angle",
+    "types":["CMB","CTBB","CTB"],
+    "potential":"sdk",
     "k":70.0,
     "theta0":120.7,
     "comment":"#"
+  },
+  {
+    "param":"angle",
+    "types":["CM","CM","CM"],
+    "potential":"sdk",
+    "k":1.190,
+    "theta0":173.0,
+    "comment":"# Mol Sim 2007  "
+  },
+  {
+    "param":"angle",
+    "types":["CM","CM","CT"],
+    "potential":"sdk",
+    "k":1.190,
+    "theta0":175.0,
+    "comment":"# Mol Sim 2007  "
+  },
+  {
+    "param":"angle",
+    "types":["CM","CM","EO"],
+    "potential":"sdk",
+    "k":1.500,
+    "theta0":172.0,
+    "comment":"# Mol Sim 2007  "
+  },
+  {
+    "param":"angle",
+    "types":["CM","CMD2","CM"],
+    "potential":"sdk",
+    "k":6.000,
+    "theta0":110.0,
+    "comment":"# JPCB 2010  "
   },
   {
     "param":"angle",
@@ -3097,7 +3041,7 @@
     "potential":"sdk",
     "k":1.900,
     "theta0":161.0,
-    "comment":"#"
+    "comment":"# JPCB 2010  "
   },
   {
     "param":"angle",
@@ -3133,19 +3077,19 @@
   },
   {
     "param":"angle",
-    "types":["CMR","CTBB","CMR5"],
-    "potential":"harmonic",
-    "k":150.0,
-    "theta0":107.0,
-    "comment":"#"
+    "types":["CM","EO","CM"],
+    "potential":"sdk",
+    "k":1.800,
+    "theta0":171.0,
+    "comment":"# Mol Sim 2007  "
   },
   {
     "param":"angle",
-    "types":["CMR","CTBB","CTB"],
-    "potential":"harmonic",
-    "k":75.0,
-    "theta0":110.1,
-    "comment":"#"
+    "types":["CM","EO","EO"],
+    "potential":"sdk",
+    "k":3.200,
+    "theta0":146.0,
+    "comment":"# Mol Sim 2007  "
   },
   {
     "param":"angle",
@@ -3166,33 +3110,25 @@
   {
     "param":"angle",
     "types":["CMR5","CTBB","CTB"],
-    "potential":"harmonic",
+    "potential":"sdk",
     "k":100.0,
     "theta0":62.7,
     "comment":"#"
   },
   {
     "param":"angle",
-    "types":["CT","CM","CT"],
-    "potential":"sdk",
-    "k":1.093,
-    "theta0":175.5,
+    "types":["CMR","CTBB","CMR5"],
+    "potential":"harmonic",
+    "k":150.0,
+    "theta0":107.0,
     "comment":"#"
   },
   {
     "param":"angle",
-    "types":["CT","CMD2","CT"],
+    "types":["CMR","CTBB","CTB"],
     "potential":"sdk",
-    "k":7.700,
-    "theta0":116.0,
-    "comment":"#"
-  },
-  {
-    "param":"angle",
-    "types":["CT","EO","EO"],
-    "potential":"sdk",
-    "k":2.200,
-    "theta0":145.0,
+    "k":75.0,
+    "theta0":110.1,
     "comment":"#"
   },
   {
@@ -3201,7 +3137,7 @@
     "potential":"sdk",
     "k":1.600,
     "theta0":172.0,
-    "comment":"#"
+    "comment":"# Mol Sim 2007  "
   },
   {
     "param":"angle",
@@ -3209,7 +3145,7 @@
     "potential":"sdk",
     "k":1.700,
     "theta0":173.0,
-    "comment":"#"
+    "comment":"# Mol Sim 2007  "
   },
   {
     "param":"angle",
@@ -3217,7 +3153,7 @@
     "potential":"sdk",
     "k":1.300,
     "theta0":178.0,
-    "comment":"#"
+    "comment":"# Mol Sim 2007  "
   },
   {
     "param":"angle",
@@ -3225,7 +3161,7 @@
     "potential":"sdk",
     "k":1.800,
     "theta0":166.0,
-    "comment":"#"
+    "comment":"# Mol Sim 2007  "
   },
   {
     "param":"angle",
@@ -3233,7 +3169,7 @@
     "potential":"sdk",
     "k":1.050,
     "theta0":180.0,
-    "comment":"#"
+    "comment":"# TO BE REFINED: heptane(B), GF 2013"
   },
   {
     "param":"angle",
@@ -3241,7 +3177,7 @@
     "potential":"sdk",
     "k":12.000,
     "theta0":110.0,
-    "comment":"#"
+    "comment":"# JPCB 2010  "
   },
   {
     "param":"angle",
@@ -3249,7 +3185,7 @@
     "potential":"sdk",
     "k":2.600,
     "theta0":165.0,
-    "comment":"#"
+    "comment":"# Mol Sim 2007  "
   },
   {
     "param":"angle",
@@ -3285,11 +3221,35 @@
   },
   {
     "param":"angle",
+    "types":["CT","CM","CT"],
+    "potential":"sdk",
+    "k":1.093,
+    "theta0":175.5,
+    "comment":"# Mol Sim 2007  "
+  },
+  {
+    "param":"angle",
+    "types":["CT","CMD2","CT"],
+    "potential":"sdk",
+    "k":7.700,
+    "theta0":116.0,
+    "comment":"# JPCB 2010  "
+  },
+  {
+    "param":"angle",
+    "types":["CT","EO","EO"],
+    "potential":"sdk",
+    "k":2.200,
+    "theta0":145.0,
+    "comment":"# Mol Sim 2007  "
+  },
+  {
+    "param":"angle",
     "types":["EO","EO","EO"],
     "potential":"sdk",
     "k":3.400,
     "theta0":132.0,
-    "comment":"#"
+    "comment":"# Mol Sim 2007  "
   },
   {
     "param":"angle",
@@ -3297,7 +3257,7 @@
     "potential":"sdk",
     "k":3.500,
     "theta0":135.0,
-    "comment":"#"
+    "comment":"# Mol Sim 2007  "
   },
   {
     "param":"angle",
@@ -3305,7 +3265,7 @@
     "potential":"sdk",
     "k":3.000,
     "theta0":131.0,
-    "comment":"#"
+    "comment":"# Mol Sim 2007  "
   },
   {
     "param":"angle",
@@ -3313,7 +3273,7 @@
     "potential":"sdk",
     "k":3.500,
     "theta0":134.0,
-    "comment":"#"
+    "comment":"# Mol Sim 2007  "
   },
   {
     "param":"angle",
@@ -3321,7 +3281,7 @@
     "potential":"sdk",
     "k":1.000,
     "theta0":178.0,
-    "comment":"#"
+    "comment":"# JPCB 2010  "
   },
   {
     "param":"angle",
@@ -3329,7 +3289,7 @@
     "potential":"sdk",
     "k":1.000,
     "theta0":95.0,
-    "comment":"#"
+    "comment":"# JPCB 2010   "
   },
   {
     "param":"angle",
@@ -3337,7 +3297,7 @@
     "potential":"sdk",
     "k":1.000,
     "theta0":178.0,
-    "comment":"#"
+    "comment":"# JPCB 2010  "
   },
   {
     "param":"angle",
@@ -3345,7 +3305,7 @@
     "potential":"sdk",
     "k":0.800,
     "theta0":168.0,
-    "comment":"#"
+    "comment":"# JPCB 2010  "
   },
   {
     "param":"angle",
@@ -3353,7 +3313,7 @@
     "potential":"sdk",
     "k":0.800,
     "theta0":172.0,
-    "comment":"#"
+    "comment":"# JPCB 2010  "
   },
   {
     "param":"angle",
@@ -3361,7 +3321,7 @@
     "potential":"sdk",
     "k":3.300,
     "theta0":112.0,
-    "comment":"#"
+    "comment":"# JPCB 2010  "
   },
   {
     "param":"angle",
@@ -3369,7 +3329,7 @@
     "potential":"sdk",
     "k":3.100,
     "theta0":112.0,
-    "comment":"#"
+    "comment":"# JPCB 2010  "
   },
   {
     "param":"angle",
@@ -3377,7 +3337,7 @@
     "potential":"sdk",
     "k":4.000,
     "theta0":102.0,
-    "comment":"#"
+    "comment":"# JPCB 2010  "
   },
   {
     "param":"angle",
@@ -3385,7 +3345,7 @@
     "potential":"sdk",
     "k":4.000,
     "theta0":146.0,
-    "comment":"#"
+    "comment":"# Mol Sim 2007  "
   },
   {
     "param":"angle",
@@ -3393,7 +3353,7 @@
     "potential":"sdk",
     "k":6.600,
     "theta0":131.0,
-    "comment":"#"
+    "comment":"# Mol Sim 2007  "
   },
   {
     "param":"angle",
@@ -3401,23 +3361,7 @@
     "potential":"sdk",
     "k":1.100,
     "theta0":178.0,
-    "comment":"#"
-  },
-  {
-    "param":"angle",
-    "types":["PH","GL","EST1"],
-    "potential":"sdk",
-    "k":1.400,
-    "theta0":124.0,
-    "comment":"#"
-  },
-  {
-    "param":"angle",
-    "types":["PH","GL","EST2"],
-    "potential":"sdk",
-    "k":2.000,
-    "theta0":138.0,
-    "comment":"#"
+    "comment":"# JPCB 2010  "
   },
   {
     "param":"angle",
@@ -3425,7 +3369,7 @@
     "potential":"sdk",
     "k":1.400,
     "theta0":124.0,
-    "comment":"#"
+    "comment":"# JPCB 2010  "
   },
   {
     "param":"angle",
@@ -3433,7 +3377,41 @@
     "potential":"sdk",
     "k":2.000,
     "theta0":138.0,
-    "comment":"#"
+    "comment":"# JPCB 2010  "
+  },
+  {
+    "param":"angle",
+    "types":["PH","GL","EST1"],
+    "potential":"sdk",
+    "k":1.400,
+    "theta0":124.0,
+    "comment":"# JPCB 2010  "
+  },
+  {
+    "param":"angle",
+    "types":["PH","GL","EST2"],
+    "potential":"sdk",
+    "k":2.000,
+    "theta0":138.0,
+    "comment":"# JPCB 2010  "
+  },
+  {
+    "param":"dihedral",
+    "types":["CMB","CTBB","CTB","CM2"],
+    "potential":"charmm",
+    "k":4.0,
+    "n":2,
+    "d":-92,
+    "comment":"# CLOL Tail "
+  },
+  {
+    "param":"dihedral",
+    "types":["CTBB","CTB","CM2","C2T"],
+    "potential":"charmm",
+    "k":5.0,
+    "n":2,
+    "d":-76,
+    "comment":"# CLOL Tail"
   }
 ]
 }
