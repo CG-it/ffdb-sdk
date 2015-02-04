@@ -9,6 +9,7 @@ exec 1>&2
 
 MAKE=`which make`
 #${MAKE} -f Makefile update   || exit 
+${MAKE} -f Makefile clean     || exit
 ${MAKE} -f Makefile all       || exit 
 #
 #git add .rsync-include
