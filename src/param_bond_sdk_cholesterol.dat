@@ -1,14 +1,15 @@
-bond  C2T CM2    harmonic  110.00 2.54 #
-bond  CM2 CTB    harmonic   85.00 2.93 #
-bond  CM2R CTBA  harmonic   90.00 2.41 #
-bond  CM2R OAB   harmonic  100.00 2.58 #
-bond  CMB CMDB   harmonic  150.00 3.45 #
-bond  CMB CMR5   harmonic  100.00 3.00 #  offset in ro
-bond  CMB CTBA   harmonic   70.00 3.44 #
-bond  CMB CTBB   harmonic  100.00 3.00 #
-bond  CMDB CTBA  harmonic   80.00 2.50 #  offset in ro
-bond  CMDB OAB   harmonic  110.00 3.07 #
-bond  CMR5 CTBB  harmonic  120.00 2.25 #  offset in ro
-bond  CMR CTBA   harmonic  100.00 2.99 #
-bond  CMR CTBB   harmonic  110.00 2.52 #
-bond  CTB CTBB   harmonic   50.00 3.44 #
+bond     C2T     CM2    harmonic  110.00 2.54 #
+bond     CM2     CTB    harmonic   85.00 2.93 #
+bond     CM2R    CTBA   harmonic   90.00 2.41 #
+bond     CM2R    OAB    harmonic  100.00 2.58 #
+bond     CMB     CMDB   harmonic  150.00 3.45 #
+bond     CMB     CMR5   harmonic  100.00 3.00 #  offset in ro
+bond     CMB     CTBA   harmonic   70.00 3.44 #
+bond     CMB     CTBB   harmonic  100.00 3.00 #
+bond     CMDB    CTBA   harmonic   80.00 2.50 #  offset in ro
+bond     CMDB    OAB    harmonic  110.00 3.07 #
+bond     CMR5    CTBB   harmonic  120.00 2.25 #  offset in ro
+bond     CMR     CTBA   harmonic  100.00 2.99 #
+bond     CMR     CTBB   harmonic  110.00 2.52 #
+bond     CTB     CTBB   harmonic   50.00 3.44 #
+#bond     CMR5    CTB    harmonic   78.00 3.14 # ## From 30% CLOL-POPC @310K

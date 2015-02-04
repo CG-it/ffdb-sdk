@@ -1,18 +1,29 @@
 # -*- mode: conf -*-
 # add here derivative LJ pairs if different from base
 
-## OAB / OA 
-#pair    EST1 OAB  lj9_6  0.4715  3.9957 #Geometric Combining rules (EST1-OA) CMM/19092013 
-#pair    EST2 OAB  lj9_6  0.4715  3.9957 #Geometric Combining rules (EST2-OA) CMM/19092013 
-#pair    GL   OAB  lj9_6  0.4343  4.0903 #Geometric Combining rules (GL-OA) CMM/19092013 
-#pair    NC   OAB  lj9_6  0.5607  4.6206 #Geometric Combining rules (NC-OA) CMM/19092013 
-#pair    PH   OAB  lj9_6  0.7929  4.4777 #Geometric Combining rules (PH-OA) CMM/19092013 
+## OAC - Specific cholesterol headgroup interactions 
+#pair     EST1     OAB     lj9_6    0.4715    3.9957 #Geometric Combining rules (EST1-OA) CMM/19092013 
+#pair     EST2     OAB     lj9_6    0.4715    3.9957 #Geometric Combining rules (EST2-OA) CMM/19092013 
+#pair     GL       OAB     lj9_6    0.4343    4.0903 #Geometric Combining rules (GL-OA) CMM/19092013 
+#pair     NC       OAB     lj9_6    0.5607    3.9319 #Modified from POPC-CLOL RDF CMM/28JAN2015 
+#pair     PH       OAB     lj9_6    0.7929    3.6166 #Modified from POPC-CLOL RDF CMM/28JAN2015 
+#pair     OAB        W     lj9_6    0.7000    2.8000 #Modified from POPC-CLOL RDF CMM/28JAN2015 way small! 
 
-pair     EST1     OA      lj9_6    0.4715    3.9957 #Geometric Combining rules (EST1-OA) CMM/19092013 
-pair     EST2     OA      lj9_6    0.4715    3.9957 #Geometric Combining rules (EST2-OA) CMM/19092013 
-pair     GL       OA      lj9_6    0.4343    4.0903 #Geometric Combining rules (GL-OA) CMM/19092013 
-pair     NC       OA      lj9_6    0.5607    4.6206 #Geometric Combining rules (NC-OA) CMM/19092013 
-pair     PH       OA      lj9_6    0.7929    4.4777 #RDF CMM/13012014 DPPC+Hexanol 
+## OAC From Russell (derived from SER in popc bilayer)
+pair     OAB      EST1      lj9_6  1.1000    3.9900
+pair     OAB      EST2      lj9_6  1.1000    3.9900
+pair     OAB      GL        lj9_6  0.6693    4.0930
+#pair     OAB      NC        lj9_6  0.6370    4.715
+#pair     OAB      PH        lj9_6  0.9280    4.5400  
+pair     OAB      W         lj9_6  1.0260    4.0255
+pair     OAB      OAB       lj9_6  0.5800    3.680
+pair     OAB      CM        lj9_6  0.5610    4.0930
+pair     OAB      CMD2      lj9_6  0.3099    3.8425
+pair     OAB      CT2       lj9_6  0.4155    3.9505
+
+## Hybrid pairs from POPC RDF and Russell
+pair     OAB      NC        lj9_6  0.6370    3.9319
+pair     OAB      PH        lj9_6  0.9280    3.6166
 
 pair     CM2R     CM2R    lj9_6    0.1800    3.9743 # CM2R CM2R From cyclohexane CMM 18062014
 pair     CM2R     CMR     lj9_6    0.1988    4.5672 # CM2R CMR  From bicyclooctane-a CMM 18062014 
