@@ -51,6 +51,9 @@ proc bond2json {line jsonstr} {
     #}
     
     lassign $line param atype1 atype2 potential k r0 comment
+    set comment [string range $line\
+       [string first $comment $line] end]
+
     lappend s "  {"
     lappend s "    \"param\":\"bond\","
     lappend s "    \"types\":\[\"$atype1\",\"$atype2\"\],"
@@ -77,6 +80,9 @@ proc angle2json {line jsonstr} {
     lassign $line param atype1 atype2 atype3\
 	potential k theta0 comment
 
+     set comment [string range $line\
+       [string first $comment $line] end]
+
     lappend s "  {"
     lappend s "    \"param\":\"angle\","
     lappend s "    \"types\":\[\"$atype1\",\"$atype2\",\"$atype3\"\],"
@@ -101,14 +107,18 @@ proc dihed2json {line jsonstr} {
     #}
 
     lassign $line param atype1 atype2 atype3 atype4\
-	potential k chi0 comment
+	potential k n d comment
+
+    set comment [string range $line\
+       [string first $comment $line] end]
 
     lappend s "  {"
     lappend s "    \"param\":\"dihedral\","
     lappend s "    \"types\":\[\"$atype1\",\"$atype2\",\"$atype3\",\"$atype4\"\],"
     lappend s "    \"potential\":\"$potential\","
     lappend s "    \"k\":$k,"
-    lappend s "    \"chi0\":$chi0,"
+    lappend s "    \"n\":$n,"
+    lappend s "    \"d\":$d,"
     lappend s "    \"comment\":\"$comment\""
     lappend s "  },"
 }
@@ -128,6 +138,9 @@ proc pair2json {line jsonstr} {
 
     lassign $line param atype1 atype2\
 	potential epsilon sigma comment
+
+    #set comment [string range $line\
+    #   [string first $comment $line] end]
 
     lappend s "  {"
     lappend s "    \"param\":\"pair\","
