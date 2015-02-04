@@ -1,6 +1,6 @@
 {
     "author": "macdercm",
-    "date": "2015-02-03T22:26:26",
+    "date": "2015-02-03T22:49:43",
     "fftype": "sdk",
     "topo": {
         "BUTH": {
@@ -211,7 +211,11 @@
                 ["C8", "C9"],
                 ["C9", "C10"]
             ],
-            "angles": ["auto"]
+            "angles": ["auto"],
+            "dihedrals": [
+                ["CMB", "CTBB", "CTB", "CM2"],
+                ["CTBB", "CTB", "CM2", "C2T"]
+            ]
         },
         "CLOL": {
             "type": ["OAB", "CM2R", "CMDB", "CTBA", "CMB", "CMR", "CMR5", "CTBB", "CTB", "CM2", "C2T"],
@@ -247,7 +251,11 @@
                 ["C8", "C9"],
                 ["C9", "C10"]
             ],
-            "angles": ["auto"]
+            "angles": ["auto"],
+            "dihedrals": [
+                ["CMB", "CTBB", "CTB", "CM2"],
+                ["CTBB", "CTB", "CM2", "C2T"]
+            ]
         },
         "DMPC": {
             "type": ["NC", "PH", "GL", "EST1", "CM", "CM", "CM", "CT", "EST2", "CM", "CM", "CM", "CT"],

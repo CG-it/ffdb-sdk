@@ -162,6 +162,11 @@ proc ::CGtools::map_cholesterol {} {
       {auto}
     }
 
+    set map([list dihedrals CLOL]) {
+      {CMB  CTBB CTB CM2}
+      {CTBB CTB  CM2 C2T}
+    }
+
     set map([list segname CHL1])  $map([list segname CLOL])
     set map([list type CHL1])     $map([list type CLOL])
     set map([list name CHL1])     $map([list name CLOL])
@@ -169,6 +174,7 @@ proc ::CGtools::map_cholesterol {} {
     set map([list mass CHL1])     $map([list mass CLOL])
     set map([list bonds CHL1])    $map([list bonds CLOL])
     set map([list angles CHL1])   $map([list angles CLOL])
+    set map([list dihedrals CHL1])   $map([list dihedrals CLOL])
 
     return
 }
