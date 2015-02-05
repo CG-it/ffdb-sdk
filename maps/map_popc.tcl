@@ -182,6 +182,25 @@ proc ::CGtools::map_popc {} {
       {auto}
     }
 
+    set map([list atomicnumber POPC]) {
+        50
+        47
+        23
+        30
+        24
+        24
+        14
+        24
+        24
+        17
+        30
+        24
+        24
+        24
+        24
+        17
+    }
+
     return
 }
 

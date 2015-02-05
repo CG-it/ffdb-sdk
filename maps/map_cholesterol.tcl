@@ -167,6 +167,20 @@ proc ::CGtools::map_cholesterol {} {
       {C7 C8 C9 C10}
     }
 
+    set map([list atomicnumber CLOL]) {
+        16
+        16
+        21
+        15
+        22
+        23
+        23
+        15
+        24
+        16
+        25
+    }
+
     set map([list map CHL1])  $map([list map CLOL])
     set map([list type CHL1])     $map([list type CLOL])
     set map([list name CHL1])     $map([list name CLOL])
@@ -175,6 +189,7 @@ proc ::CGtools::map_cholesterol {} {
     set map([list bonds CHL1])    $map([list bonds CLOL])
     set map([list angles CHL1])   $map([list angles CLOL])
     set map([list dihedrals CHL1])   $map([list dihedrals CLOL])
+    set map([list atomicnumber CHL1])   $map([list atomicnumber CLOL])
 
     return
 }

@@ -168,6 +168,24 @@ proc ::CGtools::map_dppc {} {
         {auto}
     }
 
+    set map([list atomicnumber DPPC]) {
+        50
+        47
+        23
+        30
+        24
+        24
+        24
+        24
+        17
+        30
+        24
+        24
+        24
+        24
+        17
+    }
+
     return
 }
 

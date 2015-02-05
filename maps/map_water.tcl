@@ -78,6 +78,10 @@ proc ::CGtools::map_water {} {
       {none}
     }
 
+    set map([list atomicnumber TIP3]) {
+        30
+    }
+
     set map([list type WAT])      $map([list type TIP3])   
     set map([list name WAT])      $map([list name TIP3])
     set map([list map WAT])   $map([list map TIP3])
@@ -85,6 +89,7 @@ proc ::CGtools::map_water {} {
     set map([list mass WAT])      $map([list mass TIP3])
     set map([list bonds WAT])     $map([list bonds TIP3])     
     set map([list angles WAT])    $map([list angles TIP3])     
+    set map([list atomicnumber WAT]) $map([list atomicnumber TIP3])
 
     return
 }
