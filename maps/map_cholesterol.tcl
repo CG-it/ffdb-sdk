@@ -163,8 +163,8 @@ proc ::CGtools::map_cholesterol {} {
     }
 
     set map([list dihedrals CLOL]) {
-      {CMB  CTBB CTB CM2}
-      {CTBB CTB  CM2 C2T}
+      {C4 C7 C8 C9}
+      {C7 C8 C9 C10}
     }
 
     set map([list segname CHL1])  $map([list segname CLOL])
