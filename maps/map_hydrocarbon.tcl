@@ -30,10 +30,10 @@ if {![namespace exists ::CGtools]} {
 #    charge HEPT     3
 #      mass HEPT     3
 #      name HEPT     3
-#   segname HEPT     3
+#   map HEPT     3
 #      type HEPT     3
 #
-#charge HEPT | mass HEPT | name HEPT | segname HEPT                     | type HEPT |
+#charge HEPT | mass HEPT | name HEPT | map HEPT                     | type HEPT |
 #0.0         | 29.062    | C1        | C1 H11 H12 H13 C2 H21 H22        | CT2       |
 #0.0         | 42.081    | C2        | C3 H31 H32 C4 H41 H42 C5 H51 H52 | CM        |
 #0.0         | 29.062    | C3        | C6 H61 H62 C7 H71 H72 H73        | CT2       |
@@ -43,10 +43,10 @@ if {![namespace exists ::CGtools]} {
 #     charge OCT     3
 #       mass OCT     3
 #       name OCT     3
-#    segname OCT     3
+#    map OCT     3
 #       type OCT     3
 #
-#charge OCT | mass OCT | name OCT | segname OCT                          | type OCT |
+#charge OCT | mass OCT | name OCT | map OCT                          | type OCT |
 #0.0        | 43.088   | C1       | C1 H11 H12 H13 C2 H21 H22 C3 H31 H32 | CT       |
 #0.0        | 28.054   | C2       | C4 H41 H42 C5 H51 H52                | CM2      |
 #0.0        | 43.088   | C3       | C6 H61 H62 C7 H71 H72 C8 H81 H82 H83 | CT       |
@@ -57,10 +57,10 @@ if {![namespace exists ::CGtools]} {
 #    charge 4COC     3
 #      mass 4COC     3
 #      name 4COC     3
-#   segname 4COC     3
+#   map 4COC     3
 #      type 4COC     3
 #
-#charge 4COC | mass 4COC | name 4COC | segname 4COC                         | type 4COC |
+#charge 4COC | mass 4COC | name 4COC | map 4COC                         | type 4COC |
 #0.0         | 43.0890   | C1        | C1 H1R H1S H1T C2 H2R H2S C3 H3R H3S | CT        |
 #0.0         | 40.0650   | C2        | C4 H4R C5 H5R C6 H6R H6S             | CMD3      |
 #0.0         | 29.0620   | C3        | C7 H7R H7S C8 H8R H8S H8T            | CT2       |
@@ -78,7 +78,7 @@ proc ::CGtools::map_hydrocarbon {} {
     # |  HEPTANE    |
     # +-------------+
 
-    set map([list segname HEPT]) {
+    set map([list map HEPT]) {
         {C1 H11 H12 H13 C2 H21 H22}
         {C3 H31 H32 C4 H41 H42 C5 H51 H52}
         {C6 H61 H62 C7 H71 H72 H73}
@@ -118,7 +118,7 @@ proc ::CGtools::map_hydrocarbon {} {
     }
 
     # alternative mapping of heptane
-    set map([list segname HEPB]) {
+    set map([list map HEPB]) {
         {C1 H11 H12 H13 C2 H21 H22}
         {C3 H31 H32 C4 H41 H42}
         {C5 H51 H52 C6 H61 H62 C7 H71 H72 H73}
@@ -160,7 +160,7 @@ proc ::CGtools::map_hydrocarbon {} {
 
 
     # isohexane (2-methylpentane)
-    set map([list segname IHEX]) {
+    set map([list map IHEX]) {
         {C1 H11 H12 H13 C2 H21 C3 H31 H32 H33}
         {C4 H41 H42 C5 H51 H52 C6 H61 H62 H63}
     }
@@ -190,7 +190,7 @@ proc ::CGtools::map_hydrocarbon {} {
     }
 
     # isopentane (2-methylbutane)
-    set map([list segname IPEN]) {
+    set map([list map IPEN]) {
         {C1 H11 H12 H13 C2 H21 C3 H31 H32 H33}
         {C4 H41 H42 C5 H51 H52 H53}
     }
@@ -221,7 +221,7 @@ proc ::CGtools::map_hydrocarbon {} {
 
 
     # octane
-    set map([list segname OCT]) {
+    set map([list map OCT]) {
         {C1 H11 H12 H13 C2 H21 H22 C3 H31 H32}
         {C4 H41 H42 C5 H51 H52}
         {C6 H61 H62 C7 H71 H72 C8 H81 H82 H83}
@@ -261,7 +261,7 @@ proc ::CGtools::map_hydrocarbon {} {
     }
 
     # octane - Alternative mapping with larger center bead
-    set map([list segname OCTA]) {
+    set map([list map OCTA]) {
         {C1 H11 H12 H13 C2 H21 H22}
         {C3 H31 H32 C4 H41 H42 C5 H51 H52 C6 H61 H62}
         {C7 H71 H72 C8 H81 H82 H83}
@@ -302,7 +302,7 @@ proc ::CGtools::map_hydrocarbon {} {
 
     # octane - Alternative mapping with smaller center bead
     # This is the same as OCT.
-    set map([list segname OCTB]) {
+    set map([list map OCTB]) {
         {C1 H11 H12 H13 C2 H21 H22 C3 H31 H32}
         {C4 H41 H42 C5 H51 H52}
         {C6 H61 H62 C7 H71 H72 C8 H81 H82 H83}
@@ -343,7 +343,7 @@ proc ::CGtools::map_hydrocarbon {} {
 
 
     # octane - Alternative mapping with 2 smaller center beads
-    set map([list segname OCTC]) {
+    set map([list map OCTC]) {
         {C1 H11 H12 H13 C2 H21 H22}
         {C3 H31 H32 C4 H41 H42}
         {C5 H51 H52 C6 H61 H62}
@@ -390,7 +390,7 @@ proc ::CGtools::map_hydrocarbon {} {
     }
 
     # bicyclooctane
-    set map([list segname BCO]) {
+    set map([list map BCO]) {
         {C1 H11 H12 C2 H21     C6 H61 H62}
         {C3 H31 H32 C4 H41 H42 C5 H51}
         {C7 H71 H72 C8 H81 H82}
@@ -431,7 +431,7 @@ proc ::CGtools::map_hydrocarbon {} {
     }
 
     # bicyclooctane (alternative map)
-    set map([list segname BCOB]) {
+    set map([list map BCOB]) {
         {C1 H11 H12 C2 H21 C3 H31 H32 }
         {C4 H41 H42 C5 H51 C6 H61 H62}
         {C7 H71 H72 C8 H81 H82}
@@ -473,7 +473,7 @@ proc ::CGtools::map_hydrocarbon {} {
 
 
     # decalin
-    set map([list segname DECN]) {
+    set map([list map DECN]) {
         {C2 H21 H22 C1 H11 C10 H101 H102}
         {C3 H31 H32 C4 H41 H42}
         {C5 H51 H52 C6 H61 C7 H71 H72}
@@ -521,7 +521,7 @@ proc ::CGtools::map_hydrocarbon {} {
     }
 
     # decalin (alternative map)
-    set map([list segname DECB]) {
+    set map([list map DECB]) {
         {C1 H11 C2 H21 H22 C3 H31 H32}
         {C4 H41 H42 C5 H51 H52 C6 H61 }
         {C6 H61 C7 H71 H72 C8 H81 H82}
@@ -569,13 +569,13 @@ proc ::CGtools::map_hydrocarbon {} {
 
 
     # cyclohexane
-    set map([list segname CHEX]) {
+    set map([list map CHEX]) {
         {C1 H1A H1B C2 H2A H2B}
         {C3 H3A H3B C4 H4A H4B}
         {C5 H5A H5B C6 H6A H6B}
     }
 
-    #set map([list segname CHEX]) {
+    #set map([list map CHEX]) {
     #    {C1 H11 H12 C2 H21 H22}
     #    {C3 H31 H32 C4 H41 H42}
     #    {C5 H51 H52 C6 H61 H62}
@@ -618,7 +618,7 @@ proc ::CGtools::map_hydrocarbon {} {
 
 
     ## 4-cis-octene
-    set map([list segname 4COC]) {
+    set map([list map 4COC]) {
         {C1 H1R H1S H1T C2 H2R H2S C3 H3R H3S}
         {C4 H4R C5 H5R C6 H6R H6S}
         {C7 H7R H7S C8 H8R H8S H8T}
@@ -659,7 +659,7 @@ proc ::CGtools::map_hydrocarbon {} {
 
 
     ## 1-ethyl-cyclohexene
-    set map([list segname ECHE]) {
+    set map([list map ECHE]) {
         {CA CB HB1 CC HC1 HC2}
         {CD HD1 HD2 CE HE1 HE2 CF HF1 HF2}
         {C1 H11 H12 C2 H21 H22 H23}
@@ -699,7 +699,7 @@ proc ::CGtools::map_hydrocarbon {} {
     }
 
     ## 1-propyl-1-cyclohexene
-    set map([list segname PCHE]) {
+    set map([list map PCHE]) {
         {CA CB HB1 CC HC1 HC2}
         {CD HD1 HD2 CE HE1 HE2 CF HF1 HF2}
         {C1 H11 H12 C2 H21 H22 C3 H31 H32 H33}

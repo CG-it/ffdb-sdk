@@ -36,7 +36,7 @@ proc ::CGtools::map_peg {} {
     # |    C12E2    |
     # +-------------+
 
-    set map([list segname G122]) {
+    set map([list map G122]) {
         {OA }
         {EO1}
         {EO2}
@@ -104,7 +104,7 @@ proc ::CGtools::map_peg {} {
     # |    C18E6    |
     # +-------------+
 
-    set map([list segname G186]) {
+    set map([list map G186]) {
         {OA }
         {EO1}
         {EO2}

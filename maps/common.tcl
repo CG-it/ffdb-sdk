@@ -219,14 +219,14 @@ proc ::CGtools::tabulate_mass {sel resname} {
         map_weights $r
 
         ## Make a weight lookup table
-        foreach a [join $map([list segname $r])]\
+        foreach a [join $map([list map $r])]\
             w [join $map([list weights $r])] {
                 set wlook($a) $w
             }
 
         ## Calculate the weighted masses
         set mass {}
-        foreach bead $map([list segname $r])\
+        foreach bead $map([list map $r])\
             weights $map([list weights $r]) {
                 set tm 0.0
                 set sela [atomselect $molid "($seltext) and name $bead"]
@@ -265,7 +265,7 @@ proc ::CGtools::get_hydrogens {sel resname} {
 
     foreach r $resname {
         set mass {}
-        foreach a $map([list segname $r]) {
+        foreach a $map([list map $r]) {
             set sela [atomselect $molid "($seltext) and name $a"]
 
             ## Get atom indices, cross-refence with topo bond list
@@ -305,7 +305,7 @@ proc ::CGtools::map_weights {resname} {
             set weights {}
 
             ## Get a list of all the unique atoms
-            set atoms [join $map([list segname $r])]
+            set atoms [join $map([list map $r])]
             set uniq_atoms [lsort -unique $atoms]
 
             set n_atoms [llength $atoms]
@@ -325,7 +325,7 @@ proc ::CGtools::map_weights {resname} {
 
             ## Construct the weight list
             set map([list weights $r]) {}
-            foreach bead $map([list segname $r]) {
+            foreach bead $map([list map $r]) {
                 set w {}
                 foreach a $bead {
                     set idx [lsearch $uniq_atoms $a]
@@ -337,7 +337,7 @@ proc ::CGtools::map_weights {resname} {
         } else {
             ## make sure we have a weight for each atom
             ## if we're not guessing.
-            set atoms [join $map([list segname $r])]
+            set atoms [join $map([list map $r])]
             set weights [join $map([list weights $r])]
             if {[llength $atoms] != [llength $weights]} {
                 puts "Missing a weighting coefficent"
@@ -357,8 +357,8 @@ proc ::CGtools::map_check {resname} {
         set flag 0
 
         ## Check to make sure that all the required fields are provided
-        ## by the map: segname type name charge mass bonds angles
-        set keys {segname type name charge mass bonds angles}
+        ## by the map: map type name charge mass bonds angles
+        set keys {map type name charge mass bonds angles}
         foreach p $keys {
             if {![info exists map([list $p $r])]} {
                 puts "Map error, missing field \"$p\" for \"$r\""
@@ -369,7 +369,7 @@ proc ::CGtools::map_check {resname} {
         if {$flag > 0} {return -code error}
 
         ## Check to make sure that all fields are consistent in length
-        set keys {segname type name charge mass}
+        set keys {map type name charge mass}
         set len_list {}
         foreach p $keys {
             set len [llength $map($p $r)]

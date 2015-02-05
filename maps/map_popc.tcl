@@ -32,10 +32,10 @@ if {![namespace exists ::CGtools]} {
 #     charge POPC    16
 #       mass POPC    16
 #       name POPC    16
-#    segname POPC    16
+#    map POPC    16
 #       type POPC    16
 #  
-# charge POPC   | mass POPC | name POPC | segname POPC                                                                           | type POPC |
+# charge POPC   | mass POPC | name POPC | map POPC                                                                           | type POPC |
 # 0.1118033989 | 87.1647   | NC        | N C11 H11A H11B C12 H12A H12B C13 H13A H13B H13C C14 H14A H14B H14C C15 H15A H15B H15C | NC        |
 # -0.1118033989 | 94.9716   | PH        | P O11 O12 O13 O14                                                                      | PH        |
 # 0.0           | 41.0725   | GL        | C1 HA HB C2 HS C3 HX HY                                                                | GL        |
@@ -103,7 +103,7 @@ proc ::CGtools::map_popc {} {
         C25  
     }
 
-    set map([list segname POPC]) {
+    set map([list map POPC]) {
         {N C11 H11A H11B C12 H12A H12B C13 H13A H13B H13C C14 H14A H14B H14C C15 H15A H15B H15C}   
         {P O11 O12 O13 O14}                                                                        
         {C1 HA HB C2 HS C3 HX HY}                                                                  

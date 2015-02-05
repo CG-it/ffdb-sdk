@@ -19,7 +19,7 @@ proc map2json {args} {
     ## Properties to carry over to json
     ## The order specified here is the order that the 
     ## properties will be output
-    set props {type name segname charge mass bonds angles dihedrals}
+    set props {type name map segname charge mass bonds angles dihedrals}
 
     set s {}
     lappend s "{"
@@ -61,7 +61,9 @@ proc map2json {args} {
 		    mass {
 			lappend s "[string2json $p]:[list2json_num $values],"
 		    }
+
 		    segname -
+                    map -
 		    bonds -
 		    angles -
                     dihedrals {;# Nested Lists
@@ -80,6 +82,10 @@ proc map2json {args} {
 
     ## Replace last brace {
     lset s end "  }\n\}\n}"
+
+    ## Do a global string replace for "segname", change it to "map"
+    ## This is a legacy CGtools thing that isn't necessary anymore 
+    set s [string map {segname map} $s]
 
     puts stdout [join $s "\n"]
 }

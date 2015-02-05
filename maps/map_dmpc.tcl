@@ -15,10 +15,10 @@ if {![namespace exists ::CGtools]} {
 #     charge DMPC    13
 #       mass DMPC    13
 #       name DMPC    13
-#    segname DMPC    13
+#    map DMPC    13
 #       type DMPC    13
 #  
-# charge DMPC   | mass DMPC | name DMPC | segname DMPC                                                                           | type DMPC |
+# charge DMPC   | mass DMPC | name DMPC | map DMPC                                                                           | type DMPC |
 # 0.1118033989 | 87.1634   | NC        | N C11 H11A H11B C12 H12A H12B C13 H13A H13B H13C C14 H14A H14B H14C C15 H15A H15B H15C | NC        |
 # -0.1118033989 | 94.9714   | PH        | P O11 O12 O13 O14                                                                      | PH        |
 # 0.0           | 41.0718   | GL        | C1 HA HB C2 HS C3 HX HY                                                                | GL        |
@@ -77,7 +77,7 @@ proc ::CGtools::map_dmpc {} {
         C24
     }
 
-    set map([list segname DMPC]) {
+    set map([list map DMPC]) {
         {N C11 H11A H11B C12 H12A H12B C13 H13A H13B H13C C14 H14A H14B H14C C15 H15A H15B H15C}
         {P O11 O12 O13 O14}
         {C1 HA HB C2 HS C3 HX HY}

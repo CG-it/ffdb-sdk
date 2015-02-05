@@ -36,7 +36,7 @@ proc ::CGtools::map_alcohol {} {
     # |  Propanol   |
     # +-------------+
 
-    set map([list segname PROH]) {
+    set map([list map PROH]) {
         {O1 HO1 C1 H11 H12}
         {C2 H21 H22 C3 H31 H32 H33}
     }
@@ -73,7 +73,7 @@ proc ::CGtools::map_alcohol {} {
     # |  Butanol    |
     # +-------------+
 
-    set map([list segname BUTH]) {
+    set map([list map BUTH]) {
         {O1 HO1 C1 H11 H12}
         {C2 H21 H22 C3 H31 H32 C4 H41 H42 H43}
     }
@@ -110,7 +110,7 @@ proc ::CGtools::map_alcohol {} {
     # |  HEXanol    |
     # +-------------+
 
-    set map([list segname HEXH]) {
+    set map([list map HEXH]) {
         {O1 HO1 C1 H11 H12}
         {C2 H21 H22 C3 H31 H32 C4 H41 H42}
         {C5 H51 H52 C6 H61 H62 H63}
@@ -153,7 +153,7 @@ proc ::CGtools::map_alcohol {} {
     # |  HEPTanol   |
     # +-------------+
 
-    set map([list segname HEPH]) {
+    set map([list map HEPH]) {
         {O1 HO1 C1 H11 H12}
         {C2 H21 H22 C3 H31 H32 C4 H41 H42}
         {C5 H51 H52 C6 H61 H62 C7 H71 H72 H73}

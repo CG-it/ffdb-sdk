@@ -18,10 +18,10 @@
 #    charge BENA     8
 #      mass BENA     8
 #      name BENA     8
-#   segname BENA     8
+#   map BENA     8
 #      type BENA     8
 # 
-#charge BENA | mass BENA | name BENA | segname BENA | type BENA |
+#charge BENA | mass BENA | name BENA | map BENA | type BENA |
 #0.0         | 100.0     | O2        | C O1 O2      | COO       |
 #0.0         | 100.0     | C1        | C1 C2 C3     | CM        |
 #0.0         | 100.0     | C2        | C4 C5 C6     | CM        |
@@ -35,10 +35,10 @@
 #    charge BENP     8
 #      mass BENP     8
 #      name BENP     8
-#   segname BENP     8
+#   map BENP     8
 #      type BENP     8
 # 
-#charge BENP | mass BENP | name BENP | segname BENP | type BENP |
+#charge BENP | mass BENP | name BENP | map BENP | type BENP |
 #0.0         | 100.0     | O2        | C O1 O2      | COO       |
 #0.0         | 100.0     | C1        | C1 C2 C3     | CM        |
 #0.0         | 100.0     | C2        | C4 C5 C6     | CM        |
@@ -67,7 +67,7 @@ proc ::CGtools::map_ffa {} {
 
     
 
-    set map([list segname BENA]) {
+    set map([list map BENA]) {
         {C O1 O2}
         {C1 C2 C3}
         {C4 C5 C6}
@@ -134,7 +134,7 @@ proc ::CGtools::map_ffa {} {
     }
 
 
-    set map([list segname BENP]) $map([list segname BENA])
+    set map([list map BENP]) $map([list map BENA])
     set map([list type BENP])    $map([list type BENA])
     set map([list name BENP])    $map([list name BENA])
     set map([list charge BENP])  $map([list charge BENA])

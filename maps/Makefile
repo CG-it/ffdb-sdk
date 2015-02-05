@@ -20,3 +20,6 @@ top_all$(VERSION)_sdk.json:
 	$(TCL) ../tools/map2json.tcl $(FILES) > tmp.json 
 	$(PYTHON) $(JSBEAUTIFY) tmp.json > $@ && \
 	       	rm -f tmp.json 
+
+test:
+	for i in map_*.tcl; do $(TCL) $$i; done 

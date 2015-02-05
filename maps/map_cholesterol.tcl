@@ -42,10 +42,10 @@ if {![namespace exists ::CGtools]} {
 #     charge CLOL    11
 #       mass CLOL    11
 #       name CLOL    11
-#    segname CLOL    11
+#    map CLOL    11
 #       type CLOL    11
 #  
-# charge CLOL | mass CLOL | name CLOL | segname CLOL                                  | type CLOL |
+# charge CLOL | mass CLOL | name CLOL | map CLOL                                  | type CLOL |
 # 0.0         | 30.026    | O         | C3 H3 O3 H3'                                  | OAB       |
 # 0.0         | 28.054    | C1        | C1 H1A H1B C2 H2A H2B                         | CM2R      |
 # 0.0         | 39.057    | C2        | C4 H4A H4B C5 C6 H6                           | CMDB      |
@@ -99,7 +99,7 @@ proc ::CGtools::map_cholesterol {} {
         C10
     }
 
-    set map([list segname CLOL]) {
+    set map([list map CLOL]) {
         {C3 H3 O3 H3'}
         {C1 H1A H1B C2 H2A H2B}
         {C4 H4A H4B C5 C6 H6}
@@ -167,7 +167,7 @@ proc ::CGtools::map_cholesterol {} {
       {C7 C8 C9 C10}
     }
 
-    set map([list segname CHL1])  $map([list segname CLOL])
+    set map([list map CHL1])  $map([list map CLOL])
     set map([list type CHL1])     $map([list type CLOL])
     set map([list name CHL1])     $map([list name CLOL])
     set map([list charge CHL1])   $map([list charge CLOL])

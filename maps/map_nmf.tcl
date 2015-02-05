@@ -30,10 +30,10 @@ if {![namespace exists ::CGtools]} {
 #      charge NMF     2
 #        mass NMF     2
 #        name NMF     2
-#     segname NMF     2
+#     map NMF     2
 #        type NMF     2
 # 
-# charge NMF | mass NMF | name NMF | segname NMF        | type NMF |
+# charge NMF | mass NMF | name NMF | map NMF        | type NMF |
 # 0.0        | 29.0184  | CO       | HA C O             | T1       |
 # 0.0        | 30.0500  | NC       | N H CR HR1 HR2 HR3 | T2       |
 
@@ -50,7 +50,7 @@ proc ::CGtools::map_NMF {} {
 
     ## Lists of atom names to coarse grain from the all-atom model
     ## specified as lists. Each grouping corresponds to a CG "bead"
-    set map([list segname NMF]) {
+    set map([list map NMF]) {
       { HA C O }
       { N H CR HR1 HR2 HR3}
     }

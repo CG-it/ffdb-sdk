@@ -37,7 +37,7 @@ proc ::CGtools::map_protein {} {
     ## Atom names from FG model to beads
     ## This currently omits hydrogens
 
-    set keyword segname
+    set keyword map
     set map([list $keyword GLY]) {CA}
     set map([list $keyword ALA]) {CA}
     set map([list $keyword VAL]) {{CA} {CB CG1 CG2}}

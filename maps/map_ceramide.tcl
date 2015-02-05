@@ -31,10 +31,10 @@ if {![namespace exists ::CGtools]} {
 #    charge CER1    27
 #      mass CER1    27
 #      name CER1    27
-#   segname CER1    27
+#   map CER1    27
 #      type CER1    27
 #
-#charge CER1 | mass CER1 | name CER1 | segname CER1                                 | type CER1 |
+#charge CER1 | mass CER1 | name CER1 | map CER1                                 | type CER1 |
 #0.0         | 31.0344   | OH1       | O1 HO1 C1 HA HB                              | OA        |
 #0.0         | 28.0340   | N         | C2 HS N21 HN                                 | N         |
 #0.0         | 30.0264   | OH2       | C3 HX O3 HO                                  | OAB       |
@@ -67,10 +67,10 @@ if {![namespace exists ::CGtools]} {
 #    charge CER2    18
 #      mass CER2    18
 #      name CER2    18
-#   segname CER2    18
+#   map CER2    18
 #      type CER2    18
 #
-#charge CER2 | mass CER2 | name CER2 | segname CER2                                 | type CER2 |
+#charge CER2 | mass CER2 | name CER2 | map CER2                                 | type CER2 |
 #0.0         | 31.0344   | OH1       | O1 HO1 C1 HA HB                              | OA        |
 #0.0         | 28.0340   | N         | C2 HS N21 HN                                 | N         |
 #0.0         | 30.0264   | OH2       | C3 HX O3 HO                                  | OAB       |
@@ -100,7 +100,7 @@ proc ::CGtools::map_ceramide {} {
     # | CER1 |
     # +------+
 
-    set map([list segname CER1]) {
+    set map([list map CER1]) {
         {O1 HO1 C1 HA HB}
         {C2 HS N21 HN}
         {C3 HX O3 HO}
@@ -271,7 +271,7 @@ proc ::CGtools::map_ceramide {} {
     # | CER2 |
     # +------+
 
-    set map([list segname CER2]) {
+    set map([list map CER2]) {
       {O1 HO1 C1 HA HB}
       {C2 HS N21 HN}
       {C3 HX O3 HO}

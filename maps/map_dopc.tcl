@@ -33,10 +33,10 @@ if {![namespace exists ::CGtools]} {
 #     charge DOPC    17
 #       mass DOPC    17
 #       name DOPC    17
-#    segname DOPC    17
+#    map DOPC    17
 #       type DOPC    17
 
-# atomicnumber DOPC | charge DOPC   | mass DOPC | name DOPC | segname DOPC                                                                           | type DOPC |
+# atomicnumber DOPC | charge DOPC   | mass DOPC | name DOPC | map DOPC                                                                           | type DOPC |
 # 50                | +0.1118033989 | 87.1647   | NC        | N C11 H11A H11B C12 H12A H12B C13 H13A H13B H13C C14 H14A H14B H14C C15 H15A H15B H15C | NC        |
 # 47                | -0.1118033989 | 94.9716   | PH        | P O11 O12 O13 O14                                                                      | PH        |
 # 23                | 0.0           | 41.0725   | GL        | C1 HA HB C2 HS C3 HX HY                                                                | GL        |
@@ -106,7 +106,7 @@ proc ::CGtools::map_popc {} {
         C26  
     }
 
-    set map([list segname DOPC]) {
+    set map([list map DOPC]) {
         {N C11 H11A H11B C12 H12A H12B C13 H13A H13B H13C C14 H14A H14B H14C C15 H15A H15B H15C}   
         {P O11 O12 O13 O14}                                                                        
         {C1 HA HB C2 HS C3 HX HY}                                                                  

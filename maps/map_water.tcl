@@ -30,13 +30,13 @@ if {![namespace exists ::CGtools]} {
 #    charge TIP3     1
 #      mass TIP3     1
 #      name TIP3     1
-#   segname TIP3     1
+#   map TIP3     1
 #      type TIP3     1
 # 
-#charge TIP3 | mass TIP3         | name TIP3 | segname TIP3 | type TIP3 |
+#charge TIP3 | mass TIP3         | name TIP3 | map TIP3 | type TIP3 |
 #0.0         | 54.04600143432617 | W         | OH2          | W         |
 
-#name type mass charge radius element resname resid chain segname
+#name type mass charge radius element resname resid chain map
 #{W W 54.04600143432617 0.0 1.5 X WAT 5894 X W4}
 
 
@@ -58,7 +58,7 @@ proc ::CGtools::map_water {} {
 	W
     }
 
-    set map([list segname TIP3]) {
+    set map([list map TIP3]) {
 	{OH2}
     }
 
@@ -80,7 +80,7 @@ proc ::CGtools::map_water {} {
 
     set map([list type WAT])      $map([list type TIP3])   
     set map([list name WAT])      $map([list name TIP3])
-    set map([list segname WAT])   $map([list segname TIP3])
+    set map([list map WAT])   $map([list map TIP3])
     set map([list charge WAT])    $map([list charge TIP3])
     set map([list mass WAT])      $map([list mass TIP3])
     set map([list bonds WAT])     $map([list bonds TIP3])     
