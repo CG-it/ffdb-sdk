@@ -1,6 +1,6 @@
 {
 "author":"gfiorin",
-"date":"2015-02-06T18:38:26",
+"date":"2015-02-12T17:19:17",
 "fftype":"sdk",
 "params":[
   {
@@ -2685,6 +2685,14 @@
   },
   {
     "param":"bond",
+    "types":["CMR5","CTB"],
+    "potential":"harmonic",
+    "k":78.00,
+    "r0":3.14,
+    "comment":"# ## From 30% CLOL-POPC @310K"
+  },
+  {
+    "param":"bond",
     "types":["CMR5","CTBB"],
     "potential":"harmonic",
     "k":120.00,
@@ -3403,6 +3411,15 @@
     "n":2,
     "d":-92,
     "comment":"# CLOL Tail "
+  },
+  {
+    "param":"dihedral",
+    "types":["CTBB","CMR5","CTB","CM2"],
+    "potential":"charmm",
+    "k":5.0,
+    "n":2,
+    "d":105,
+    "comment":"# CLOL Tail"
   },
   {
     "param":"dihedral",

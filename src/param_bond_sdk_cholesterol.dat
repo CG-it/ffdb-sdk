@@ -12,4 +12,4 @@ bond     CMR5    CTBB   harmonic  120.00 2.25 #  offset in ro
 bond     CMR     CTBA   harmonic  100.00 2.99 #
 bond     CMR     CTBB   harmonic  110.00 2.52 #
 bond     CTB     CTBB   harmonic   50.00 3.44 #
-#bond     CMR5    CTB    harmonic   78.00 3.14 # ## From 30% CLOL-POPC @310K
+bond     CMR5    CTB    harmonic   78.00 3.14 # ## From 30% CLOL-POPC @310K

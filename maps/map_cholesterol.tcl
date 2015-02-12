@@ -153,6 +153,7 @@ proc ::CGtools::map_cholesterol {} {
         {C4  C7}
         {C5  C7}
         {C6  C7}
+        {C6  C8}
         {C7  C8}
         {C8  C9}
         {C9 C10}
@@ -164,6 +165,7 @@ proc ::CGtools::map_cholesterol {} {
 
     set map([list dihedrals CLOL]) {
       {C4 C7 C8 C9}
+      {C7 C6 C8 C9}
       {C7 C8 C9 C10}
     }
 
@@ -181,7 +183,7 @@ proc ::CGtools::map_cholesterol {} {
         25
     }
 
-    set map([list map CHL1])  $map([list map CLOL])
+    set map([list map CHL1])      $map([list map CLOL])
     set map([list type CHL1])     $map([list type CLOL])
     set map([list name CHL1])     $map([list name CLOL])
     set map([list charge CHL1])   $map([list charge CLOL])
