@@ -164,9 +164,7 @@ proc ::CGtools::map_cholesterol {} {
     }
 
     set map([list dihedrals CLOL]) {
-      {C4 C7 C8 C9}
       {C7 C6 C8 C9}
-      {C7 C8 C9 C10}
     }
 
     set map([list atomicnumber CLOL]) {
