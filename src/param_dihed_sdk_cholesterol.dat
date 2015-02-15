@@ -1,3 +1,3 @@
-dihedral  CMB   CTBB   CTB   CM2   charmm   4.0   2   -92 # CLOL Tail 
+#dihedral  CMB   CTBB   CTB   CM2   charmm   4.0   2   -92 # CLOL Tail 
 dihedral  CTBB  CMR5   CTB   CM2   charmm   5.0   2   105 # CLOL Tail
-dihedral  CTBB  CTB    CM2   C2T   charmm   5.0   2   -76 # CLOL Tail
+#dihedral  CTBB  CTB    CM2   C2T   charmm   5.0   2   -76 # CLOL Tail
