@@ -1,6 +1,6 @@
 {
-"author":"gfiorin",
-"date":"2015-02-12T17:19:17",
+"author":"macdercm",
+"date":"2015-02-15T17:25:57",
 "fftype":"sdk",
 "params":[
   {
@@ -2553,7 +2553,7 @@
     "potential":"harmonic",
     "k":9.000,
     "r0":3.070,
-    "comment":"# heptane(B), GF 2013"
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2561,7 +2561,7 @@
     "potential":"harmonic",
     "k":17.000,
     "r0":2.530,
-    "comment":"# heptane(B), GF 2013"
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2577,7 +2577,7 @@
     "potential":"harmonic",
     "k":19.000,
     "r0":2.320,
-    "comment":"# cyclohexane, GF 2013"
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2609,7 +2609,7 @@
     "potential":"harmonic",
     "k":100.00,
     "r0":3.00,
-    "comment":"#  offset in ro"
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2633,7 +2633,7 @@
     "potential":"harmonic",
     "k":6.160,
     "r0":3.640,
-    "comment":"# Mol Sim 2007"
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2641,7 +2641,7 @@
     "potential":"harmonic",
     "k":6.160,
     "r0":3.650,
-    "comment":"# Mol Sim 2007"
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2649,7 +2649,7 @@
     "potential":"harmonic",
     "k":8.000,
     "r0":3.030,
-    "comment":"# JPCB 2010  "
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2657,7 +2657,7 @@
     "potential":"harmonic",
     "k":80.00,
     "r0":2.50,
-    "comment":"#  offset in ro"
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2673,7 +2673,7 @@
     "potential":"harmonic",
     "k":7.100,
     "r0":3.560,
-    "comment":"# Mol Sim 2007"
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2681,7 +2681,7 @@
     "potential":"harmonic",
     "k":7.500,
     "r0":3.010,
-    "comment":"# Mol Sim 2007"
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2689,7 +2689,7 @@
     "potential":"harmonic",
     "k":78.00,
     "r0":3.14,
-    "comment":"# ## From 30% CLOL-POPC @310K"
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2697,7 +2697,7 @@
     "potential":"harmonic",
     "k":120.00,
     "r0":2.25,
-    "comment":"#  offset in ro"
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2721,7 +2721,7 @@
     "potential":"harmonic",
     "k":9.000,
     "r0":3.130,
-    "comment":"# Mol Sim 2007"
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2729,7 +2729,7 @@
     "potential":"harmonic",
     "k":10.000,
     "r0":3.070,
-    "comment":"# Mol Sim 2007"
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2737,7 +2737,7 @@
     "potential":"harmonic",
     "k":14.000,
     "r0":2.530,
-    "comment":"# Mol Sim 2007"
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2753,7 +2753,7 @@
     "potential":"harmonic",
     "k":8.000,
     "r0":3.090,
-    "comment":"# JPCB 2010  "
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2761,7 +2761,7 @@
     "potential":"harmonic",
     "k":6.955,
     "r0":3.710,
-    "comment":"# Mol Sim 2007"
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2769,7 +2769,7 @@
     "potential":"harmonic",
     "k":7.100,
     "r0":3.610,
-    "comment":"# Mol Sim 2007"
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2777,7 +2777,7 @@
     "potential":"harmonic",
     "k":6.955,
     "r0":3.050,
-    "comment":"# Mol Sim 2007"
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2785,7 +2785,7 @@
     "potential":"harmonic",
     "k":4.900,
     "r0":3.280,
-    "comment":"# Mol Sim 2007"
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2793,7 +2793,7 @@
     "potential":"harmonic",
     "k":15.000,
     "r0":2.790,
-    "comment":"# Mol Sim 2007"
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2801,7 +2801,7 @@
     "potential":"harmonic",
     "k":5.400,
     "r0":3.340,
-    "comment":"# Mol Sim 2007"
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2809,7 +2809,7 @@
     "potential":"harmonic",
     "k":5.500,
     "r0":3.330,
-    "comment":"# Mol Sim 2007"
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2817,7 +2817,7 @@
     "potential":"harmonic",
     "k":4.700,
     "r0":3.550,
-    "comment":"# JPCB 2010  "
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2825,7 +2825,7 @@
     "potential":"harmonic",
     "k":5.100,
     "r0":3.610,
-    "comment":"# JPCB 2010  "
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2833,7 +2833,7 @@
     "potential":"harmonic",
     "k":30.000,
     "r0":2.880,
-    "comment":"# JPCB 2010 "
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2841,7 +2841,7 @@
     "potential":"harmonic",
     "k":8.400,
     "r0":3.480,
-    "comment":"# JPCB 2010  "
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2849,7 +2849,7 @@
     "potential":"harmonic",
     "k":4.800,
     "r0":4.250,
-    "comment":"# JPCB 2010"
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2857,7 +2857,7 @@
     "potential":"harmonic",
     "k":9.400,
     "r0":3.600,
-    "comment":"# JPCB 2010  "
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2865,7 +2865,7 @@
     "potential":"harmonic",
     "k":63.000,
     "r0":2.160,
-    "comment":"# Mol Sim 2007"
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2873,7 +2873,7 @@
     "potential":"harmonic",
     "k":12.000,
     "r0":3.690,
-    "comment":"# JPCB 2010"
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2881,7 +2881,7 @@
     "potential":"harmonic",
     "k":8.900,
     "r0":3.520,
-    "comment":"# JPCB 2010  "
+    "comment":"#"
   },
   {
     "param":"bond",
@@ -2889,7 +2889,7 @@
     "potential":"harmonic",
     "k":8.900,
     "r0":3.520,
-    "comment":"# JPCB 2010 "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -2897,7 +2897,15 @@
     "potential":"sdk",
     "k":36.0,
     "theta0":155.0,
-    "comment":"# bimodal"
+    "comment":"#"
+  },
+  {
+    "param":"angle",
+    "types":["CM2","CTB","CMR5"],
+    "potential":"harmonic",
+    "k":12.4,
+    "theta0":117.4,
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -2913,7 +2921,7 @@
     "potential":"sdk",
     "k":1.000,
     "theta0":60.0,
-    "comment":"# TO BE REFINED: cyclohexane, GF 2013"
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -2973,6 +2981,14 @@
   },
   {
     "param":"angle",
+    "types":["CMB","CMR5","CTB"],
+    "potential":"harmonic",
+    "k":176.0,
+    "theta0":131.7,
+    "comment":"#"
+  },
+  {
+    "param":"angle",
     "types":["CMB","CTBA","CMDB"],
     "potential":"harmonic",
     "k":50.0,
@@ -3017,7 +3033,7 @@
     "potential":"sdk",
     "k":1.190,
     "theta0":173.0,
-    "comment":"# Mol Sim 2007  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3025,7 +3041,7 @@
     "potential":"sdk",
     "k":1.190,
     "theta0":175.0,
-    "comment":"# Mol Sim 2007  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3033,7 +3049,7 @@
     "potential":"sdk",
     "k":1.500,
     "theta0":172.0,
-    "comment":"# Mol Sim 2007  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3041,7 +3057,7 @@
     "potential":"sdk",
     "k":6.000,
     "theta0":110.0,
-    "comment":"# JPCB 2010  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3049,7 +3065,7 @@
     "potential":"sdk",
     "k":1.900,
     "theta0":161.0,
-    "comment":"# JPCB 2010  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3089,7 +3105,7 @@
     "potential":"sdk",
     "k":1.800,
     "theta0":171.0,
-    "comment":"# Mol Sim 2007  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3097,7 +3113,7 @@
     "potential":"sdk",
     "k":3.200,
     "theta0":146.0,
-    "comment":"# Mol Sim 2007  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3113,6 +3129,14 @@
     "potential":"harmonic",
     "k":90.0,
     "theta0":44.0,
+    "comment":"#"
+  },
+  {
+    "param":"angle",
+    "types":["CMR5","CTB","CTBB"],
+    "potential":"harmonic",
+    "k":300.0,
+    "theta0":39.7,
     "comment":"#"
   },
   {
@@ -3145,7 +3169,7 @@
     "potential":"sdk",
     "k":1.600,
     "theta0":172.0,
-    "comment":"# Mol Sim 2007  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3153,7 +3177,7 @@
     "potential":"sdk",
     "k":1.700,
     "theta0":173.0,
-    "comment":"# Mol Sim 2007  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3161,7 +3185,7 @@
     "potential":"sdk",
     "k":1.300,
     "theta0":178.0,
-    "comment":"# Mol Sim 2007  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3169,7 +3193,7 @@
     "potential":"sdk",
     "k":1.800,
     "theta0":166.0,
-    "comment":"# Mol Sim 2007  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3177,7 +3201,7 @@
     "potential":"sdk",
     "k":1.050,
     "theta0":180.0,
-    "comment":"# TO BE REFINED: heptane(B), GF 2013"
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3185,7 +3209,7 @@
     "potential":"sdk",
     "k":12.000,
     "theta0":110.0,
-    "comment":"# JPCB 2010  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3193,7 +3217,7 @@
     "potential":"sdk",
     "k":2.600,
     "theta0":165.0,
-    "comment":"# Mol Sim 2007  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3229,11 +3253,19 @@
   },
   {
     "param":"angle",
+    "types":["CTBB","CMR5","CTB"],
+    "potential":"harmonic",
+    "k":191.3,
+    "theta0":77.4,
+    "comment":"#"
+  },
+  {
+    "param":"angle",
     "types":["CT","CM","CT"],
     "potential":"sdk",
     "k":1.093,
     "theta0":175.5,
-    "comment":"# Mol Sim 2007  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3241,7 +3273,7 @@
     "potential":"sdk",
     "k":7.700,
     "theta0":116.0,
-    "comment":"# JPCB 2010  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3249,7 +3281,7 @@
     "potential":"sdk",
     "k":2.200,
     "theta0":145.0,
-    "comment":"# Mol Sim 2007  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3257,7 +3289,7 @@
     "potential":"sdk",
     "k":3.400,
     "theta0":132.0,
-    "comment":"# Mol Sim 2007  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3265,7 +3297,7 @@
     "potential":"sdk",
     "k":3.500,
     "theta0":135.0,
-    "comment":"# Mol Sim 2007  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3273,7 +3305,7 @@
     "potential":"sdk",
     "k":3.000,
     "theta0":131.0,
-    "comment":"# Mol Sim 2007  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3281,7 +3313,7 @@
     "potential":"sdk",
     "k":3.500,
     "theta0":134.0,
-    "comment":"# Mol Sim 2007  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3289,7 +3321,7 @@
     "potential":"sdk",
     "k":1.000,
     "theta0":178.0,
-    "comment":"# JPCB 2010  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3297,7 +3329,7 @@
     "potential":"sdk",
     "k":1.000,
     "theta0":95.0,
-    "comment":"# JPCB 2010   "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3305,7 +3337,7 @@
     "potential":"sdk",
     "k":1.000,
     "theta0":178.0,
-    "comment":"# JPCB 2010  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3313,7 +3345,7 @@
     "potential":"sdk",
     "k":0.800,
     "theta0":168.0,
-    "comment":"# JPCB 2010  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3321,7 +3353,7 @@
     "potential":"sdk",
     "k":0.800,
     "theta0":172.0,
-    "comment":"# JPCB 2010  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3329,7 +3361,7 @@
     "potential":"sdk",
     "k":3.300,
     "theta0":112.0,
-    "comment":"# JPCB 2010  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3337,7 +3369,7 @@
     "potential":"sdk",
     "k":3.100,
     "theta0":112.0,
-    "comment":"# JPCB 2010  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3345,7 +3377,7 @@
     "potential":"sdk",
     "k":4.000,
     "theta0":102.0,
-    "comment":"# JPCB 2010  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3353,7 +3385,7 @@
     "potential":"sdk",
     "k":4.000,
     "theta0":146.0,
-    "comment":"# Mol Sim 2007  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3361,7 +3393,7 @@
     "potential":"sdk",
     "k":6.600,
     "theta0":131.0,
-    "comment":"# Mol Sim 2007  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3369,7 +3401,7 @@
     "potential":"sdk",
     "k":1.100,
     "theta0":178.0,
-    "comment":"# JPCB 2010  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3377,7 +3409,7 @@
     "potential":"sdk",
     "k":1.400,
     "theta0":124.0,
-    "comment":"# JPCB 2010  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3385,7 +3417,7 @@
     "potential":"sdk",
     "k":2.000,
     "theta0":138.0,
-    "comment":"# JPCB 2010  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3393,7 +3425,7 @@
     "potential":"sdk",
     "k":1.400,
     "theta0":124.0,
-    "comment":"# JPCB 2010  "
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3401,7 +3433,7 @@
     "potential":"sdk",
     "k":2.000,
     "theta0":138.0,
-    "comment":"# JPCB 2010  "
+    "comment":"#"
   },
   {
     "param":"dihedral",
@@ -3410,7 +3442,7 @@
     "k":4.0,
     "n":2,
     "d":-92,
-    "comment":"# CLOL Tail "
+    "comment":"#"
   },
   {
     "param":"dihedral",
@@ -3419,7 +3451,7 @@
     "k":5.0,
     "n":2,
     "d":105,
-    "comment":"# CLOL Tail"
+    "comment":"#"
   },
   {
     "param":"dihedral",
@@ -3428,7 +3460,7 @@
     "k":5.0,
     "n":2,
     "d":-76,
-    "comment":"# CLOL Tail"
+    "comment":"#"
   }
 ]
 }

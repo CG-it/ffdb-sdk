@@ -1,6 +1,6 @@
 {
-    "author": "gfiorin",
-    "date": "2015-02-12T17:19:17",
+    "author": "macdercm",
+    "date": "2015-02-15T17:25:57",
     "fftype": "sdk",
     "topo": {
         "BUTH": {
@@ -68,7 +68,7 @@
             "angles": ["none"]
         },
         "CER1": {
-            "type": ["OA", "N", "OAB", "CMD2", "CM", "CM", "CM", "CM2", "CT2", "O", "CM", "CM", "CM", "CM", "CM", "CM", "CM", "CM", "CM", "CM2", "EST1", "CM", "CM", "CMD3", "CMD2", "CM", "CT2"],
+            "type": ["SER", "N", "SER", "CMD2", "CM", "CM", "CM", "CM2", "CT2", "O", "CM", "CM", "CM", "CM", "CM", "CM", "CM", "CM", "CM", "CM2", "EST1", "CM", "CM", "CMD3", "CMD2", "CM", "CT2"],
             "name": ["OH1", "N", "OH2", "CS3", "CS4", "CS5", "CS6", "CS7", "CS8", "OA1", "CA2", "CA3", "CA4", "CA5", "CA6", "CA7", "CA8", "CA9", "CA10", "CA11", "OA12", "CA13", "CA14", "CA15", "CA16", "CA17", "CA18"],
             "map": [
                 ["O1", "HO1", "C1", "HA", "HB"],
@@ -132,7 +132,7 @@
             "angles": ["auto"]
         },
         "CER2": {
-            "type": ["OA", "N", "OAB", "CMD2", "CM", "CM", "CM", "CM2", "CT2", "O", "CM", "CM", "CM", "CM", "CM", "CM", "CM", "CT2"],
+            "type": ["SER", "N", "SER", "CMD2", "CM", "CM", "CM", "CM2", "CT2", "O", "CM", "CM", "CM", "CM", "CM", "CM", "CM", "CT2"],
             "name": ["OH1", "N", "OH2", "CS3", "CS4", "CS5", "CS6", "CS7", "CS8", "OA1", "CA2", "CA3", "CA4", "CA5", "CA6", "CA7", "CA8", "CA9"],
             "map": [
                 ["O1", "HO1", "C1", "HA", "HB"],

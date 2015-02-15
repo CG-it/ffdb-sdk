@@ -25,7 +25,7 @@ angle  CTBA    CM2R    OAB    harmonic   50.0    107.4  #
 angle  CTBA    CMB     CTBB   harmonic   40.0     92.2  #
 angle  CTBA    CMDB    OAB    harmonic   40.0     91.8  #
 angle  CTBA    CMR     CTBB   harmonic   30.0    115.0  #
-#angle  CMB     CMR5    CTB    harmonic  176.0    131.7  # From 40%Clol-POPC CMM 29JAN2015
-#angle  CTBB    CMR5    CTB    harmonic  191.3     77.4  # From 40%Clol-POPC CMM 29JAN2015
-#angle  CM2     CTB     CMR5   harmonic   12.4    117.4  # From 40%Clol-POPC CMM 29JAN2015
-#angle  CMR5    CTB     CTBB   harmonic  300.0     39.7  # From 40%Clol-POPC CMM 29JAN2015
+angle  CMB     CMR5    CTB    harmonic  176.0    131.7  # From 40%Clol-POPC CMM 29JAN2015
+angle  CTBB    CMR5    CTB    harmonic  191.3     77.4  # From 40%Clol-POPC CMM 29JAN2015
+angle  CM2     CTB     CMR5   harmonic   12.4    117.4  # From 40%Clol-POPC CMM 29JAN2015
+angle  CMR5    CTB     CTBB   harmonic  300.0     39.7  # From 40%Clol-POPC CMM 29JAN2015
