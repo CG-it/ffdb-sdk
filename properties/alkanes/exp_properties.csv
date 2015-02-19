@@ -29,3 +29,7 @@ Phenylcyclohexene;1-Phenyl-1-cyclohexene;CMR-CMDB-(BER)4;;solid;;0.977+/-0.06;;C
 ;;;;;;;;;
 Isohexane;2-methylpentane;(C2T-CT);C2T-C2T,C2T-CT;17.38 (20 C);;0.6441;;CAS 107-83-5, Cameochemicals;MacDermaid, Fiorin
 Isopentane;2-methylbutane;(C2T-CT2);C2T-C2T,C2T-CT2;16.05 (20 C);;0.6295 (interp. 20-40 C);;CAS 78-78-4, Cameochemicals;MacDermaid, Fiorin
+Isooctane;2-Methylheptane;(C2T-CM-CT2);C2T-CM;"19.48 (34 C)
+22.85 (0 C)";;0.698;;International critical tables of numerical data, physics, chemistry and technology, Callie Hull, 1933;MacDermaid, Fiorin
+;2,5-Dimethylhexane;(C2T-CM2-CT2);C2T-CM2;"21.95 (0 C)
+18.97 (30 C)";;0.694;;International critical tables of numerical data, physics, chemistry and technology, Callie Hull, 1933;MacDermaid, Fiorin
