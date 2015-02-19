@@ -1,0 +1,31 @@
+Molecule;IUPAC;CG formula;CG non-bonded interactions;gamma (exp);gamma (CGMD);rho (exp);rho (CGMD);exp ref;CG ref
+;;;;;;;;;
+Water;;W;W-W;71.2;70.8;0.9957;0.9949;;Shinoda, DeVane, Klein, Mol Sim 2007
+;;;;;;;;;
+Hexane;;CT-CT;CT-CT;17.43;17.5;0.6518;0.6498;;Shinoda, DeVane, Klein, Mol Sim 2007
+Nonane;;CT-CM-CT;CT-CM,CM-CM;21.94;22.3;0.7114;0.7129;;Shinoda, DeVane, Klein, Mol Sim 2007
+Dodecane;;CT-(CM)2-CT;CT-CM,CM-CM;24.48;24.5;0.7415;0.7422;;Shinoda, DeVane, Klein, Mol Sim 2007
+Pentadecane;;CT-(CM)3-CT;CT-CM,CM-CM;26.23;25.9;0.7616;0.7603;;Shinoda, DeVane, Klein, Mol Sim 2007
+Octadecane;;CT-(CM)4-CT;CT-CM,CM-CM;27.53;27.6;0.7722;0.7726;;Shinoda, DeVane, Klein, Mol Sim 2007
+Heptane;;CT2-CM-CT2;CT2-CT2,CT2-CM;19.27;19.4;0.6773;0.6791;;Shinoda, DeVane, Klein, Mol Sim 2007
+Decane;;CT2-(CM)2-CT2;CT2-CT2,CT2-CM;22.92;22.3;0.7247;0.7239;;Shinoda, DeVane, Klein, Mol Sim 2007
+;;;;;;;;;
+Octane;;CT-CM2-CT;CM2-CM2,CM2-CT;;;;;;MacDermaid, Fiorin
+Heptane;;CT-CM2-CT2;CM2-CT2;19.27;;0.6773;;;MacDermaid, Fiorin
+Decane;;CT-CM2-CM-CT2;CM2-CM;22.92;;0.7247;;;MacDermaid, Fiorin
+;;;;;;;;;
+Cyclohexane;;(CM2R)3;CM2R-CM2R;;;;;;MacDermaid, Fiorin
+Decalin;Decahydronaphthalene;(CMB-CM2R)2;CMB-CMB,CMB-CM2R;30;;0.8721;;CAS 91-17-8, Cameochemicals;MacDermaid, Fiorin
+Decalin;Decahydronaphthalene;(CMR)4;CMR-CMR;30;;0.8721;;CAS 91-17-8, Cameochemicals;MacDermaid, Fiorin
+Bicyclooctane;Bicyclo[2.2.2]octane;((CMR)2-CM2R);CMR-CMR,CMR-CM2R;solid;;0.896+/-0.06;;CAS 280-33-1, ChemSpider;MacDermaid, Fiorin
+Bicyclooctane;Bicyclo[2.2.2]octane;((CMB)2-CM2R);CMB-CMB,CMB-CM2R;solid;;0.896+/-0.06;;CAS 280-33-1, ChemSpider;MacDermaid, Fiorin
+Bicycloundecane;Bicyclo[3.3.3]undecane;;;solid;;0.864+/-0.06;;CAS 29415-95-0, ChemSpider;MacDermaid, Fiorin
+;;;;;;;;;
+Cyclohexene;Cyclohexene;CMR-CMDR??;;26.56;;0.797 (interp. 20-25 C);;CAS 110-83-8, http://www.microkat.gr/msdspd90-99/Cyclohexene.htm;MacDermaid, Fiorin
+1,2,3,4,4a,5,6,7-octahydro-Naphthalene;;CM2R-CMDB-CM2R-CMB;CMDB-CMDB,CMDB-CMB;;;0.9027 (21 C);;;MacDermaid, Fiorin
+1-Ethylcyclohexene;2-Ethylcyclohexene;CMDB-CMR-CT2;CMDB-CMDB,CMDB-CMR;;;0.8198;;1453-24-3;MacDermaid, Fiorin
+1-Propylcyclohexene;1-Propyl-1-cyclohexene;CMDB-CMR-CT;CMDB-CMDB,CMDB-CMR;;;0.842;;2539-75-5;MacDermaid, Fiorin
+Phenylcyclohexene;1-Phenyl-1-cyclohexene;CMR-CMDB-(BER)4;;solid;;0.977+/-0.06;;CAS 771-98-2;MacDermaid, Fiorin
+;;;;;;;;;
+Isohexane;2-methylpentane;(C2T-CT);C2T-C2T,C2T-CT;17.38 (20 C);;0.6441;;CAS 107-83-5, Cameochemicals;MacDermaid, Fiorin
+Isopentane;2-methylbutane;(C2T-CT2);C2T-C2T,C2T-CT2;16.05 (20 C);;0.6295 (interp. 20-40 C);;CAS 78-78-4, Cameochemicals;MacDermaid, Fiorin
