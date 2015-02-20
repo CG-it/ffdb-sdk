@@ -1,6 +1,6 @@
 {
-"author":"gfiorin",
-"date":"2015-02-19T15:27:10",
+"author":"macdercm",
+"date":"2015-02-20T15:15:51",
 "fftype":"sdk",
 "params":[
   {
@@ -2895,7 +2895,7 @@
     "param":"angle",
     "types":["C2T","CM2","CTB"],
     "potential":"sdk",
-    "k":36.0,
+    "k":18.0,
     "theta0":155.0,
     "comment":"#"
   },
@@ -2911,7 +2911,7 @@
     "param":"angle",
     "types":["CM2","CTB","CTBB"],
     "potential":"sdk",
-    "k":20.0,
+    "k":10.0,
     "theta0":126.0,
     "comment":"#"
   },
@@ -3439,7 +3439,7 @@
     "param":"dihedral",
     "types":["CTBB","CMR5","CTB","CM2"],
     "potential":"charmm",
-    "k":5.0,
+    "k":2.0,
     "n":2,
     "d":105,
     "comment":"#"
