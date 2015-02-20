@@ -1,5 +1,5 @@
-angle  C2T     CM2     CTB    sdk        36.0    155.0  # bimodal
-angle  CM2     CTB     CTBB   sdk        20.0    126.0  #
+angle  C2T     CM2     CTB    sdk        18.0    155.0  # bimodal
+angle  CM2     CTB     CTBB   sdk        10.0    126.0  #
 angle  CM2R    CTBA    CMB    harmonic   80.0    112.5  #
 angle  CM2R    CTBA    CMDB   harmonic   45.0     75.9  #
 angle  CM2R    CTBA    CMR    harmonic   70.0     98.7  #

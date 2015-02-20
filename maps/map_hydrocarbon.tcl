@@ -114,7 +114,7 @@ proc ::CGtools::map_hydrocarbon {} {
     }
 
     set map([list angles HEPT]) {
-      {auto}
+	{auto}
     }
 
     # alternative mapping of heptane
@@ -154,7 +154,7 @@ proc ::CGtools::map_hydrocarbon {} {
     }
 
     set map([list angles HEPB]) {
-      {auto}
+	{auto}
     }
 
 
@@ -613,7 +613,7 @@ proc ::CGtools::map_hydrocarbon {} {
     }
 
     set map([list angles CHEX]) {
-      {auto}
+	{auto}
     }
 
 
@@ -737,10 +737,53 @@ proc ::CGtools::map_hydrocarbon {} {
     set map([list angles PCHE]) {
         {auto}
     }
-   
+    
+    
+    ## 2-methyl-heptane
+    set map([list map 2MHE]) {
+        {C1 H11 H12 H13 C2 H21 H22}
+        {C3 H31 H32 C4 H41 H42 C5 H51 H52}
+        {CT HT C6 H61 H62 H63 C7 H71 H72 H73}
+    }
+
+    set map([list type 2MHE])    {
+        CT2
+        CM
+        C2T
+    }
+
+    set map([list name 2MHE])    {
+        C1
+        C2
+        C3
+    }
+
+    set map([list charge 2MHE])  {
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list mass 2MHE])    {
+	{ 29.0620}
+	{ 42.0810}
+	{ 43.0890}
+    }
+
+    set map([list bonds 2MHE]) {
+        {C1 C2}
+        {C2 C3}
+    }
+
+    set map([list angles 2MHE]) {
+        {C1 C2 C3}
+    }
+
+    set map([list dihedrals 2MHE]) {
+        {none}
+    }
 
     return
-
 }
 
 ::CGtools::map_hydrocarbon
