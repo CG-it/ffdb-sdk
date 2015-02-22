@@ -72,7 +72,7 @@ proc ::CGtools::map_hydrocarbon {} {
 
     variable map
 
-    
+
 
     # +-------------+
     # |  HEPTANE    |
@@ -114,7 +114,7 @@ proc ::CGtools::map_hydrocarbon {} {
     }
 
     set map([list angles HEPT]) {
-	{auto}
+        {auto}
     }
 
     # alternative mapping of heptane
@@ -154,7 +154,7 @@ proc ::CGtools::map_hydrocarbon {} {
     }
 
     set map([list angles HEPB]) {
-	{auto}
+        {auto}
     }
 
 
@@ -468,7 +468,7 @@ proc ::CGtools::map_hydrocarbon {} {
     }
 
     set map([list angles BCOB]) {
-	{auto}
+        {auto}
     }
 
 
@@ -517,7 +517,7 @@ proc ::CGtools::map_hydrocarbon {} {
     }
 
     set map([list angles DECN]) {
-	{auto}
+        {auto}
     }
 
     # decalin (alternative map)
@@ -564,7 +564,7 @@ proc ::CGtools::map_hydrocarbon {} {
     }
 
     set map([list angles DECB]) {
-	{auto}
+        {auto}
     }
 
 
@@ -613,7 +613,7 @@ proc ::CGtools::map_hydrocarbon {} {
     }
 
     set map([list angles CHEX]) {
-	{auto}
+        {auto}
     }
 
 
@@ -737,8 +737,8 @@ proc ::CGtools::map_hydrocarbon {} {
     set map([list angles PCHE]) {
         {auto}
     }
-    
-    
+
+
     ## 2-methyl-heptane
     set map([list map 2MHE]) {
         {C1 H11 H12 H13 C2 H21 H22}
@@ -765,9 +765,9 @@ proc ::CGtools::map_hydrocarbon {} {
     }
 
     set map([list mass 2MHE])    {
-	{ 29.0620}
-	{ 42.0810}
-	{ 43.0890}
+        { 29.0620}
+        { 42.0810}
+        { 43.0890}
     }
 
     set map([list bonds 2MHE]) {
@@ -781,6 +781,64 @@ proc ::CGtools::map_hydrocarbon {} {
 
     set map([list dihedrals 2MHE]) {
         {none}
+    }
+
+    ## Dodecane C12, CT2-CM-CM2-CM-CT2
+    set map([list map DODC]) {
+        {C1 H11 H12 H13 C2 H21 H22}
+        {C3 H31 H32 C4 H41 H42 C5 H51 H52}
+        {C6 H61 H62 C7 H71 H72}
+        {C8 H81 H82 C9 H91 H92 C10 H101 H102}
+        {C11 H111 H112 C12 H121 H122 H123}
+    }
+
+    set map([list type DODC])    {
+        CT2
+        CM
+        CM2
+        CM
+        CT2
+    }
+
+    set map([list name DODC])    {
+        C1
+        C2
+        C3
+        C4
+        C5
+    }
+
+    set map([list charge DODC])  {
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list mass DODC])    {
+        { 29.0620}
+        { 42.0810}
+        { 28.0540}
+        { 42.0810}
+        { 29.0620}
+    }
+
+    set map([list bonds DODC]) {
+        {C1 C2}
+        {C2 C3}
+        {C3 C4}
+        {C4 C5}
+    }
+
+    set map([list angles DODC]) {
+        {C1 C2 C3}
+        {C2 C3 C4}
+        {C3 C4 C5}
+    }
+
+    set map([list dihedrals DODC]) {
+        {auto}
     }
 
     return
@@ -799,4 +857,8 @@ if { $::CGtools::maptest } {
     ::CGtools::checkbonds 4COC
     ::CGtools::map_stats PCHE
     ::CGtools::checkbonds PCHE
+    ::CGtools::map_stats 2MHE
+    ::CGtools::checkbonds 2MHE
+    ::CGtools::map_stats DODC
+    ::CGtools::checkbonds DODC
 }
