@@ -1,6 +1,6 @@
 {
 "author":"macdercm",
-"date":"2015-02-20T15:15:51",
+"date":"2015-02-22T13:14:01",
 "fftype":"sdk",
 "params":[
   {
@@ -9,46 +9,6 @@
     "potential":"lj9_6",
     "epsilon":0.4003,
     "sigma":4.8115,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["C2T","CM"],
-    "potential":"lj9_6",
-    "epsilon":0.4440,
-    "sigma":4.5455,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["C2T","CM2R"],
-    "potential":"lj9_6",
-    "epsilon":0.2482,
-    "sigma":4.4816,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["C2T","CMB"],
-    "potential":"lj9_6",
-    "epsilon":0.3151,
-    "sigma":4.6564,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["C2T","CMR"],
-    "potential":"lj9_6",
-    "epsilon":0.2929,
-    "sigma":4.7714,
-    "comment":"#"
-  },
-  {
-    "param":"pair",
-    "types":["C2T","CMR5"],
-    "potential":"lj9_6",
-    "epsilon":0.2929,
-    "sigma":4.7714,
     "comment":"#"
   },
   {
@@ -111,7 +71,7 @@
     "param":"pair",
     "types":["CM2","C2T"],
     "potential":"lj9_6",
-    "epsilon":0.3283,
+    "epsilon":0.3062,
     "sigma":4.6115,
     "comment":"#"
   },
@@ -135,8 +95,8 @@
     "param":"pair",
     "types":["CM2","CM2R"],
     "potential":"lj9_6",
-    "epsilon":0.2590,
-    "sigma":4.3818,
+    "epsilon":0.2404,
+    "sigma":4.3954,
     "comment":"#"
   },
   {
@@ -209,6 +169,14 @@
     "potential":"lj9_6",
     "epsilon":0.3209,
     "sigma":3.9373,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CM2R","C2T"],
+    "potential":"lj9_6",
+    "epsilon":0.2315,
+    "sigma":4.4816,
     "comment":"#"
   },
   {
@@ -325,6 +293,14 @@
   },
   {
     "param":"pair",
+    "types":["CMB","C2T"],
+    "potential":"lj9_6",
+    "epsilon":0.2741,
+    "sigma":4.6564,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
     "types":["CMB","CMB"],
     "potential":"lj9_6",
     "epsilon":0.2478,
@@ -337,6 +313,14 @@
     "potential":"lj9_6",
     "epsilon":0.3650,
     "sigma":3.9870,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CM","C2T"],
+    "potential":"lj9_6",
+    "epsilon":0.3863,
+    "sigma":4.5455,
     "comment":"#"
   },
   {
@@ -519,7 +503,7 @@
     "param":"pair",
     "types":["CMDB","C2T"],
     "potential":"lj9_6",
-    "epsilon":0.3260,
+    "epsilon":0.3040,
     "sigma":4.9182,
     "comment":"#"
   },
@@ -535,8 +519,8 @@
     "param":"pair",
     "types":["CMDB","CM2"],
     "potential":"lj9_6",
-    "epsilon":0.2896,
-    "sigma":4.3340,
+    "epsilon":0.2688,
+    "sigma":4.3476,
     "comment":"#"
   },
   {
@@ -661,6 +645,14 @@
   },
   {
     "param":"pair",
+    "types":["CMR5","C2T"],
+    "potential":"lj9_6",
+    "epsilon":0.2549,
+    "sigma":4.7714,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
     "types":["CMR5","CMB"],
     "potential":"lj9_6",
     "epsilon":0.2304,
@@ -689,6 +681,14 @@
     "potential":"lj9_6",
     "epsilon":0.3650,
     "sigma":3.9870,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["CMR","C2T"],
+    "potential":"lj9_6",
+    "epsilon":0.2549,
+    "sigma":4.7714,
     "comment":"#"
   },
   {
