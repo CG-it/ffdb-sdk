@@ -45,7 +45,10 @@ pair     CM4   CM4   lj9_6   0.5586    4.6412 # CM4 CM4 #from octane CMM
 pair     CM4   CT2   lj9_6   0.4815    4.4944 # CM4 CT2 #from octane CMM 
 pair     CM4   W    lj12_4   0.4182    4.6604 # CM4 W   #from octane/water CMM 
 
+pair     CM2   CM   lj9_6    0.3360    4.4619 # CM2 CM  #from n-dodecane CMM 
 pair     CM2   CM2  lj9_6    0.2688    4.4159 # CM2 CM2 #from octane CMM 
 pair     CM2   CT   lj9_6    0.3107    4.4546 # CM2 CT  #from octane CMM 
 pair     CM2   CT2  lj9_6    0.2317    4.2763 # CM2 CT2 #from octane CMM 
 pair     CM2   W   lj12_4    0.2788    4.1722 # CM2 W   #from octane/water CMM 
+
+pair     CM    C2T  lj9_6    0.3863    4.5455 # CM  C2T #from 2-methyl-heptane CMM 
