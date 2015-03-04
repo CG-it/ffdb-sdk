@@ -28,7 +28,7 @@ proc ::CGtools::map_stats {{resname all}} {
     variable map
 
     ## Don't check these properties for consistency
-    set ignore {bonds angles dihedrals}
+    set ignore {bonds angles dihedrals atomicnumber}
 
     if {$resname == "all"} {
         set resname [lsort -unique -dictionary\
