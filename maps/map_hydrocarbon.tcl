@@ -841,6 +841,66 @@ proc ::CGtools::map_hydrocarbon {} {
         {auto}
     }
 
+    ## Dodecane C12, CT-CM-CM2-CM2-CT2
+    ## Alternative Mapping
+    set map([list map DODC2]) {
+        {C1 H11 H12 H13 C2 H21 H22 C3 H31 H32}
+        {C4 H41 H42 C5 H51 H52 C6 H61 H62}
+        {C7 H71 H72 C8 H81 H82}
+        {C9 H91 H92 C10 H101 H102}
+        {C11 H111 H112 C12 H121 H122 H123}
+    }
+
+    set map([list type DODC2])    {
+        CT
+        CM
+        CM2
+        CM2
+        CT2
+    }
+
+    set map([list name DODC2])    {
+        C1
+        C2
+        C3
+        C4
+        C5
+    }
+
+    set map([list charge DODC2])  {
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list mass DODC2])    {
+        { 43.0890}
+        { 42.0810}
+        { 28.0540}
+        { 28.0540}
+        { 29.0620}
+    }
+
+    set map([list bonds DODC2]) {
+        {C1 C2}
+        {C2 C3}
+        {C3 C4}
+        {C4 C5}
+    }
+
+    set map([list angles DODC2]) {
+        {C1 C2 C3}
+        {C2 C3 C4}
+        {C3 C4 C5}
+    }
+
+    set map([list dihedrals DODC2]) {
+        {auto}
+    }
+
+
     return
 }
 
@@ -861,4 +921,7 @@ if { $::CGtools::maptest } {
     ::CGtools::checkbonds 2MHE
     ::CGtools::map_stats DODC
     ::CGtools::checkbonds DODC
+    ::CGtools::map_stats DODC2
+    ::CGtools::checkbonds DODC2
+
 }
