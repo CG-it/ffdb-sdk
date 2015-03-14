@@ -59,7 +59,7 @@ proc ::CGtools::map_water {} {
     }
 
     set map([list map TIP3]) {
-	{OH2}
+	{OH2 H1 H2}
     }
 
     set map([list charge TIP3]) {
