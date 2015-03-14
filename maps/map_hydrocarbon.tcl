@@ -157,6 +157,44 @@ proc ::CGtools::map_hydrocarbon {} {
         {auto}
     }
 
+   set map([list segname HEPC]) {
+        {C1 H11 H12 H13 C2 H21 H22}
+        {C3 H31 H32 C4 H41 H42}
+        {C5 H51 H52 C6 H61 H62 C7 H71 H72 H73}
+    }
+
+    set map([list type HEPC])    {
+        CT2
+        CM2
+        CT
+    }
+
+    set map([list name HEPC])    {
+        C1
+        C2
+        C3
+    }
+
+    set map([list charge HEPC])  {
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list mass HEPC])    {
+        29.062
+        28.054
+        43.088
+    }
+
+    set map([list bonds HEPC]) {
+        {C1 C2}
+        {C2 C3}
+    }
+
+    set map([list angles HEPC]) {
+        {auto}
+    }
 
 
     # isohexane (2-methylpentane)
@@ -897,9 +935,67 @@ proc ::CGtools::map_hydrocarbon {} {
     }
 
     set map([list dihedrals DODC2]) {
-        {auto}
+        {none}
     }
 
+    ## Dodecane C12, CT-CM2-CM-CM2-CT2
+    ## Alternative Mapping
+    set map([list map DODC3]) {
+        {C1 H11 H12 H13 C2 H21 H22 C3 H31 H32}
+        {C4 H41 H42 C5 H51 H52}
+        {C6 H61 H62 C7 H71 H72 C8 H81 H82}
+        {C9 H91 H92 C10 H101 H102}
+        {C11 H111 H112 C12 H121 H122 H123}
+    }
+
+    set map([list type DODC3])    {
+        CT
+        CM2
+        CM
+        CM2
+        CT2
+    }
+
+    set map([list name DODC3])    {
+        C1
+        C2
+        C3
+        C4
+        C5
+    }
+
+    set map([list charge DODC3])  {
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list mass DODC3])    {
+        { 43.0890}
+        { 28.0540}
+        { 42.0810}
+        { 28.0540}
+        { 29.0620}
+    }
+
+    set map([list bonds DODC3]) {
+        {C1 C2}
+        {C2 C3}
+        {C3 C4}
+        {C4 C5}
+    }
+
+    set map([list angles DODC3]) {
+        {C1 C2 C3}
+        {C2 C3 C4}
+        {C3 C4 C5}
+    }
+
+    set map([list dihedrals DODC3]) {
+        {none}
+    }
 
     return
 }
@@ -923,5 +1019,7 @@ if { $::CGtools::maptest } {
     ::CGtools::checkbonds DODC
     ::CGtools::map_stats DODC2
     ::CGtools::checkbonds DODC2
+    ::CGtools::map_stats DODC3
+    ::CGtools::checkbonds DODC3
 
 }
