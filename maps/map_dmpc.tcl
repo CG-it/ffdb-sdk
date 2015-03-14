@@ -292,6 +292,125 @@ proc ::CGtools::map_dmpc {} {
         17
     }
 
+    # +--------------+
+    # |     DMPC3    |
+    # +--------------+
+    # Alternative Mapping to DMPC with one extra bead
+
+    set map([list type DMPC3]) {
+        NC
+        PH
+        GL
+        EST1
+        CM
+        CM2
+        CM
+        CM2
+        CT2
+        EST2
+        CM
+        CM2
+        CM
+        CM2
+        CT2
+    }
+
+    set map([list name DMPC3]) {
+        NC
+        PH
+        GL
+        EST1
+        C11
+        C12
+        C13
+        C14
+        C15
+        EST2
+        C21
+        C22
+        C23
+        C24
+        C25
+    }
+
+    set map([list map DMPC3]) {
+        {N C11 H11A H11B C12 H12A H12B C13 H13A H13B H13C C14 H14A H14B H14C C15 H15A H15B H15C}
+        {P O11 O12 O13 O14}
+        {C1 HA HB C2 HS C3 HX HY}
+        {O21 C21 O22 C22 H2R H2S}
+        {C23 H3R H3S C24 H4R H4S C25 H5R H5S}
+        {C26 H6R H6S C27 H7R H7S}
+        {C28 H8R H8S C29 H9R H9S C210 H10R H10S}
+        {C211 H11R H11S C212 H12R H12S}
+        {C213 H13R H13S C214 H14R H14S H14T}
+        {O31 C31 O32 C32 H2X H2Y}
+        {C33 H3X H3Y C34 H4X H4Y C35 H5X H5Y}
+        {C36 H6X H6Y C37 H7X H7Y}
+        {C38 H8X H8Y C39 H9X H9Y C310 H10X H10Y}
+        {C311 H11X H11Y C312 H12X H12Y}
+        {C313 H13X H13Y C314 H14X H14Y H14Z}
+    }
+
+    set map([list charge DMPC3]) {
+        0.1118033989
+        -0.1118033989
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list mass DMPC3]) {
+        { 87.1660}
+        { 94.9716}
+        { 41.0730}
+        { 58.0368}
+        { 42.0810}
+        { 28.0540}
+        { 42.0810}
+        { 28.0540}
+        { 29.0620}
+        { 58.0368}
+        { 42.0810}
+        { 28.0540}
+        { 42.0810}
+        { 28.0540}
+        { 29.0620}
+    }
+
+    set map([list bonds DMPC3]) {
+        {NC PH}
+        {PH GL}
+        {GL EST1}
+        {EST1 C11}
+        {C11 C12}
+        {C12 C13}
+        {C13 C14}
+        {C14 C15}
+        {GL EST2}
+        {EST2 C21}
+        {C21 C22}
+        {C22 C23}
+        {C23 C24}
+        {C24 C25}
+    }
+
+    set map([list angles DMPC3]) {
+        {auto}
+    }
+
+    set map([list atomicnumber DMPC3]) {
+    }
+
     return
 }
 
@@ -302,4 +421,6 @@ if { $::CGtools::maptest } {
     ::CGtools::checkbonds DMPC
     ::CGtools::map_stats DMPC2
     ::CGtools::checkbonds DMPC2
+    ::CGtools::map_stats DMPC3
+    ::CGtools::checkbonds DMPC3
 }
