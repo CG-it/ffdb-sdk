@@ -409,6 +409,21 @@ proc ::CGtools::map_dmpc {} {
     }
 
     set map([list atomicnumber DMPC3]) {
+        50
+        47
+        23
+        30
+        24
+        16
+        24
+        16
+        17
+        30
+        24
+        16
+        24
+        16
+        17
     }
 
     return
