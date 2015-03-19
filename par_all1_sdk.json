@@ -1,6 +1,6 @@
 {
 "author":"macdercm",
-"date":"2015-03-19T13:02:08",
+"date":"2015-03-19T15:01:47",
 "fftype":"sdk",
 "params":[
   {
@@ -2537,6 +2537,14 @@
     "potential":"lj12_4",
     "epsilon":0.8950,
     "sigma":4.3710,
+    "comment":"#"
+  },
+  {
+    "param":"bond",
+    "types":["C2T","CM2"],
+    "potential":"harmonic",
+    "k":110.00,
+    "r0":2.54,
     "comment":"#"
   },
   {
