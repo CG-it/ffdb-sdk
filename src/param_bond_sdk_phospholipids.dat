@@ -1,7 +1,7 @@
 #bond   CM    CM  harmonic   6.160  3.640    # JPCB 2010  
 #bond   CM    CT  harmonic   6.160  3.650    # JPCB 2010  
 bond   CMD2  CM   harmonic  8.000  3.030    # JPCB 2010  
-#bond   CT2   CM  harmonic   9.000  3.130    # JPCB 2010  
+bond   CT2   CM  harmonic   9.000  3.130    # JPCB 2010  
 bond   CT    CMD2 harmonic  8.000  3.090    # JPCB 2010  
 bond   EST1  CM   harmonic  4.700  3.550    # JPCB 2010  
 bond   EST2  CM   harmonic  5.100  3.610    # JPCB 2010  
@@ -12,3 +12,5 @@ bond   NH    PHE  harmonic  9.400  3.600    # JPCB 2010
 bond   PH    CM   harmonic 12.000  3.690    # JPCB 2010
 bond   PHE   GL   harmonic  8.900  3.520    # JPCB 2010  
 bond   PH    GL   harmonic  8.900  3.520    # JPCB 2010 
+bond   CM    CM2  harmonic  9.900  3.061    # CMM Dodecane, March2015, DMPC3
+bond   CM2   CT2  harmonic 17.400  2.538    # CMM Dodecane, March2015, DMPC3

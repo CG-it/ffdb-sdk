@@ -1,6 +1,6 @@
 {
 "author":"macdercm",
-"date":"2015-03-15T15:23:21",
+"date":"2015-03-19T13:02:08",
 "fftype":"sdk",
 "params":[
   {
@@ -2541,14 +2541,6 @@
   },
   {
     "param":"bond",
-    "types":["C2T","CM2"],
-    "potential":"harmonic",
-    "k":110.00,
-    "r0":2.54,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
     "types":["CM2","CT"],
     "potential":"harmonic",
     "k":9.000,
@@ -2559,8 +2551,8 @@
     "param":"bond",
     "types":["CM2","CT2"],
     "potential":"harmonic",
-    "k":17.000,
-    "r0":2.530,
+    "k":17.400,
+    "r0":2.538,
     "comment":"#"
   },
   {
@@ -2633,6 +2625,14 @@
     "potential":"harmonic",
     "k":6.160,
     "r0":3.640,
+    "comment":"#"
+  },
+  {
+    "param":"bond",
+    "types":["CM","CM2"],
+    "potential":"harmonic",
+    "k":9.900,
+    "r0":3.061,
     "comment":"#"
   },
   {
@@ -2713,6 +2713,14 @@
     "potential":"harmonic",
     "k":110.00,
     "r0":2.52,
+    "comment":"#"
+  },
+  {
+    "param":"bond",
+    "types":["CT2","CM"],
+    "potential":"harmonic",
+    "k":9.000,
+    "r0":3.130,
     "comment":"#"
   },
   {
@@ -2901,6 +2909,30 @@
   },
   {
     "param":"angle",
+    "types":["CM2","CM","CM2"],
+    "potential":"sdk",
+    "k":1.810,
+    "theta0":175.0,
+    "comment":"#"
+  },
+  {
+    "param":"angle",
+    "types":["CM2","CM","EST1"],
+    "potential":"sdk",
+    "k":1.000,
+    "theta0":178.0,
+    "comment":"#"
+  },
+  {
+    "param":"angle",
+    "types":["CM2","CM","EST2"],
+    "potential":"sdk",
+    "k":1.000,
+    "theta0":178.0,
+    "comment":"#"
+  },
+  {
+    "param":"angle",
     "types":["CM2","CTB","CMR5"],
     "potential":"harmonic",
     "k":12.4,
@@ -3049,6 +3081,22 @@
     "potential":"sdk",
     "k":1.500,
     "theta0":172.0,
+    "comment":"#"
+  },
+  {
+    "param":"angle",
+    "types":["CM","CM2","CM"],
+    "potential":"sdk",
+    "k":1.190,
+    "theta0":173.0,
+    "comment":"#"
+  },
+  {
+    "param":"angle",
+    "types":["CM","CM2","CT2"],
+    "potential":"sdk",
+    "k":3.000,
+    "theta0":179.0,
     "comment":"#"
   },
   {

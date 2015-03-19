@@ -1,6 +1,6 @@
 bond   CT    CT   harmonic   6.955  3.710    # Mol Sim 2007
 bond   CM2R  CM2R harmonic  19.000  2.320    # cyclohexane, GF 2013
-bond   CM2   CT2  harmonic  17.000  2.530    # heptane(B), GF 2013
+#bond   CM2   CT2  harmonic  17.000  2.530    # heptane(B), GF 2013
 bond   CM2   CT   harmonic   9.000  3.070    # heptane(B), GF 2013
 bond   CM    CM   harmonic   6.160  3.640    # Mol Sim 2007
 bond   CM    CT   harmonic   6.160  3.650    # Mol Sim 2007
