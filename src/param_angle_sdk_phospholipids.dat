@@ -1,28 +1,28 @@
-#angle  CM    CM    CM  sdk    1.190 173.0     # JPCB 2010  
-#angle  CM    CM    CT  sdk    1.190 175.0     # JPCB 2010  
-angle  CM    CMD2  CM   sdk   6.000 110.0     # JPCB 2010  
-angle  CMD2  CM    CM   sdk   1.900 161.0     # JPCB 2010  
-#angle  CT2   CM    CM  sdk    1.600 172.0     # JPCB 2010  
-#angle  CT2   CM    CT  sdk    1.600 172.0     # JPCB 2010  
-#angle  CT2   CM    CT2 sdk    1.700 173.0     # JPCB 2010  
-angle  CT2   CMD2  CT2  sdk  12.000 110.0     # JPCB 2010  
-#angle  CT    CM    CT  sdk    1.093 175.5     # JPCB 2010  
-angle  CT    CMD2  CT   sdk   7.700 116.0     # JPCB 2010  
-angle  EST1  CM    CM   sdk   1.000 178.0     # JPCB 2010  
-angle  EST1  GL    EST2 sdk   1.000  95.0     # JPCB 2010   
-angle  EST2  CM    CM   sdk   1.000 178.0     # JPCB 2010  
-angle  GL    EST1  CM   sdk   0.800 168.0     # JPCB 2010  
-angle  GL    EST2  CM   sdk   0.800 172.0     # JPCB 2010  
-angle  NC    PH    CM   sdk   3.300 112.0     # JPCB 2010  
-angle  NC    PH    GL   sdk   3.100 112.0     # JPCB 2010  
-angle  NH    PHE   GL   sdk   4.000 102.0     # JPCB 2010  
-angle  PH    CM    CM   sdk   1.100 178.0     # JPCB 2010  
-angle  PHE   GL    EST1 sdk   1.400 124.0     # JPCB 2010  
-angle  PHE   GL    EST2 sdk   2.000 138.0     # JPCB 2010  
-angle  PH    GL    EST1 sdk   1.400 124.0     # JPCB 2010  
-angle  PH    GL    EST2 sdk   2.000 138.0     # JPCB 2010  
-angle  CM    CM2   CM   sdk   1.190 173.0     # Dodecane, CMM, March2015,DMPC3 
-angle  CM    CM2   CT2  sdk   3.000 179.0     # Dodecane, CMM, March2015,DMPC3 
-angle  CM2   CM    CM2  sdk   1.810 175.0     # Dodecane, CMM, March2015,DMPC3
-angle  CM2   CM    EST1 sdk   1.000 178.0     # Dodecane, CMM, March2015,DMPC3
-angle  CM2   CM    EST2 sdk   1.000 178.0     # Dodecane, CMM, March2015,DMPC3
+#angle  CM    CM    CM  sdk    1.190 173.0     # JPCB 2010
+#angle  CM    CM    CT  sdk    1.190 175.0     # JPCB 2010
+angle  CM    CMD2  CM   sdk   6.000 110.0     # JPCB 2010
+angle  CMD2  CM    CM   sdk   1.900 161.0     # JPCB 2010
+#angle  CT2   CM    CM  sdk    1.600 172.0     # JPCB 2010
+#angle  CT2   CM    CT  sdk    1.600 172.0     # JPCB 2010
+#angle  CT2   CM    CT2 sdk    1.700 173.0     # JPCB 2010
+angle  CT2   CMD2  CT2  sdk  12.000 110.0     # JPCB 2010
+#angle  CT    CM    CT  sdk    1.093 175.5     # JPCB 2010
+angle  CT    CMD2  CT   sdk   7.700 116.0     # JPCB 2010 
+angle  EST1  CM    CM   sdk   1.000 178.0     # JPCB 2010 
+angle  EST1  GL    EST2 sdk   1.000  95.0     # JPCB 2010  
+angle  EST2  CM    CM   sdk   1.000 178.0     # JPCB 2010 
+angle  GL    EST1  CM   sdk   0.800 168.0     # JPCB 2010 
+angle  GL    EST2  CM   sdk   0.800 172.0     # JPCB 2010 
+angle  NC    PH    CM   sdk   3.300 112.0     # JPCB 2010 
+angle  NC    PH    GL   sdk   3.100 112.0     # JPCB 2010 
+angle  NH    PHE   GL   sdk   4.000 102.0     # JPCB 2010
+angle  PH    CM    CM   sdk   1.100 178.0     # JPCB 2010
+angle  PHE   GL    EST1 sdk   1.400 124.0     # JPCB 2010
+angle  PHE   GL    EST2 sdk   2.000 138.0     # JPCB 2010
+angle  PH    GL    EST1 sdk   1.400 124.0     # JPCB 2010
+angle  PH    GL    EST2 sdk   2.000 138.0     # JPCB 2010
+angle  CM    CM2   CM   sdk   1.200 173.0     # Dodecane, CMM, March2015,DMPC3, OrderParamOpt
+angle  CM    CM2   CT2  sdk   1.300 179.0     # Dodecane, CMM, March2015,DMPC3, OrderParamOpt
+angle  CM2   CM    CM2  sdk   1.224 175.0     # Dodecane, CMM, March2015,DMPC3, OrderParamOpt
+angle  CM2   CM    EST1 sdk   0.900 178.0     # Dodecane, CMM, March2015,DMPC3, OrderParamOpt
+angle  CM2   CM    EST2 sdk   0.900 178.0     # Dodecane, CMM, March2015,DMPC3, OrderParamOpt
