@@ -19,7 +19,7 @@ proc map2json {args} {
     ## Properties to carry over to json
     ## The order specified here is the order that the 
     ## properties will be output
-    set props {type name map segname charge mass atomicnumber bonds angles dihedrals}
+    set props {type name map segname charge mass weights atomicnumber bonds angles dihedrals}
 
     set s {}
     lappend s "{"
@@ -65,6 +65,7 @@ proc map2json {args} {
 
 		    segname -
                     map -
+                    weights -
 		    bonds -
 		    angles -
                     dihedrals {;# Nested Lists

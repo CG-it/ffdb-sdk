@@ -1,6 +1,6 @@
 {
 "author":"macdercm",
-"date":"2015-03-19T15:01:47",
+"date":"2015-04-10T11:21:56",
 "fftype":"sdk",
 "params":[
   {
@@ -2919,7 +2919,7 @@
     "param":"angle",
     "types":["CM2","CM","CM2"],
     "potential":"sdk",
-    "k":1.810,
+    "k":1.224,
     "theta0":175.0,
     "comment":"#"
   },
@@ -2927,7 +2927,7 @@
     "param":"angle",
     "types":["CM2","CM","EST1"],
     "potential":"sdk",
-    "k":1.000,
+    "k":0.900,
     "theta0":178.0,
     "comment":"#"
   },
@@ -2935,7 +2935,7 @@
     "param":"angle",
     "types":["CM2","CM","EST2"],
     "potential":"sdk",
-    "k":1.000,
+    "k":0.900,
     "theta0":178.0,
     "comment":"#"
   },
@@ -3095,7 +3095,7 @@
     "param":"angle",
     "types":["CM","CM2","CM"],
     "potential":"sdk",
-    "k":1.190,
+    "k":1.200,
     "theta0":173.0,
     "comment":"#"
   },
@@ -3103,7 +3103,7 @@
     "param":"angle",
     "types":["CM","CM2","CT2"],
     "potential":"sdk",
-    "k":3.000,
+    "k":1.300,
     "theta0":179.0,
     "comment":"#"
   },

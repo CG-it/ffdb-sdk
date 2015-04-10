@@ -216,7 +216,7 @@ proc ::CGtools::tabulate_mass {sel resname} {
     foreach r $resname {
 
         ## Tabulate the weights, or verify if user specified
-        mapWeights $r
+        ##Legacy::mapWeights $r
 
         ## Make a weight lookup table
         foreach a [join [getMap $resname -keys map]]\
