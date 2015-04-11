@@ -34,7 +34,7 @@ par_all$(VERSION)_sdk.dat: param_lj_sdk_all.dat param_bond_sdk_all.dat \
 	@ rm -f param_*_all.dat
 
 param_lj_sdk_all.dat: $(param_lj)
-	python write_params.py $^ | sort -k 2,3 > $@
+	python write_chol_lj_params.py $^ | sort -k 2,3 > $@
 
 param_bond_sdk_all.dat: $(param_bond)
 	egrep -hv "^#" $^ | sort -k 2,3 > $@

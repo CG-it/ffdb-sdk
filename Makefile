@@ -8,10 +8,11 @@ VERSION = 1
 complete_databases = par_all${VERSION}_sdk.dat par_all${VERSION}_sdk.json 
 complete_tops = top_all${VERSION}_sdk.json
 
+print-%: ; @echo $*=$($*)
+
 all: $(complete_databases) $(complete_tops)
 
 clean:
-	cd src; make -f Makefile.clol clean
 	cd src; make -f Makefile clean
 	rm -f $(complete_databases)
 	rm -f $(complete_tops) 
@@ -23,7 +24,7 @@ par_all${VERSION}_sdk.json: par_all${VERSION}_sdk.dat
 
 par_all${VERSION}_sdk.dat:
 	@cd src; \
-	$(MAKE) "VERSION = $(VERSION)" -f Makefile.clol
+	$(MAKE) "VERSION = $(VERSION)" -f Makefile
 
 top_all${VERSION}_sdk.json:
 	@cd maps; \
