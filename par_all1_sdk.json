@@ -1,6 +1,6 @@
 {
 "author":"macdercm",
-"date":"2015-04-11T10:27:20",
+"date":"2015-04-24T14:44:20",
 "fftype":"sdk",
 "params":[
   {
@@ -2695,7 +2695,7 @@
     "param":"bond",
     "types":["CMR5","CTB"],
     "potential":"harmonic",
-    "k":78.00,
+    "k":70.00,
     "r0":3.14,
     "comment":"#"
   },
@@ -2759,7 +2759,7 @@
     "param":"bond",
     "types":["CTB","CTBB"],
     "potential":"harmonic",
-    "k":50.00,
+    "k":45.00,
     "r0":3.44,
     "comment":"#"
   },
@@ -2911,8 +2911,8 @@
     "param":"angle",
     "types":["C2T","CM2","CTB"],
     "potential":"sdk",
-    "k":18.0,
-    "theta0":155.0,
+    "k":16.0,
+    "theta0":160.0,
     "comment":"#"
   },
   {
@@ -2942,17 +2942,17 @@
   {
     "param":"angle",
     "types":["CM2","CTB","CMR5"],
-    "potential":"harmonic",
-    "k":12.4,
-    "theta0":117.4,
+    "potential":"sdk",
+    "k":40.0,
+    "theta0":118.0,
     "comment":"#"
   },
   {
     "param":"angle",
     "types":["CM2","CTB","CTBB"],
     "potential":"sdk",
-    "k":10.0,
-    "theta0":126.0,
+    "k":8.0,
+    "theta0":130.0,
     "comment":"#"
   },
   {
@@ -3191,15 +3191,15 @@
     "param":"angle",
     "types":["CMR5","CTB","CTBB"],
     "potential":"harmonic",
-    "k":300.0,
+    "k":125.0,
     "theta0":39.7,
     "comment":"#"
   },
   {
     "param":"angle",
     "types":["CMR5","CTBB","CTB"],
-    "potential":"sdk",
-    "k":100.0,
+    "potential":"harmonic",
+    "k":40.0,
     "theta0":62.7,
     "comment":"#"
   },
@@ -3311,7 +3311,7 @@
     "param":"angle",
     "types":["CTBB","CMR5","CTB"],
     "potential":"harmonic",
-    "k":191.3,
+    "k":40.0,
     "theta0":77.4,
     "comment":"#"
   },
@@ -3496,8 +3496,8 @@
     "types":["CTBB","CMR5","CTB","CM2"],
     "potential":"charmm",
     "k":2.0,
-    "n":2,
-    "d":105,
+    "n":1,
+    "d":-90,
     "comment":"#"
   }
 ]
