@@ -149,6 +149,17 @@ proc ::CGtools::map_ffa {} {
         {none}
     }
 
+    set map([list atomicnumber BENA]) {
+        22
+        24
+        24
+        24
+        24
+        24
+        24
+        25
+    }
+
 
     set map([list map BENP]) {
         {C O1 O2 H}
@@ -232,6 +243,17 @@ proc ::CGtools::map_ffa {} {
 
     set map([list dihedrals BENP]) {
         {none}
+    }
+
+    set map([list atomicnumber BENP]) {
+        22
+        24
+        24
+        24
+        24
+        24
+        24
+        25
     }
 
     ## Neutral Butyric Acid (FFA headgroup)

@@ -264,6 +264,36 @@ proc ::CGtools::map_ceramide {} {
         {auto}
     }
 
+    set map([list atomicnumber CER1]) {
+        17
+        15
+        16
+        14
+        25
+        24
+        24
+        16
+        17
+        14
+        24
+        24
+        24
+        24
+        23
+        24
+        24
+        24
+        24
+        16
+        30
+        24
+        24
+        22
+        14
+        24
+        17
+    }
+
 
     # +------+
     # | CER2 |
@@ -385,6 +415,27 @@ proc ::CGtools::map_ceramide {} {
 
     set map([list angles CER2]) {
         {auto}
+    }
+
+    set map([list atomicnumber CER2]) {
+        17
+        15
+        16
+        14
+        24
+        24
+        24
+        16
+        17
+        14
+        24
+        24
+        24
+        24
+        24
+        24
+        24
+        17
     }
 
     return
