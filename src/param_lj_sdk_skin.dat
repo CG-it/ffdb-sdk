@@ -1,0 +1,30 @@
+# -*- mode: conf -*-
+# add here derivative LJ pairs if different from base
+#pair     EST1 OA  lj9_6  0.5658  4.7948 # EST1 OA refined from hexanol pmf CMM/27032014
+#pair     EST2 OA  lj9_6  0.5658  4.7948 # EST2 OA refined from hexanol pmf CMM/27032014
+#pair     GL   OA  lj9_6  0.5212  4.9084 # GL OA refined from hexanol pmf CMM/27032014
+#pair     NC   OA  lj9_6  0.6728  5.5447 # NC OA refined from hexanol pmf CMM/27032014
+#pair     PH   OA  lj9_6  0.9515  5.3732 # OA PH refined from hexanol pmf CMM/27032014
+
+#pair     CM4   CM4   lj9_6   0.5586    4.6412 # CM4 CM4
+#pair     CM4   CT2   lj9_6   0.4815    4.4944 # CM4 CT2
+#pair     CM4   W    lj12_4   0.4182    4.6604 # CM4 W
+#
+#pair     CM2   CM2  lj9_6    0.2688    4.4159 # CM2 CM2
+#pair     CM2   CT   lj9_6    0.3107    4.4546 # CM2 CT
+#pair     CM2   W   lj12_4    0.2788    4.1722 # CM2 W
+
+#paif     CM2   CM2 lj9_6    0.2688    4.4159 # CM2 CM2
+pair     CM2   CT2  lj9_6    0.2317    4.2763 # CM2 CT2
+#paif     CM2   W   lj12_4    0.2788    4.1722 # CM2 W
+
+pair     O     O    lj9_6    0.3233    3.7880 # T1 T1
+pair     O     N    lj9_6    0.5393    3.6246 # T1 T2
+pair     N     N    lj9_6    0.2430    4.0506 # T2 T2
+pair     O     W   lj12_4    0.6690    4.2166 # T1 W ??
+pair     N     W   lj12_4    0.9000    4.6100 # T2 W ??
+
+pair     CMD3  CMD3 lj9_6    0.2320    5.0230 # CMD3 CMD3
+pair     CMD3  CT   lj9_6    0.3300    4.6740 # CMD3 CT
+pair     CMD3  CT2  lj9_6    0.2690    4.4980 # CMD3 CT2
+pair     CMD3  W   lj12_4    0.2700    4.1880 # CMD3 W

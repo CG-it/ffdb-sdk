@@ -1,0 +1,25 @@
+
+## Derived from CER1 && CER2
+bond  CM2 EST1  harmonic  19.10 2.87
+bond  CM CM2    harmonic  11.93 3.11
+bond  CM CMD3   harmonic   7.42 3.27
+bond  CMD2 CMD3 harmonic  37.84 2.97
+bond  CMD2 OAB  harmonic  24.86 2.40
+bond  CM O      harmonic   6.53 2.73
+bond  N OA      harmonic  51.95 2.63
+bond  N OAB     harmonic  24.57 2.64
+# bond  CM CT2   harmonic   9.48 3.09
+# bond  CM EST1  harmonic   4.66 3.56
+# bond  N O      harmonic 103.44 2.04
+# bond  CM CMD2  harmonic   7.69 3.06
+# bond  CM CM    harmonic   7.70 3.71
+# bond  CM2 CT2  harmonic  30.55 2.58
+
+## Derived from pure-liquids
+bond     CMD3 CT  harmonic   6.7400    3.2700 # CMD3-CT 4COC
+bond     CMD3 CT2 harmonic   9.0100    2.9400 # CMD3-CT2 4COC
+bond     N O      harmonic  97.3100    2.1500 # T1-T2 
+bond     CM4 CT2  harmonic   6.0400    3.6200 # CM4-CT2 OCTA
+bond     CM2 CT   harmonic   8.9600    3.0800 # CM2-CT OCTB
+bond     CM2 CM2  harmonic  18.4000    2.5100 # CM2-CM2 OCTC
+bond     CM2 CT2  harmonic  17.3000    2.5400 # CM2-CT2 OCTC
