@@ -1,5 +1,11 @@
 if { 1 } { 
 
+    package require cg
+    catch {cg readparam $::env(HOME)/config/topology/sdk/par_all1_sdk.json}
+    catch {cg readtop   $::env(HOME)/config/topology/sdk/top_all1_sdk.json}
+    catch {cg readparam $::env(HOME)/projects/sdk/par_all1_sdk.json}
+    catch {cg readtop   $::env(HOME)/projects/sdk/top_all1_sdk.json}
+
     # run this on an AA system to get a Tcl file that contains CG atomic numbers
 
     package require cg
@@ -55,8 +61,6 @@ if { 1 } {
 
     set resnames [lsort -unique [${all} get resname]]
 
-    set output [open "atomic_numbers.tcl" "w"]
-
     foreach resname ${resnames} {
         set resname_sel [atomselect top "resname ${resname}"]
         set residues [lsort -unique [${resname_sel} get residue]]
@@ -64,24 +68,29 @@ if { 1 } {
         ${resname_sel} delete
 
         dict set ::CGtools::map ${resname} atomicnumber [list]
+
+        set new_atomic_numbers [list]
         foreach \
             cg_atom_name  [dict get $::CGtools::map ${resname} name] \
             aa_atom_names [dict get $::CGtools::map ${resname} map] {
-            set aa_atoms [atomselect top "resname ${resname} and residue ${first_residue} and name ${aa_atom_names}"]
-            if { [${aa_atoms} num] == 0 } {
-                puts stderr "Error: selection ([${aa_atoms} text]) has no atoms\n"
-                break
+                set aa_atoms [atomselect top "resname ${resname} and residue ${first_residue} and name ${aa_atom_names}"]
+                if { [${aa_atoms} num] == 0 } {
+                    puts stderr "Error: selection ([${aa_atoms} text]) has no atoms\n"
+                    break
+                }
+                # TODO: fix this for cases where the plain sum may not work (e.g. benzyl rings)
+                set atomicnumbers [${aa_atoms} get atomicnumber]
+                ${aa_atoms} delete
+                set atomicnumber [vecsum ${atomicnumbers}]
+                if { (${resname} == "TIP3") || (${resname} == "TIP3") } {
+                    set atomicnumber 30
+                }
+                lappend new_atomic_numbers [expr int(${atomicnumber})]
             }
-            # TODO: fix this for cases where the plain sum may not work (e.g. benzyl rings)
-            set atomicnumbers [${aa_atoms} get atomicnumber]
-            ${aa_atoms} delete
-            set atomicnumber [vecsum ${atomicnumbers}]
-            if { (${resname} == "TIP3") || (${resname} == "TIP3") } {
-                set atomicnumber 30
-            }
-            lappend ::CGtools::map([list atomicnumber ${resname}]) [expr int(${atomicnumber})]
-        }
 
+        dict set ::CGtools::map ${resname} atomicnumber ${new_atomic_numbers}
+
+        set output [open "${resname}.atomic_numbers.tcl" "w"]
         puts ${output} "    dict set ::CGtools::map ${resname} atomicnumber {" 
         foreach name [dict get $::CGtools::map ${resname} name] \
             z [dict get $::CGtools::map ${resname} atomicnumber] {
@@ -89,9 +98,7 @@ if { 1 } {
             }
         puts ${output} "    }"
         puts ${output} ""
+        close ${output}
     }
-
-    close ${output}
-
 }
 
