@@ -1,6 +1,6 @@
 {
 "author":"macdercm",
-"date":"2015-05-14T20:01:28",
+"date":"2015-05-15T16:08:40",
 "fftype":"sdk",
 "params":[
   {
@@ -817,6 +817,46 @@
     "potential":"lj9_6",
     "epsilon":0.3650,
     "sigma":3.9870,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["COOH","C2T"],
+    "potential":"lj9_6",
+    "epsilon":0.3630,
+    "sigma":4.7126,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["COOH","COOH"],
+    "potential":"lj9_6",
+    "epsilon":0.6500,
+    "sigma":3.0000,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["COOH","CT"],
+    "potential":"lj9_6",
+    "epsilon":0.3630,
+    "sigma":4.7126,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["COOH","CTB"],
+    "potential":"lj9_6",
+    "epsilon":0.3630,
+    "sigma":4.7126,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["COOH","W"],
+    "potential":"lj12_4",
+    "epsilon":0.7627,
+    "sigma":4.5418,
     "comment":"#"
   },
   {
@@ -2695,14 +2735,6 @@
     "param":"bond",
     "types":["CM2","CT2"],
     "potential":"harmonic",
-    "k":17.3000,
-    "r0":2.5400,
-    "comment":"#"
-  },
-  {
-    "param":"bond",
-    "types":["CM2","CT2"],
-    "potential":"harmonic",
     "k":17.400,
     "r0":2.538,
     "comment":"#"
@@ -2817,6 +2849,22 @@
     "potential":"harmonic",
     "k":7.42,
     "r0":3.27,
+    "comment":""
+  },
+  {
+    "param":"bond",
+    "types":["CM","COO"],
+    "potential":"harmonic",
+    "k":20.8835,
+    "r0":2.9968,
+    "comment":""
+  },
+  {
+    "param":"bond",
+    "types":["CM","COOH"],
+    "potential":"harmonic",
+    "k":34.8058,
+    "r0":3.0559,
     "comment":""
   },
   {
@@ -2986,6 +3034,14 @@
     "k":8.000,
     "r0":3.090,
     "comment":"#"
+  },
+  {
+    "param":"bond",
+    "types":["CT","COOH"],
+    "potential":"harmonic",
+    "k":7.8199,
+    "r0":2.9270,
+    "comment":""
   },
   {
     "param":"bond",
@@ -3317,6 +3373,22 @@
   },
   {
     "param":"angle",
+    "types":["CM","CM","COOH"],
+    "potential":"sdk",
+    "k":23.4569,
+    "theta0":159.0885,
+    "comment":""
+  },
+  {
+    "param":"angle",
+    "types":["CM","CM","COO"],
+    "potential":"sdk",
+    "k":11.5556,
+    "theta0":156.0014,
+    "comment":""
+  },
+  {
+    "param":"angle",
     "types":["CM","CM","CM2"],
     "potential":"sdk",
     "k":3.38,
@@ -3362,14 +3434,6 @@
     "k":1.500,
     "theta0":172.0,
     "comment":"#"
-  },
-  {
-    "param":"angle",
-    "types":["CM","CM2","CT2"],
-    "potential":"sdk",
-    "k":5.06,
-    "theta0":165.96,
-    "comment":""
   },
   {
     "param":"angle",

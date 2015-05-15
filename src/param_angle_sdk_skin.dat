@@ -2,7 +2,7 @@
 angle  CM CM CM2    sdk   3.38 158.74
 angle  CM CM CMD3   sdk   2.94 143.64
 angle  CM CM O      sdk   3.81 138.99
-angle  CM CM2 CT2   sdk   5.06 165.96
+#angle  CM CM2 CT2   sdk   5.06 165.96
 angle  CM CM2 EST1  sdk   2.01 144.29
 angle  CM CMD2 CMD3 sdk   6.16 116.49
 angle  CM CMD2 OAB  sdk  10.21 162.64
@@ -21,7 +21,12 @@ angle  CMD2 CM CT2  sdk   4.64 143.53
 # angle  CM CM CMD2  sdk   8.64 157.66
 
 ## Derived from pure liquids 
-angle    CT CMD3 CT2 sdk   3.0500  126.6000
-angle    CT2 CM4 CT2 sdk   3.4700  149.2600
-angle    CT CM2 CT   sdk   2.5300  146.9700
-angle    CM2 CM2 CT2 sdk   2.2600  150.0700
+angle    CT  CMD3 CT2  sdk   3.0500  126.6000
+angle    CT2 CM4  CT2  sdk   3.4700  149.2600
+angle    CT  CM2  CT   sdk   2.5300  146.9700
+angle    CM2 CM2  CT2  sdk   2.2600  150.0700
+
+## FFA
+angle    CM  CM   COO  sdk   11.5556  156.0014
+angle    CM  CM   COOH sdk   23.4569  159.0885
+

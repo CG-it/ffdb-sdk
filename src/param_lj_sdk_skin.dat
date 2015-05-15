@@ -28,3 +28,8 @@ pair     CMD3  CMD3 lj9_6    0.2320    5.0230 # CMD3 CMD3
 pair     CMD3  CT   lj9_6    0.3300    4.6740 # CMD3 CT
 pair     CMD3  CT2  lj9_6    0.2690    4.4980 # CMD3 CT2
 pair     CMD3  W   lj12_4    0.2700    4.1880 # CMD3 W
+
+## FFA
+pair     COOH  COOH lj9_6    0.6500    3.0000 # COOH COOH from Butyric Acid
+pair     COOH  CT   lj9_6    0.3630    4.7126 # COOH CT from Butyric Acid
+pair     COOH  W    lj12_4   0.7627    4.5418 # COOH W, geometric combination

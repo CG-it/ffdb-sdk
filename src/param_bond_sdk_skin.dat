@@ -22,4 +22,9 @@ bond     N O      harmonic  97.3100    2.1500 # T1-T2
 bond     CM4 CT2  harmonic   6.0400    3.6200 # CM4-CT2 OCTA
 bond     CM2 CT   harmonic   8.9600    3.0800 # CM2-CT OCTB
 bond     CM2 CM2  harmonic  18.4000    2.5100 # CM2-CM2 OCTC
-bond     CM2 CT2  harmonic  17.3000    2.5400 # CM2-CT2 OCTC
+#bond     CM2 CT2  harmonic  17.3000    2.5400 # CM2-CT2 OCTC
+
+#ffa
+bond     CM   COO  harmonic  20.8835   2.9968
+bond     CM   COOH harmonic  34.8058   3.0559
+bond     CT   COOH harmonic   7.8199   2.9270
