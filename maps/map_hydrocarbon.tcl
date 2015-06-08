@@ -695,6 +695,41 @@ proc ::CGtools::map_hydrocarbon {} {
         {auto}
     }
 
+    # cyclohexane map b
+    set map([list map CHEXB]) {
+        {C1 H11 H12 C2 H21 H22 C3 H31 H32}
+        {C4 H41 H42 C5 H51 H52 C6 H61 H62}
+    }
+
+    set map([list name CHEXB]) {
+        C1
+        C2
+    }
+
+    set map([list type CHEXB]) {
+        CMR
+        CMR
+    }
+
+    set map([list charge CHEXB])  {
+        0.0
+        0.0
+    }
+
+    set map([list mass CHEXB])    {
+        42.081
+        42.081
+    }
+
+    set map([list bonds CHEXB]) {
+        {C1 C2}
+    }
+
+    set map([list angles CHEXB]) {
+        {none}
+    }
+
+
 
     ## 1-ethyl-cyclohexene
     set map([list map ECHE]) {
@@ -997,6 +1032,99 @@ proc ::CGtools::map_hydrocarbon {} {
         {none}
     }
 
+    set map([list map IPCP]) {
+        {C15 H16 C21 H22 H23 H24 C17 H18 H19 H20}
+        {C5 H14 C1 H6 H7 C2 H8 H9}
+        {C3 H10 H11 C4 H12 H13}
+    }
+
+    set map([list type IPCP])    {
+      CTB
+      CMR5
+      CM2R
+    }
+
+    set map([list name IPCP])    {
+        C1
+        C2
+        C3
+    }
+
+    set map([list charge IPCP])  {
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list weights IPCP]) {
+      {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+      {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+      {1.0 1.0 1.0 1.0 1.0 1.0}
+    }
+
+    set map([list mass IPCP])    {
+      {43.0890}
+      {41.0730}
+      {28.0540}
+    }
+
+    set map([list bonds IPCP]) {
+        {C1 C2}
+        {C2 C3}
+    }
+
+    set map([list angles IPCP]) {
+        {C1 C2 C3}
+    }
+
+    set map([list dihedrals IPCP]) {
+        {none}
+    }
+
+    ## Cyclopentane
+    set map([list map CPEN]) {
+        {C1 H11 H12 C2 H21 H22 C3 H31 H32}
+        {C4 H41 H42 C5 H51 H52}
+    }
+
+    set map([list type CPEN])    {
+      CMR5
+      CM2R
+    }
+
+    set map([list name CPEN])    {
+        C1
+        C2
+    }
+
+    set map([list charge CPEN])  {
+        0.0
+        0.0
+    }
+
+    set map([list weights CPEN]) {
+      {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+      {1.0 1.0 1.0 1.0 1.0 1.0}
+    }
+
+    set map([list mass CPEN])    {
+      {42.0810}
+      {28.0540}
+    }
+
+    set map([list bonds CPEN]) {
+        {C1 C2}
+    }
+
+    set map([list angles CPEN]) {
+        {none}
+    }
+
+    set map([list dihedrals CPEN]) {
+        {none}
+    }
+
+
     return
 }
 
@@ -1021,5 +1149,12 @@ if { $::CGtools::maptest } {
     ::CGtools::checkbonds DODC2
     ::CGtools::map_stats DODC3
     ::CGtools::checkbonds DODC3
-
+    ::CGtools::map_stats IPCP
+    ::CGtools::checkbonds IPCP
+    ::CGtools::map_stats CHEX
+    ::CGtools::checkbonds CHEX
+    ::CGtools::map_stats CHEXB
+    ::CGtools::checkbonds CHEXB
+    ::CGtools::map_stats CPEN
+    ::CGtools::checkbonds CPEN
 }
