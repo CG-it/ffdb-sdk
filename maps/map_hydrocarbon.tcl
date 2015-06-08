@@ -1065,7 +1065,7 @@ proc ::CGtools::map_hydrocarbon {} {
     set map([list mass IPCP])    {
       {43.0890}
       {41.0730}
-      {28.0540}
+      {28.0540}    
     }
 
     set map([list bonds IPCP]) {
@@ -1149,12 +1149,12 @@ if { $::CGtools::maptest } {
     ::CGtools::checkbonds DODC2
     ::CGtools::map_stats DODC3
     ::CGtools::checkbonds DODC3
-    ::CGtools::map_stats IPCP
+    ::CGtools::map_stats IPCP 
     ::CGtools::checkbonds IPCP
     ::CGtools::map_stats CHEX
     ::CGtools::checkbonds CHEX
-    ::CGtools::map_stats CHEXB
-    ::CGtools::checkbonds CHEXB
-    ::CGtools::map_stats CPEN
-    ::CGtools::checkbonds CPEN
+    ::CGtools::map_stats CHEXB 
+    ::CGtools::checkbonds CHEXB 
+    ::CGtools::map_stats CPEN 
+    ::CGtools::checkbonds CPEN 
 }
