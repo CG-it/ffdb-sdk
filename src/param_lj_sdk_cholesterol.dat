@@ -25,30 +25,36 @@ pair     OAB      CT2       lj9_6  0.4155    3.9505
 pair     OAB      NC        lj9_6  0.6370    3.9319
 pair     OAB      PH        lj9_6  0.9280    3.6166
 
-pair     CM2R     CM2R    lj9_6    0.1800    3.9743 # CM2R CM2R From cyclohexane CMM 18062014
-pair     CM2R     CMR     lj9_6    0.1988    4.5672 # CM2R CMR  From bicyclooctane-a CMM 18062014 
-pair     CMR      CMR     lj9_6    0.2142    4.7313 # CMR CMR   From bicyclooctane-a CMM 18062014 
+pair     CM2R     CM2R    lj9_6    0.2358    4.2922 # CM2R CM2R From cyclohexane CMM 18062014
+pair     CM2R     CMR     lj9_6    0.1988    4.5672 # CM2R CMR  From bicyclooctane-a CMM 18062014
+pair     CMR      CMR     lj9_6    0.3534    4.7313 # CMR  CMR  From cyclohexane-b CMM 05/06/2015
+#pair     CMR      CMR     lj9_6    0.2142    4.7313 # CMR CMR   From bicyclooctane-a CMM 18062014
 #pair     CM2R     CMB     lj9_6    0.1950    4.6116 # CM2R CMB  From bicyclooctane-b CMM 18062014 
 #pair     CMB      CMB     lj9_6    0.2100    4.6862 # CMB CMB   From bicyclooctane-b CMM 18062014 
-pair     CM2R     CMB     lj9_6    0.2300    4.4342 # CM2R CMB  From decalin CMM 18062014
-pair     CMB      CMB     lj9_6    0.2478    4.5060 # CMB CMB   From decalin CMM 18062014
+pair     CM2R     CMB     lj9_6    0.2875    4.4342 # CM2R CMB  From decalin CMM 18062014
+pair     CMB      CMB     lj9_6    0.3098    4.5060 # CMB CMB   From decalin CMM 18062014
 pair     C2T     C2T      lj9_6    0.4003    4.8115 # C2T C2T From isopentane CMM 18062014 
 #pair     C2T     C2T     lj9_6    0.4086    4.8570 # C2T C2T from isohexane CMM 18062014
-pair     C2T     CT       lj9_6    0.4080    4.8601 # C2T CT  0.87 1.06 From isohexane CMM 18062014 
-pair     C2T     CT2      lj9_6    0.3269    4.6205 # C2T CT2 From Isopentane CMM 18062014
-pair     CMDB    CMDB     lj9_6    0.2652    5.0157 # CMDB CMDB From ethylcyclohexane CM 19062014 
-pair     CMDB    CMR      lj9_6    0.3077    4.3790 # CMDB CMR From ethylcyclohexane CM 19062014 
-pair     CMDB    CT2      lj9_6    0.2652    4.2364 # CMDB CT2 From ethylcyclohexane CM 19062014 
-pair     CMR     CT2      lj9_6    0.3620    4.3635 # CMR CT2 From ethylcyclohexane CM 19062014 
+pair     C2T     CT       lj9_6    0.4086    4.8601 # C2T CT  0.87 1.06 From isohexane CMM 18062014
+pair     C2T     CT2      lj9_6    0.2966    4.5272 # C2T CT2 From Isopentane CMM 18062014
+pair     CMDB    CMDB     lj9_6    0.3556    4.9666 # CMDB CMDB From ethylcyclohexane CM 03062015
+pair     CMDB    CMR      lj9_6    0.3228    4.5239 # CMDB CMR From ethylcyclohexane CM 03062015
+pair     CMDB    CT2      lj9_6    0.2778    4.1944 # CMDB CT2 From ethylcyclohexane CM 03062015
+pair     CMR     CT2      lj9_6    0.3620    4.5528 # CMR CT2 From ethylcyclohexane CM 19062014
+pair     CM2R    CMR5     lj9_6    0.3236    4.4625 # CM2R CMR5 From cyclopentane
+pair     CMR5    CMR5     lj9_6    0.3084    4.6840 # CMR5 CMR5 from cyclopentane
+pair     CTB     CTB      lj9_6    0.2688    5.0155 # CTB  CTB from isopropylcyclopentane
+pair     CM2R    CTB      lj9_6    0.4410    4.6920 # CM2R CTB from isopropylcyclopentane
+pair     CMR5    CTB      lj9_6    0.3360    4.7082 # CMR5 CTB from isopropylcyclopentane
 
 pair     CM4   CM4   lj9_6   0.5586    4.6412 # CM4 CM4 #from octane CMM 
 pair     CM4   CT2   lj9_6   0.4815    4.4944 # CM4 CT2 #from octane CMM 
 pair     CM4   W    lj12_4   0.4182    4.6604 # CM4 W   #from octane/water CMM 
 
 pair     CM2   CM   lj9_6    0.3360    4.4619 # CM2 CM  #from n-dodecane CMM 
-pair     CM2   CM2  lj9_6    0.2688    4.4159 # CM2 CM2 #from octane CMM 
-pair     CM2   CT   lj9_6    0.3107    4.4546 # CM2 CT  #from octane CMM 
-pair     CM2   CT2  lj9_6    0.2317    4.2763 # CM2 CT2 #from octane CMM 
+pair     CM2   CM2  lj9_6    0.2646    4.4610 # CM2 CM2 #from octane CMM
+pair     CM2   CT   lj9_6    0.3010    4.4546 # CM2 CT  #from octane CMM
+pair     CM2   CT2  lj9_6    0.2281    4.3199 # CM2 CT2 #from octane CMM
 pair     CM2   W   lj12_4    0.2788    4.1722 # CM2 W   #from octane/water CMM 
 
-pair     CM    C2T  lj9_6    0.3863    4.5455 # CM  C2T #from 2-methyl-heptane CMM 
+pair     CM    C2T  lj9_6    0.3911    4.5455 # CM  C2T #from 2-methyl-heptane CMM
