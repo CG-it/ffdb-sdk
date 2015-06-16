@@ -1124,6 +1124,48 @@ proc ::CGtools::map_hydrocarbon {} {
         {none}
     }
 
+    ## 1,4-Cyclohexadiene 
+    set map([list map CHD]) {
+        {C1 H1 H2 C2 H3 C3 H4}
+        {C4 H5 H6 C5 H7 C6 H8}
+    }
+
+    set map([list type CHD])    {
+      CMDB
+      CMDB
+    }
+
+    set map([list name CHD])    {
+        C1
+        C2
+    }
+
+    set map([list charge CHD])  {
+        0.0
+        0.0
+    }
+
+    set map([list weights CHD]) {
+      {1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+      {1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+    }
+
+    set map([list mass CHD])    {
+      {40.065}
+      {40.065}
+    }
+
+    set map([list bonds CHD]) {
+        {C1 C2}
+    }
+
+    set map([list angles CHD]) {
+        {none}
+    }
+
+    set map([list dihedrals CHD]) {
+        {none}
+    }
 
     return
 }
@@ -1157,4 +1199,6 @@ if { $::CGtools::maptest } {
     ::CGtools::checkbonds CHEXB 
     ::CGtools::map_stats CPEN 
     ::CGtools::checkbonds CPEN 
+    ::CGtools::map_stats CHD 
+    ::CGtools::checkbonds CHD 
 }
