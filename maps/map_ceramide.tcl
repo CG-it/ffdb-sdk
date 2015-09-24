@@ -635,8 +635,7 @@ proc ::CGtools::map_ceramide {} {
 	17
     }
 
-    ##CER240
-    
+    ##CER240    
     set map([list map CER240]) {
 	{O1 HO1 C1S H1S H1T}
 	{C2S H2S NF HNF}
@@ -775,13 +774,134 @@ proc ::CGtools::map_ceramide {} {
         24
         17
     }
+    
+    ##CER160    
+    set map([list map CER160]) {
+	{O1 HO1 C1S H1S H1T}
+	{C2S H2S NF HNF}
+	{C3S H3S O3 HO3}
+	{C4S H4S C5S H5S}
+	{C6S H6S H6T C7S H7S H7T C8S H8S H8T}
+	{C9S H9S H9T C10S H10S H10T C11S H11S H11T}
+	{C12S H12S H12T C13S H13S H13T C14S H14S H14T}
+	{C15S H15S H15T C16S H16S H16T}
+	{C17S H17S H17T C18S H18S H18T H18U}
+	{C1F OF}
+	{C2F H2F H2G C3F H3F H3G C4F H4F H4G}
+	{C5F H5F H5G C6F H6F H6G C7F H7F H7G}
+	{C8F H8F H8G C9F H9F H9G C10F H10F H10G}
+	{C11F H11F H11G C12F H12F H12G C13F H13F H13G}
+	{C14F H14F H14G C15F H15F H15G C16F H16F H16G H16H}
+    }
+
+    set map([list type CER160])    {
+	SER 
+	N
+	SER
+	CMD2
+	CM
+	CM
+	CM
+	CM2
+        CT2
+        O
+        CM
+        CM
+        CM
+        CM
+        CT
+    }
+
+    set map([list name CER160])    {
+        OH1
+        N
+        OH2
+        CS3
+        CS4
+        CS5
+        CS6
+        CS7
+        CS8
+        OF1
+        CF2
+        CF3
+        CF4
+        CF5
+	CF6
+    }
+
+    set map([list charge CER160])  {
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+	0.0
+    }
+
+    set map([list mass CER160])    {
+	31.0344
+	28.0340
+	30.0264
+	26.0380
+	42.0810
+	42.0810
+	42.0810
+	28.0540
+	29.0620
+	28.0100
+	42.0810
+	42.0810
+	42.0810
+	42.0810
+	43.0810
+    }
+
+    set map([list bonds CER160]) {
+	{OH1 N} {OH2 N} {OH2 CS3}
+	{CS3 CS4} {CS4 CS5} {CS5 CS6}
+	{CS6 CS7} {CS7 CS8} {N OF1}
+	{OF1 CF2} {CF2 CF3} {CF3 CF4} {CF4 CF5}
+	{CF5 CF6}
+    }
+
+    set map([list angles CER160]) {
+	{auto}
+    }
+
+    set map([list atomicnumber CER160]) {
+	17
+	15
+	16
+	14
+	24
+	24
+	24
+	16
+	17
+	14
+	24
+	24
+	24
+	24
+	25
+    }
 
     return
 
 }
 
-::CGtools::map_ceramide
+    ::CGtools::map_ceramide
 
-if { $::CGtools::maptest } {
-    ::CGtools::map_stats {CER1 CER2 CER240 CER482}
-}
+    if { $::CGtools::maptest } {
+	::CGtools::map_stats {CER1 CER2 CER240 CER482 CER160}
+    }
