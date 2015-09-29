@@ -4,7 +4,7 @@
 # | CG-Tools |
 # +----------+
 
-# CGtools, a VMD package to simplify creating coarse grained SDK 
+# CGtools, a VMD package to simplify creating coarse grained SDK
 # topologies.
 
 # Copyright (c) 2013 by Chris MacDermaid <chris.macdermaid@gmail.com>
@@ -16,12 +16,12 @@
 if {![namespace exists ::CGtools]} {
     namespace eval ::CGtools:: {
         variable maptest 1
-	# Testing functions for consistency
-	if {[catch {source common.tcl} msg]} {
-	    puts "Unable to load common map functions.\
-	    File should be loaded from 'maps' directory"
-	    exit 1
-	}
+        # Testing functions for consistency
+        if {[catch {source common.tcl} msg]} {
+            puts "Unable to load common map functions.\
+        File should be loaded from 'maps' directory"
+            exit 1
+        }
     }
 }
 
@@ -68,7 +68,7 @@ proc ::CGtools::map_peg {} {
     }
 
     set map([list angles PEG2]) {
-      {auto}
+        {auto}
     }
 
     #PEG3 - C6O4
@@ -115,7 +115,7 @@ proc ::CGtools::map_peg {} {
     }
 
     set map([list angles PEG3]) {
-      {auto}
+        {auto}
     }
 
     #PEG4 - C8O5
@@ -167,7 +167,7 @@ proc ::CGtools::map_peg {} {
     }
 
     set map([list angles PEG4]) {
-      {auto}
+        {auto}
     }
 
     #PEG5 - C10O6
@@ -225,7 +225,7 @@ proc ::CGtools::map_peg {} {
     }
 
     set map([list angles PEG5]) {
-      {auto}
+        {auto}
     }
 
     #PEG6 - C12O6
@@ -289,7 +289,7 @@ proc ::CGtools::map_peg {} {
     }
 
     set map([list angles PEG6]) {
-      {auto}
+        {auto}
     }
 
     #PEG7 - C14O7
@@ -359,8 +359,373 @@ proc ::CGtools::map_peg {} {
     }
 
     set map([list angles PEG7]) {
-      {auto}
+        {auto}
     }
+
+    #PEG3181
+    set map([list map PEG3181]) {
+        {OA1}
+        {EO1}
+        {EO2}
+        {EST1}
+        {CM}
+        {CM}
+        {CMD2}
+        {CM}
+        {CM}
+        {CT2}
+    }
+
+    set map([list type PEG3181])    {
+        OA
+        EO
+        EO
+        EST1
+        CM
+        CM
+        CMD2
+        CM
+        CM
+        CT2
+    }
+
+    set map([list name PEG3181])    {
+        OA1
+        EO1
+        EO2
+        EST1
+        C11
+        C12
+        C13
+        C14
+        C15
+        C16
+    }
+
+    set map([list charge PEG3181])  {
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list mass PEG3181])    {
+        31.03
+        44.05
+        44.05
+        58.0358
+        42.0804
+        42.0804
+        26.0378
+        42.0804
+        42.0804
+        29.0615
+    }
+
+    set map([list bonds PEG3181]) {
+        {OA1 EO1}
+        {EO1 EO2}
+        {EO2 EST1}
+        {EST1 C11}
+        {C11 C12}
+        {C12 C13}
+        {C13 C14}
+        {C14 C15}
+        {C15 C16}
+    }
+
+    set map([list angles PEG3181]) {
+        {auto}
+    }
+
+    #PEG4181
+    set map([list map PEG4181]) {
+        {OA1}
+        {EO1}
+        {EO2}
+        {EO3}
+        {EST1}
+        {CM}
+        {CM}
+        {CMD2}
+        {CM}
+        {CM}
+        {CT2}
+    }
+
+    set map([list type PEG4181])    {
+        OA
+        EO
+        EO
+        EO
+        EST1
+        CM
+        CM
+        CMD2
+        CM
+        CM
+        CT2
+    }
+
+    set map([list name PEG4181])    {
+        OA1
+        EO1
+        EO2
+        EO3
+        EST1
+        C11
+        C12
+        C13
+        C14
+        C15
+        C16
+    }
+
+    set map([list charge PEG4181])  {
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list mass PEG4181])    {
+        31.03
+        44.05
+        44.05
+        44.05
+        58.0358
+        42.0804
+        42.0804
+        26.0378
+        42.0804
+        42.0804
+        29.0615
+    }
+
+    set map([list bonds PEG4181]) {
+        {OA1 EO1}
+        {EO1 EO2}
+        {EO2 EO3}
+        {EO3 EST1}
+        {EST1 C11}
+        {C11 C12}
+        {C12 C13}
+        {C13 C14}
+        {C14 C15}
+        {C15 C16}
+    }
+
+    set map([list angles PEG4181]) {
+        {auto}
+    }
+
+    #PEG5181
+    set map([list map PEG5181]) {
+        {OA1}
+        {EO1}
+        {EO2}
+        {EO3}
+        {EO4}
+        {EST1}
+        {CM}
+        {CM}
+        {CMD2}
+        {CM}
+        {CM}
+        {CT2}
+    }
+
+    set map([list type PEG5181])    {
+        OA
+        EO
+        EO
+        EO
+        EO
+        EST1
+        CM
+        CM
+        CMD2
+        CM
+        CM
+        CT2
+    }
+
+    set map([list name PEG5181])    {
+        OA1
+        EO1
+        EO2
+        EO3
+        EO4
+        EST1
+        C11
+        C12
+        C13
+        C14
+        C15
+        C16
+    }
+
+    set map([list charge PEG5181])  {
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list mass PEG5181])    {
+        31.03
+        44.05
+        44.05
+        44.05
+        44.05
+        58.0358
+        42.0804
+        42.0804
+        26.0378
+        42.0804
+        42.0804
+        29.0615
+    }
+
+    set map([list bonds PEG5181]) {
+        {OA1 EO1}
+        {EO1 EO2}
+        {EO2 EO3}
+        {EO3 EO4}
+        {EO4 EST1}
+        {EST1 C11}
+        {C11 C12}
+        {C12 C13}
+        {C13 C14}
+        {C14 C15}
+        {C15 C16}
+    }
+
+    set map([list angles PEG5181]) {
+        {auto}
+    }
+    
+    #PEG6181
+    set map([list map PEG6181]) {
+        {OA1}
+        {EO1}
+        {EO2}
+        {EO3}
+        {EO4}
+        {EO5}
+        {EST1}
+        {CM}
+        {CM}
+        {CMD2}
+        {CM}
+        {CM}
+        {CT2}
+    }
+
+    set map([list type PEG6181])    {
+        OA
+        EO
+        EO
+        EO
+        EO
+        EO
+        EST1
+        CM
+        CM
+        CMD2
+        CM
+        CM
+        CT2
+    }
+
+    set map([list name PEG6181])    {
+        OA1
+        EO1
+        EO2
+        EO3
+        EO4
+        EO5
+        EST1
+        C11
+        C12
+        C13
+        C14
+        C15
+        C16
+    }
+
+    set map([list charge PEG6181])  {
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list mass PEG6181])    {
+        31.03
+        44.05
+        44.05
+        44.05
+        44.05
+        44.05
+        58.0358
+        42.0804
+        42.0804
+        26.0378
+        42.0804
+        42.0804
+        29.0615
+    }
+
+    set map([list bonds PEG6181]) {
+        {OA1 EO1}
+        {EO1 EO2}
+        {EO2 EO3}
+        {EO3 EO4}
+        {EO4 EO5}
+        {EO5 EST1}
+        {EST1 C11}
+        {C11 C12}
+        {C12 C13}
+        {C13 C14}
+        {C14 C15}
+        {C15 C16}
+    }
+
+    set map([list angles PEG6181]) {
+        {auto}
+    }
+
 
     # +-------------+
     # |    C12E2    |
@@ -377,23 +742,23 @@ proc ::CGtools::map_peg {} {
     }
 
     set map([list type G122])    {
-        OA 
-        EO 
-        EO 
-        CM 
-        CM 
-        CM 
+        OA
+        EO
+        EO
+        CM
+        CM
+        CM
         CT2
     }
 
     set map([list name G122])    {
-        OA 
+        OA
         EO1
         EO2
-        C3 
-        C4 
-        C5 
-        C6 
+        C3
+        C4
+        C5
+        C6
     }
 
     set map([list charge G122])  {
@@ -426,7 +791,7 @@ proc ::CGtools::map_peg {} {
     }
 
     set map([list angles G122]) {
-      {auto}
+        {auto}
     }
 
 
@@ -451,32 +816,32 @@ proc ::CGtools::map_peg {} {
     }
 
     set map([list type G186])    {
-        OA 
-        EO 
-        EO 
-        EO 
-        EO 
-        EO 
-        EO 
-        CM 
-        CM 
-        CM 
-        CM 
-        CM 
+        OA
+        EO
+        EO
+        EO
+        EO
+        EO
+        EO
+        CM
+        CM
+        CM
+        CM
+        CM
         CT2
     }
 
     set map([list name G186])    {
-        OA 
+        OA
         EO1
         EO2
         EO3
         EO4
         EO5
         EO6
-        C7 
-        C8 
-        C9 
+        C7
+        C8
+        C9
         C10
         C11
         C12
@@ -530,7 +895,7 @@ proc ::CGtools::map_peg {} {
     }
 
     set map([list angles G186]) {
-      {auto}
+        {auto}
     }
 
     return
@@ -542,7 +907,8 @@ proc ::CGtools::map_peg {} {
 if { $::CGtools::maptest } {
 
     foreach r {G186 PEG2
-      PEG3 PEG4 PEG5 PEG6 PEG7} {
+        PEG3 PEG4 PEG5 PEG6 PEG7
+        PEG3181 PEG4181 PEG5181 PEG6181} {
         ::CGtools::map_stats $r
         ::CGtools::checkbonds $r
         ::CGtools::checkangles $r
