@@ -214,6 +214,9 @@ proc ::CGtools::map_thlx {} {
         {C43 C44} {C43 C45} {C43 C46} {C43 C47}
         {C44 C45} {C44 C46} {C44 C47} {C44 C48}
         {C45 C46} {C45 C47} {C45 C48} {C45 C49}
+        {C46 C47} {C46 C48} {C46 C49}
+        {C47 C48} {C47 C49}
+        {C48 C49}
     }
 
     ## no angles for now
