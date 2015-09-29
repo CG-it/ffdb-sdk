@@ -30,7 +30,337 @@ proc ::CGtools::map_peg {} {
 
     variable map
 
-    
+    #PEG2 - C4O3
+
+    set map([list map PEG2]) {
+        {OA1}
+        {EO1}
+        {OA2}
+    }
+
+    set map([list type PEG2])    {
+        OA
+        EO
+        OA
+    }
+
+    set map([list name PEG2])    {
+        OA1
+        EO1
+        OA2
+    }
+
+    set map([list charge PEG2])  {
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list mass PEG2])    {
+        31.03
+        44.05
+        31.03
+    }
+
+    set map([list bonds PEG2]) {
+        {OA1 EO1}
+        {EO1 OA2}
+    }
+
+    set map([list angles PEG2]) {
+      {auto}
+    }
+
+    #PEG3 - C6O4
+
+    set map([list map PEG3]) {
+        {OA1}
+        {EO1}
+        {EO2}
+        {OA2}
+    }
+
+    set map([list type PEG3])    {
+        OA
+        EO
+        EO
+        OA
+    }
+
+    set map([list name PEG3])    {
+        OA1
+        EO1
+        EO2
+        OA2
+    }
+
+    set map([list charge PEG3])  {
+        0.0
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list mass PEG3])    {
+        31.03
+        44.05
+        44.05
+        31.03
+    }
+
+    set map([list bonds PEG3]) {
+        {OA1 EO1}
+        {EO1 EO2}
+        {EO2 OA2}
+    }
+
+    set map([list angles PEG3]) {
+      {auto}
+    }
+
+    #PEG4 - C8O5
+    set map([list map PEG4]) {
+        {OA1}
+        {EO1}
+        {EO2}
+        {EO3}
+        {OA2}
+    }
+
+    set map([list type PEG4])    {
+        OA
+        EO
+        EO
+        EO
+        OA
+    }
+
+    set map([list name PEG4])    {
+        OA1
+        EO1
+        EO2
+        EO3
+        OA2
+    }
+
+    set map([list charge PEG4])  {
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list mass PEG4])    {
+        31.03
+        44.05
+        44.05
+        44.05
+        31.03
+    }
+
+    set map([list bonds PEG4]) {
+        {OA1 EO1}
+        {EO1 EO2}
+        {EO2 EO3}
+        {EO3 OA2}
+    }
+
+    set map([list angles PEG4]) {
+      {auto}
+    }
+
+    #PEG5 - C10O6
+    set map([list map PEG5]) {
+        {OA1}
+        {EO1}
+        {EO2}
+        {EO3}
+        {EO4}
+        {OA2}
+    }
+
+    set map([list type PEG5])    {
+        OA
+        EO
+        EO
+        EO
+        EO
+        OA
+    }
+
+    set map([list name PEG5])    {
+        OA1
+        EO1
+        EO2
+        EO3
+        EO4
+        OA2
+    }
+
+    set map([list charge PEG5])  {
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list mass PEG5])    {
+        31.03
+        44.05
+        44.05
+        44.05
+        44.05
+        31.03
+    }
+
+    set map([list bonds PEG5]) {
+        {OA1 EO1}
+        {EO1 EO2}
+        {EO2 EO3}
+        {EO3 EO4}
+        {EO4 OA2}
+    }
+
+    set map([list angles PEG5]) {
+      {auto}
+    }
+
+    #PEG6 - C12O6
+    set map([list map PEG6]) {
+        {OA1}
+        {EO1}
+        {EO2}
+        {EO3}
+        {EO4}
+        {EO5}
+        {OA2}
+    }
+
+    set map([list type PEG6])    {
+        OA
+        EO
+        EO
+        EO
+        EO
+        EO
+        OA
+    }
+
+    set map([list name PEG6])    {
+        OA1
+        EO1
+        EO2
+        EO3
+        EO4
+        EO5
+        OA2
+    }
+
+    set map([list charge PEG6])  {
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list mass PEG6])    {
+        31.03
+        44.05
+        44.05
+        44.05
+        44.05
+        44.05
+        31.03
+    }
+
+    set map([list bonds PEG6]) {
+        {OA1 EO1}
+        {EO1 EO2}
+        {EO2 EO3}
+        {EO3 EO4}
+        {EO4 EO5}
+        {EO5 OA2}
+    }
+
+    set map([list angles PEG6]) {
+      {auto}
+    }
+
+    #PEG7 - C14O7
+    set map([list map PEG7]) {
+        {OA1}
+        {EO1}
+        {EO2}
+        {EO3}
+        {EO4}
+        {EO5}
+        {EO6}
+        {OA2}
+    }
+
+    set map([list type PEG7])    {
+        OA
+        EO
+        EO
+        EO
+        EO
+        EO
+        EO
+        OA
+    }
+
+    set map([list name PEG7])    {
+        OA1
+        EO1
+        EO2
+        EO3
+        EO4
+        EO5
+        EO6
+        OA2
+    }
+
+    set map([list charge PEG7])  {
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list mass PEG7])    {
+        31.03
+        44.05
+        44.05
+        44.05
+        44.05
+        44.05
+        44.05
+        31.03
+    }
+
+    set map([list bonds PEG7]) {
+        {OA1 EO1}
+        {EO1 EO2}
+        {EO2 EO3}
+        {EO3 EO4}
+        {EO4 EO5}
+        {EO5 EO6}
+        {EO5 OA2}
+    }
+
+    set map([list angles PEG7]) {
+      {auto}
+    }
 
     # +-------------+
     # |    C12E2    |
@@ -211,7 +541,8 @@ proc ::CGtools::map_peg {} {
 
 if { $::CGtools::maptest } {
 
-    foreach r {G186} {
+    foreach r {G186 PEG2
+      PEG3 PEG4 PEG5 PEG6 PEG7} {
         ::CGtools::map_stats $r
         ::CGtools::checkbonds $r
         ::CGtools::checkangles $r
