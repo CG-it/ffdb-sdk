@@ -13,4 +13,4 @@ bond   PH    CM   harmonic 12.000  3.690    # JPCB 2010
 bond   PHE   GL   harmonic  8.900  3.520    # JPCB 2010
 bond   PH    GL   harmonic  8.900  3.520    # JPCB 2010
 bond   CM    CM2  harmonic  9.900  3.061    # CMM Dodecane, March2015, DMPC3
-bond   CM2   CT2  harmonic 17.400  2.538    # CMM Dodecane, March2015, DMPC3
+bond   CM2   CT2  harmonic 17.400  2.538    # CMM Dodecane, March2015, DMPC3; k seems entirely too large

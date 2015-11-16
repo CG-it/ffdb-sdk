@@ -22,6 +22,7 @@ angle  PHE   GL    EST2 sdk   2.000 138.0     # JPCB 2010
 angle  PH    GL    EST1 sdk   1.400 124.0     # JPCB 2010
 angle  PH    GL    EST2 sdk   2.000 138.0     # JPCB 2010
 angle  CM    CM2   CM   sdk   1.200 173.0     # Dodecane, CMM, March2015,DMPC3, OrderParamOpt
+angle  CM    CM    CM2  sdk   1.190 173.0     # Taken from CM-CM-CM, 16NOV2015
 angle  CM    CM2   CT2  sdk   1.300 179.0     # Dodecane, CMM, March2015,DMPC3, OrderParamOpt
 angle  CM2   CM    CM2  sdk   1.224 175.0     # Dodecane, CMM, March2015,DMPC3, OrderParamOpt
 angle  CM2   CM    EST1 sdk   0.900 178.0     # Dodecane, CMM, March2015,DMPC3, OrderParamOpt
