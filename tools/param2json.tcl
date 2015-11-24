@@ -3,7 +3,7 @@
 ## to verified json. You can check the output with
 ## http://jsonformatter.curiousconcept.com/
 
-#./cvt2json file1 file2 file3 ...
+#./param2json file1 file2 file3 ...
 
 ## Main command
 proc param2json {args} {
