@@ -21,7 +21,7 @@ proc param2json {args} {
 	set data [read [set fid [open $f]]][close $fid]
 
 	foreach l [split $data "\n"] {
-	    switch -glob $l {
+	    switch -glob [string trimleft $l] {
 		"bond*"      {bond2json  $l s}
 		"angle*"     {angle2json $l s}
 		"dihedral*"  {dihed2json $l s}
