@@ -43,3 +43,5 @@ proc json2param {filename} {
     }
   }
 }
+
+if {1} {json2param {*}$argv}
