@@ -64,9 +64,9 @@ proc ::CGtools::map_ceramide {} {
     }
 
     set map([list type CER1])    {
-        SER 
+        SER1
         N
-        SER
+        SER2
         CMD2
         CM
         CM
@@ -261,9 +261,9 @@ proc ::CGtools::map_ceramide {} {
     }
 
     set map([list type CER482])    {
-	SER 
+	SER1
 	N
-	SER
+	SER2
 	CMD2
 	CM
 	CM
@@ -453,9 +453,9 @@ proc ::CGtools::map_ceramide {} {
     }
 
     set map([list type CER2])    {
-	SER 
+	SER1
 	N
-	SER
+	SER2
 	CMD2
 	CM
 	CM
@@ -593,9 +593,9 @@ proc ::CGtools::map_ceramide {} {
     }
 
     set map([list type CER240])    {
-	SER 
+	SER1
 	N
-	SER
+	SER2
 	CMD2
 	CM
 	CM
@@ -733,9 +733,9 @@ proc ::CGtools::map_ceramide {} {
     }
 
     set map([list type CER241])    {
-	SER 
+	SER1
 	N
-	SER
+	SER2
 	CMD2
 	CM
 	CM
@@ -870,9 +870,9 @@ proc ::CGtools::map_ceramide {} {
     }
 
     set map([list type CER160])    {
-	SER 
+	SER1
 	N
-	SER
+	SER2
 	CMD2
 	CM
 	CM
@@ -992,9 +992,9 @@ proc ::CGtools::map_ceramide {} {
     }
 
     set map([list type CER180])    {
-	SER 
+	SER1
 	N
-	SER
+	SER2
 	CMD2
 	CM
 	CM

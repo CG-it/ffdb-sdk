@@ -14,7 +14,7 @@
 #pair     CM2   CT   lj9_6    0.3107    4.4546 # CM2 CT
 #pair     CM2   W   lj12_4    0.2788    4.1722 # CM2 W
 
-#paif     CM2   CM2 lj9_6    0.2688    4.4159 # CM2 CM2
+#pair     CM2   CM2 lj9_6    0.2688    4.4159 # CM2 CM2
 #pair     CM2   CT2  lj9_6    0.2317    4.2763 # CM2 CT2
 #paif     CM2   W   lj12_4    0.2788    4.1722 # CM2 W
 

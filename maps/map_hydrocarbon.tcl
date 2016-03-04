@@ -654,7 +654,6 @@ proc ::CGtools::map_hydrocarbon {} {
         {auto}
     }
 
-
     ## 4-cis-octene
     set map([list map 4COC]) {
         {C1 H1R H1S H1T C2 H2R H2S C3 H3R H3S}
@@ -692,6 +691,86 @@ proc ::CGtools::map_hydrocarbon {} {
     }
 
     set map([list angles 4COC]) {
+        {auto}
+    }
+
+    ## 4-cis-octene
+    set map([list map 4COC2]) {
+        {C1 H1R H1S H1T C2 H2R H2S C3 H3R H3S}
+        {C4 H4R C5 H5R}
+        {C6 H6R H6S C7 H7R H7S C8 H8R H8S H8T}
+    }
+
+    set map([list type 4COC2])    {
+        CT
+        CMD2
+        CT
+    }
+
+    set map([list name 4COC2])    {
+        C1
+        C2
+        C3
+    }
+
+    set map([list charge 4COC2])  {
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list mass 4COC2])    {
+        {43.0890}
+        {28.05}
+        {43.0890}
+    }
+
+    set map([list bonds 4COC2]) {
+        {C1 C2}
+        {C2 C3}
+    }
+
+    set map([list angles 4COC2]) {
+        {auto}
+    }
+
+    ## 4-trans-octene
+    set map([list map 4TOC]) {
+        {C1 C3 C7 H1 H2 H5 H6 H11 H12 H13}
+        {C5 C6 H9 H10}
+        {C2 C4 C8 H3 H4 H7 H8 H14 H15 H16}
+    }
+
+    set map([list type 4TOC])    {
+        CT
+        CMD2T
+        CT
+    }
+
+    set map([list name 4TOC])    {
+        C1
+        C2
+        C3
+    }
+
+    set map([list charge 4TOC])  {
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list mass 4TOC])    {
+        {43.0890}
+        {26.0380}
+        {43.0890}
+    }
+
+    set map([list bonds 4TOC]) {
+        {C1 C2}
+        {C2 C3}
+    }
+
+    set map([list angles 4TOC]) {
         {auto}
     }
 
@@ -1167,6 +1246,280 @@ proc ::CGtools::map_hydrocarbon {} {
         {none}
     }
 
+    ## Cis-2-Pentene
+    set map([list map 2CPEN]) {
+        {C1 H1 H2 H3 C2 H4 C3 H5}
+        {C4 H6 H7 C5 H8 H9 H10}
+    }
+
+    set map([list type 2CPEN])    {
+      CMD3
+      CT2
+    }
+
+    set map([list name 2CPEN])    {
+        C1
+        C2
+    }
+
+    set map([list charge 2CPEN])  {
+        0.0
+        0.0
+    }
+
+    set map([list weights 2CPEN]) {
+      {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+      {1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+    }
+
+    set map([list mass 2CPEN])    {
+      {41.07}
+      {29.06}
+    }
+
+    set map([list bonds 2CPEN]) {
+        {C1 C2}
+    }
+
+    set map([list angles 2CPEN]) {
+        {none}
+    }
+
+    set map([list dihedrals 2CPEN]) {
+        {none}
+    }
+
+    ## 1-Octene
+    set map([list map 1OCTE]) {
+        {C1 H1 H2 C2 H3 C3 H4 H5}
+        {C4 H6 H7 C5 H8 H9 C6 H10 H11}
+        {C7 H12 H13 C8 H14 H15 H16}
+    }
+
+    set map([list type 1OCTE])    {
+      CMD3
+      CM
+      CT2
+    }
+
+    set map([list name 1OCTE])    {
+        C1
+        C2
+        C3
+    }
+
+    set map([list charge 1OCTE])  {
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list weights 1OCTE]) {
+      {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+      {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+      {1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+    }
+
+    set map([list mass 1OCTE])    {
+      {41.07}
+      {42.08}
+      {29.06}
+    }
+
+    set map([list bonds 1OCTE]) {
+        {C1 C2}
+        {C2 C3}
+    }
+
+    set map([list angles 1OCTE]) {
+        {C1 C2 C3}
+    }
+
+    set map([list dihedrals 1OCTE]) {
+        {none}
+    }
+
+    ## 1-Octene, alternative mapping for CM2
+    set map([list map 1OCTE2]) {
+        {C1 H1 H2 C2 H3 C3 H4 H5}
+        {C4 H6 H7 C5 H8 H9}
+        {C6 H10 H11 C7 H12 H13 C8 H14 H15 H16}
+    }
+
+    set map([list type 1OCTE2])    {
+      CMD3
+      CM2
+      CT
+    }
+
+    set map([list name 1OCTE2])    {
+        C1
+        C2
+        C3
+    }
+
+    set map([list charge 1OCTE2])  {
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list weights 1OCTE2]) {
+      {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+      {1.0 1.0 1.0 1.0 1.0 1.0}
+      {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+    }
+
+    set map([list mass 1OCTE2])    {
+      {41.07}
+      {28.05}
+      {43.09}
+    }
+
+    set map([list bonds 1OCTE2]) {
+        {C1 C2}
+        {C2 C3}
+    }
+
+    set map([list angles 1OCTE2]) {
+        {C1 C2 C3}
+    }
+
+    set map([list dihedrals 1OCTE2]) {
+        {none}
+    }
+
+  ## 1-Octene
+    set map([list map 1OCTE3]) {
+        {C1 H1 H2 C2 H3}
+        {C3 H4 H5 C4 H6 H7 C5 H8 H9}
+        {C6 H10 H11 C7 H12 H13 C8 H14 H15 H16}
+    }
+
+    set map([list type 1OCTE3])    {
+      CMD2
+      CM
+      CT
+    }
+
+    set map([list name 1OCTE3])    {
+        C1
+        C2
+        C3
+    }
+
+    set map([list charge 1OCTE3])  {
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list mass 1OCTE3])    {
+      {27.05}
+      {42.08}
+      {43.09}
+    }
+
+    set map([list bonds 1OCTE3]) {
+        {C1 C2}
+        {C2 C3}
+    }
+
+    set map([list angles 1OCTE3]) {
+        {C1 C2 C3}
+    }
+
+    set map([list dihedrals 1OCTE3]) {
+        {none}
+    }
+
+    ## 1-Hexene
+    set map([list map 1HEXE]) {
+        {C1 H1 H2 C2 H3 C3 H4 H5}
+        {C4 H6 H7 C5 H8 H9 C6 H10 H11 H12}
+    }
+
+    set map([list type 1HEXE])    {
+      CMD3
+      CT
+    }
+
+    set map([list name 1HEXE])    {
+        C1
+        C2
+    }
+
+    set map([list charge 1HEXE])  {
+        0.0
+        0.0
+    }
+
+    set map([list weights 1HEXE]) {
+      {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+      {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+    }
+
+    set map([list mass 1HEXE])    {
+      {41.07}
+      {43.09}
+    }
+
+    set map([list bonds 1HEXE]) {
+        {C1 C2}
+    }
+
+    set map([list angles 1HEXE]) {
+        {none}
+    }
+
+    set map([list dihedrals 1HEXE]) {
+        {none}
+    }
+
+    ## 1,5-Hexadiene
+    set map([list map 15HD]) {
+        {C1 H1 H2 C2 H3 C3 H4 H5}
+        {C4 H6 H7 C5 H8 C6 H9 H10}
+    }
+
+    set map([list type 15HD])    {
+      CMD3
+      CMD3
+    }
+
+    set map([list name 15HD])    {
+        C1
+        C2
+    }
+
+    set map([list charge 15HD])  {
+        0.0
+        0.0
+    }
+
+    set map([list weights 15HD]) {
+      {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+      {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+    }
+
+    set map([list mass 15HD])    {
+      {41.07}
+      {41.07}
+    }
+
+    set map([list bonds 15HD]) {
+        {C1 C2}
+    }
+
+    set map([list angles 15HD]) {
+        {none}
+    }
+
+    set map([list dihedrals 15HD]) {
+        {none}
+    }
+
+
     return
 }
 
@@ -1181,6 +1534,8 @@ if { $::CGtools::maptest } {
     ::CGtools::checkbonds DECN
     ::CGtools::map_stats 4COC
     ::CGtools::checkbonds 4COC
+    ::CGtools::map_stats 4TOC
+    ::CGtools::checkbonds 4TOC
     ::CGtools::map_stats PCHE
     ::CGtools::checkbonds PCHE
     ::CGtools::map_stats 2MHE
@@ -1201,4 +1556,14 @@ if { $::CGtools::maptest } {
     ::CGtools::checkbonds CPEN 
     ::CGtools::map_stats CHD 
     ::CGtools::checkbonds CHD 
+    ::CGtools::map_stats 2CPEN
+    ::CGtools::checkbonds 2CPEN
+    ::CGtools::map_stats 1OCTE
+    ::CGtools::checkbonds 1OCTE
+    ::CGtools::map_stats 1OCTE2
+    ::CGtools::checkbonds 1OCTE2
+    ::CGtools::map_stats 1HEXE
+    ::CGtools::checkbonds 1HEXE
+    ::CGtools::map_stats 15HD
+    ::CGtools::checkbonds 15HD
 }

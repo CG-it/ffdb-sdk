@@ -303,11 +303,303 @@ proc ::CGtools::map_ffa {} {
         {none}
     }
 
+    ## Neutral Butyric Acid (FFA headgroup)
+    ## https://en.wikipedia.org/wiki/Butyric_acid
+    ## Used for Headgroup Parameterization
+    ## Probably should do hexanoic too..
+
+    ## Alternate mapping with alpha carbon in carboxylate bead
+    ## This provides easier maps for 9-cis fatty acids
+    set map([list map BTAP2]) {
+        {C O1 O2 H C1 H11 H12}
+        {C2 H21 H22 C3 H31 H32 H33}
+    }
+
+    set map([list type BTAP2])    {
+        COOH
+        CT2
+    }
+
+    set map([list name BTAP2])    {
+        O2
+        C1
+    }
+
+    set map([list charge BTAP2])  {
+        0.0
+        0.0
+    }
+
+    set map([list mass BTAP2])    {
+        59.04
+        29.06
+    }
+
+    set map([list weights BTAP2]) {
+        {1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+        {1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+    }
+
+    set map([list bonds BTAP2]) {
+        {O2 C1}
+    }
+
+    set map([list angles BTAP2]) {
+        {none}
+    }
+
+    set map([list dihedrals BTAP2]) {
+        {none}
+    }
+
+    ## Neutral Pentanoic Acid (FFA headgroup)
+    ## https://en.wikipedia.org/wiki/Butyric_acid
+
+    ## Alternate mapping with alpha carbon in carboxylate bead
+    ## This provides easier maps for 9-cis fatty acids
+    set map([list map PENP2]) {
+        {C1 O1 O2 H C2 H21 H22}
+        {C3 H31 H32 C4 H41 H42 C5 H51 H52 H53}
+    }
+
+    set map([list type PENP2])    {
+        COOH
+        CT
+    }
+
+    set map([list name PENP2])    {
+        O2
+        C1
+    }
+
+    set map([list charge PENP2])  {
+        0.0
+        0.0
+    }
+
+    set map([list mass PENP2])    {
+        59.04
+        43.09
+    }
+
+    set map([list weights PENP2]) {
+        {1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+        {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+    }
+
+    set map([list bonds PENP2]) {
+        {O2 C1}
+    }
+
+    set map([list angles PENP2]) {
+        {none}
+    }
+
+    set map([list dihedrals PENP2]) {
+        {none}
+    }
+
+    ## Neutral Hexanoic Acid (FFA headgroup)
+    ## https://en.wikipedia.org/wiki/Heptanoic_acid
+
+    set map([list map HEXP2]) {
+        {C1 O1 O2 H C2 H21 H22}
+        {C3 H31 H32 C4 H41 H42}
+        {C5 H51 H52 C6 H61 H62 H63}
+    }
+
+    set map([list type HEXP2])    {
+        COOH
+        CM2
+        CT2
+    }
+
+    set map([list name HEXP2])    {
+        O2
+        C1
+        C2
+    }
+
+    set map([list charge HEXP2])  {
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list mass HEXP2])    {
+        59.04
+        28.05
+        29.06
+    }
+
+    set map([list weights HEXP2]) {
+        {1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+        {1.0 1.0 1.0 1.0 1.0 1.0}
+        {1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+    }
+
+    set map([list bonds HEXP2]) {
+        {O2 C1}
+        {C1 C2}
+    }
+
+    set map([list angles HEXP2]) {
+        {O2 C1 C2}
+    }
+
+    set map([list dihedrals HEXP2]) {
+        {none}
+    }
+
+    ## Neutral Heptanoic Acid (FFA headgroup)
+    ## https://en.wikipedia.org/wiki/Heptanoic_acid
+
+    set map([list map HEPP2]) {
+        {C1 O1 O2 H C2 H21 H22}
+        {C3 H31 H32 C4 H41 H42 C5 H51 H52}
+        {C6 H61 H62 C7 H71 H72 H73}
+    }
+
+    set map([list type HEPP2])    {
+        COOH
+        CM
+        CT2
+    }
+
+    set map([list name HEPP2])    {
+        O2
+        C1
+        C2
+    }
+
+    set map([list charge HEPP2])  {
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list mass HEPP2])    {
+        59.04
+        42.08
+        29.06
+    }
+
+    set map([list weights HEPP2]) {
+        {1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+        {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+        {1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+    }
+
+    set map([list bonds HEPP2]) {
+        {O2 C1}
+        {C1 C2}
+    }
+
+    set map([list angles HEPP2]) {
+        {O2 C1 C2}
+    }
+
+    set map([list dihedrals HEPP2]) {
+        {none}
+    }
+
+    ## Neutral Octanoic (Caprylic) Acid (FFA headgroup)
+    ## https://en.wikipedia.org/wiki/Heptanoic_acid
+
+    set map([list map OCTP2]) {
+        {C1 O1 O2 H C2 H21 H22}
+        {C3 H31 H32 C4 H41 H42 C5 H51 H52}
+        {C6 H61 H62 C7 H71 H72 C8 H81 H82 H83}
+    }
+
+    set map([list type OCTP2])    {
+        COOH
+        CM
+        CT
+    }
+
+    set map([list name OCTP2])    {
+        O2
+        C1
+        C2
+    }
+
+    set map([list charge OCTP2])  {
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list mass OCTP2])    {
+        59.04
+        42.08
+        43.09
+    }
+
+    set map([list weights OCTP2]) {
+        {1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+        {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+        {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+    }
+
+    set map([list bonds OCTP2]) {
+        {O2 C1}
+        {C1 C2}
+    }
+
+    set map([list angles OCTP2]) {
+        {O2 C1 C2}
+    }
+
+    set map([list dihedrals OCTP2]) {
+        {none}
+    }
+
+    ## Neutral Acetic Acid (FFA headgroup)
+    ## Used for Headgroup Parameterization
+
+    set map([list map ACEP2]) {
+        {C1 O1 O2 H C2 H21 H22 H23}
+    }
+
+    set map([list type ACEP2])    {
+        COOH
+    }
+
+    set map([list name ACEP2])    {
+        O2
+    }
+
+    set map([list charge ACEP2])  {
+        0.0
+    }
+
+    set map([list mass ACEP2])    {
+        60.04
+    }
+
+    set map([list weights ACEP2]) {
+        {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+    }
+
+    set map([list bonds ACEP2]) {
+      {none}
+    }
+
+    set map([list angles ACEP2]) {
+     {none}
+    }
+
+    set map([list dihedrals ACEP2]) {
+        {none}
+    }
+
     return
 }
 
 ::CGtools::map_ffa
 
 if { $::CGtools::maptest } {
-    ::CGtools::map_stats {BENA BENP BTAP}
+    ::CGtools::map_stats {BENA BENP BTAP BTAP2
+          ACEP2 PENP2 HEXP2 HEPP2 OCTP2}
 }
