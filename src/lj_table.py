@@ -1,5 +1,15 @@
 import sys, math
 
+class bcolors:
+    HEADER = '\033[95m'
+    OKBLUE = '\033[94m'
+    OKGREEN = '\033[92m'
+    WARNING = '\033[93m'
+    FAIL = '\033[91m'
+    ENDC = '\033[0m'
+    BOLD = '\033[1m'
+    UNDERLINE = '\033[4m'
+
 class lj_potential:
     keyword = ''
     lj_function = ''
@@ -36,6 +46,14 @@ class lj_potential:
         self.sigmas = []
 
 
+
+def colorcon (code, msg):
+    return {
+        'OK': bcolors.OKGREEN + msg + bcolors.ENDC,
+        'ERROR': bcolors.FAIL + msg + bcolors.ENDC,
+        'WARN': bcolors.WARNING + msg + bcolors.ENDC,
+        }[code]
+
 class lj_table (dict):
     
     # i/o functions
@@ -63,7 +81,8 @@ class lj_table (dict):
                 comment = line[line.find ('!')+1:-1]
 
             if (self.has_key ((type1, type2))):
-                sys.stderr.write ("Error: duplicate record for LJ pair (%4s, %4s): it exists already in the database.\n" % (type1, type2))
+                #sys.stderr.write ("Error: duplicate record for LJ pair (%4s, %4s): it exists already in the database.\n" % (type1, type2))
+                sys.stderr.write (colorcon("WARN", "Error: duplicate record for LJ pair (%4s, %4s): it exists already in the database.\n" % (type1, type2)))
                 sys.exit (1)
 
             self[(type1, type2)] = lj_potential ((keyword, lj_function, epsilon, sigma, comment))
@@ -309,4 +328,3 @@ class lj_table (dict):
             retval.add (type1)
             retval.add (type2)
         return set (sorted (retval))
-                
