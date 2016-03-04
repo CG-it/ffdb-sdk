@@ -1,0 +1,5 @@
+bond BER BER     harmonic          40.0   1.90
+bond BER COOH    harmonic          28.0   2.00
+bond BER N       harmonic          40.0   1.44
+bond BER O       harmonic          22.0   1.94
+bond N O         harmonic          28.0   1.88

@@ -1,0 +1,3 @@
+dihedral BER  BER  N  O    charmm  12.0 1 0
+dihedral BER  BER  O  N    charmm   5.0 1 180
+dihedral BER  N    O  BER  charmm  15.0 1 0

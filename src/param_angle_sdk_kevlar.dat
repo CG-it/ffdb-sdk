@@ -1,0 +1,6 @@
+angle BER BER BER     harmonic         30.0    90.0
+angle BER BER COOH    harmonic        129.0   137.0
+angle BER BER N       harmonic         40.0   137.0
+angle BER BER O       harmonic         40.0   137.0
+angle BER N   O       harmonic         75.0   105.0
+angle BER O   N       harmonic        200.0    79.0

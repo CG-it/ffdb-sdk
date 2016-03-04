@@ -1,0 +1,10 @@
+# -*- mode: conf -*-
+
+pair  COOH  COOH      lj9_6   0.7070   4.2350
+pair     O     O      lj9_6   0.3233   3.7880
+pair     O     N      lj9_6   0.5393   3.6246
+pair     N     N      lj9_6   0.2430   4.0506
+pair     O     W     lj12_4   0.6690   4.2166
+pair     N     W     lj12_4   0.9000   4.6100
+pair   BER   BER      lj9_6   0.1750   3.8000
+pair   BER     W      lj9_6   0.3200   4.0850
