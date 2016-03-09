@@ -123,6 +123,11 @@ proc ::CGtools::checkbonds {resname} {
         foreach bond $bonds {
             lassign $bond a b
 
+            if {[lsearch $bond "+*"] >= 0 ||
+                [lsearch $bond "-*"] >= 0} {
+                  continue
+            }
+
             if { [lsearch -ascii $names $a] < 0 } {
                 puts stderr "checkbonds: Undefined atom name $a"
                 return -code error
