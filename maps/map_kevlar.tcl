@@ -29,20 +29,20 @@ proc ::CGtools::map_kevlar {} {
 
     variable map
 
-    ## Kevlar Monomer
+    ## Kevlar Monomer 
     set map([list map KEVL]) {
-        {N1 H5 H6}
-        {C3}
-        {C1 C2 H1 H2}
-        {C4 C5 H3 H4}
-        {C6}
-        {N2 H7}
-        {C7 O1}
-        {C8}
-        {C9 C10 H8 H9}
-        {C11 C12 H10 H11}
-        {C13}
-        {C14 O2 O3 H12}
+        {N1 H11}
+        {C2}
+        {C3 C4 H31 H41}
+        {C6 C7 H61 H71}
+        {C5}
+        {N8 H81}
+        {C9 O10}
+        {C11}
+        {C12 C13 H12 H13}
+        {C15 C16 H15 H16}
+        {C14}
+        {C17 O18}
     }
 
     set map([list type KEVL])    {
@@ -57,7 +57,7 @@ proc ::CGtools::map_kevlar {} {
       BER
       BER
       BER
-      COOH
+      O 
     }
 
     set map([list name KEVL])    {
@@ -91,7 +91,7 @@ proc ::CGtools::map_kevlar {} {
     }
 
     set map([list mass KEVL]) {
-      {16.02}
+      {15.02}
       {19.03}
       {19.03}
       {19.03}
@@ -102,7 +102,7 @@ proc ::CGtools::map_kevlar {} {
       {19.03}
       {19.03}
       {19.03}
-      {45.02}
+      {28.01}
     }
 
     set map([list bonds KEVL]) {
@@ -119,38 +119,22 @@ proc ::CGtools::map_kevlar {} {
         {C9 C11}
         {C10 C11}
         {C11 O12}
+        {-O12 N1}
     }
 
     set map([list angles KEVL]) {
       {auto}
     }
 
-#    set map([list angles KEVL]) {
-#        {N1 C2 C3}
-#        {N1 C2 C4}
-#        {C2 C3 C5}
-#        {C3 C2 C4}
-#        {C3 C5 C4}
-#        {C2 C4 C5}
-#        {C3 C5 N6}
-#        {C4 C5 N6}
-#        {C5 N6 O7}
-#        {N6 O7 C8}
-#        {O7 C8 C9}
-#        {C8 C9 C11}
-#        {C8 C10 C11}
-#        {C9 C8 C10}
-#        {C9 C11 C10}
-#        {C9 C11 O12}
-#        {C10 C11 O12}
-#    }
-
-    ## Diehdrals to retain planarity
+    ## Dihedrals to retain planarity
     ## between aryls
     set map([list dihedrals KEVL]) {
         {C4 C5 N6 O7}
         {N6 O7 C8 C9}
-        {C5 N6 O7 C8}
+        {C5 N6 O7 C8} 
+        {C10 C11 O12 +N1}
+        {C11 O12 +N1 +C2}
+        {O12 +N1 +C2 +C3}
     }
 
     return
@@ -162,3 +146,5 @@ if { $::CGtools::maptest } {
     ::CGtools::map_stats KEVL
     ::CGtools::checkbonds KEVL
 }
+
+
