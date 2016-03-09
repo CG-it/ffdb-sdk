@@ -1,8 +1,24 @@
 {
-"author":"gfiorin",
-"date":"2015-11-18T14:20:26",
+"author":"macdercm",
+"date":"2016-03-09T15:38:37",
 "fftype":"sdk",
 "params":[
+  {
+    "param":"pair",
+    "types":["BER","BER"],
+    "potential":"lj9_6",
+    "epsilon":0.1750,
+    "sigma":3.8000,
+    "comment":"#"
+  },
+  {
+    "param":"pair",
+    "types":["BER","W"],
+    "potential":"lj9_6",
+    "epsilon":0.3200,
+    "sigma":4.0850,
+    "comment":"#"
+  },
   {
     "param":"pair",
     "types":["C2T","C2T"],
@@ -2701,6 +2717,38 @@
   },
   {
     "param":"bond",
+    "types":["BER","BER"],
+    "potential":"harmonic",
+    "k":40.0,
+    "r0":1.90,
+    "comment":""
+  },
+  {
+    "param":"bond",
+    "types":["BER","COOH"],
+    "potential":"harmonic",
+    "k":28.0,
+    "r0":2.00,
+    "comment":""
+  },
+  {
+    "param":"bond",
+    "types":["BER","N"],
+    "potential":"harmonic",
+    "k":40.0,
+    "r0":1.44,
+    "comment":""
+  },
+  {
+    "param":"bond",
+    "types":["BER","O"],
+    "potential":"harmonic",
+    "k":22.0,
+    "r0":1.94,
+    "comment":""
+  },
+  {
+    "param":"bond",
     "types":["C2T","CM2"],
     "potential":"harmonic",
     "k":110.00,
@@ -3157,6 +3205,14 @@
   },
   {
     "param":"bond",
+    "types":["N","O"],
+    "potential":"harmonic",
+    "k":28.0,
+    "r0":1.88,
+    "comment":""
+  },
+  {
+    "param":"bond",
     "types":["N","OA"],
     "potential":"harmonic",
     "k":51.95,
@@ -3202,6 +3258,54 @@
     "k":8.900,
     "r0":3.520,
     "comment":"#"
+  },
+  {
+    "param":"angle",
+    "types":["BER","BER","BER"],
+    "potential":"harmonic",
+    "k":30.0,
+    "theta0":90.0,
+    "comment":""
+  },
+  {
+    "param":"angle",
+    "types":["BER","BER","COOH"],
+    "potential":"harmonic",
+    "k":129.0,
+    "theta0":137.0,
+    "comment":""
+  },
+  {
+    "param":"angle",
+    "types":["BER","BER","N"],
+    "potential":"harmonic",
+    "k":40.0,
+    "theta0":137.0,
+    "comment":""
+  },
+  {
+    "param":"angle",
+    "types":["BER","BER","O"],
+    "potential":"harmonic",
+    "k":40.0,
+    "theta0":137.0,
+    "comment":""
+  },
+  {
+    "param":"angle",
+    "types":["BER","N","O"],
+    "potential":"harmonic",
+    "k":75.0,
+    "theta0":105.0,
+    "comment":""
+  },
+  {
+    "param":"angle",
+    "types":["BER","O","N"],
+    "potential":"harmonic",
+    "k":200.0,
+    "theta0":79.0,
+    "comment":""
   },
   {
     "param":"angle",
@@ -3410,6 +3514,14 @@
     "k":3.81,
     "theta0":138.99,
     "comment":""
+  },
+  {
+    "param":"angle",
+    "types":["CM","CM","CM2"],
+    "potential":"sdk",
+    "k":1.190,
+    "theta0":173.0,
+    "comment":"#"
   },
   {
     "param":"angle",
@@ -3946,6 +4058,33 @@
     "k":2.000,
     "theta0":138.0,
     "comment":"#"
+  },
+  {
+    "param":"dihedral",
+    "types":["BER","BER","N","O"],
+    "potential":"charmm",
+    "k":12.0,
+    "n":1,
+    "d":0,
+    "comment":""
+  },
+  {
+    "param":"dihedral",
+    "types":["BER","BER","O","N"],
+    "potential":"charmm",
+    "k":5.0,
+    "n":1,
+    "d":180,
+    "comment":""
+  },
+  {
+    "param":"dihedral",
+    "types":["BER","N","O","BER"],
+    "potential":"charmm",
+    "k":15.0,
+    "n":1,
+    "d":0,
+    "comment":""
   },
   {
     "param":"dihedral",
