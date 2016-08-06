@@ -197,6 +197,41 @@ proc ::CGtools::map_hydrocarbon {} {
     }
 
 
+    # n-hexane
+    set map([list map HEXA]) {
+        {C1 H11 H12 H13 C2 H21 H22 C3 H31 H32}
+        {C4 H41 H42 C5 H51 H52 C6 H61 H62 H63}
+    }
+
+    set map([list type HEXA])    {
+        CT
+        CT
+    }
+
+    set map([list name HEXA])    {
+        C1
+        C2
+    }
+
+    set map([list charge HEXA])  {
+        0.0
+        0.0
+    }
+
+    set map([list mass HEXA])    {
+        43.088
+        43.088
+    }
+
+    set map([list bonds HEXA]) {
+        {C1 C2}
+    }
+
+    set map([list angles HEXA]) {
+        {auto}
+    }
+
+
     # isohexane (2-methylpentane)
     set map([list map IHEX]) {
         {C1 H11 H12 H13 C2 H21 C3 H31 H32 H33}
