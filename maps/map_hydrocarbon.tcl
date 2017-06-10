@@ -970,6 +970,52 @@ proc ::CGtools::map_hydrocarbon {} {
         {none}
     }
 
+    ## Dodecane C12, CT-CM-CM-CT
+
+    set map([list type DODE])    {
+        CT
+        CM
+        CM
+        CT
+    }
+
+    set map([list name DODE])    {
+        C1
+        C2
+        C3
+        C4
+    }
+
+    set map([list charge DODE])  {
+        0.0
+        0.0
+        0.0
+        0.0
+    }
+
+    set map([list mass DODE])    {
+        { 43.0880}
+        { 42.0810}
+        { 42.0810}
+        { 43.0880}
+    }
+
+    set map([list bonds DODE]) {
+        {C1 C2}
+        {C2 C3}
+        {C3 C4}
+    }
+
+    set map([list angles DODE]) {
+        {C1 C2 C3}
+        {C2 C3 C4}
+    }
+
+    set map([list dihedrals DODE]) {
+        {auto}
+    }
+
+
     ## Dodecane C12, CT2-CM-CM2-CM-CT2
     set map([list map DODC]) {
         {C1 H11 H12 H13 C2 H21 H22}
