@@ -16,7 +16,7 @@ For example, the following Python code displays the epsilon parameter of the Len
 ```
 import ffdb
 ff_all_sdk = ffdb.load('par_all_sdk.json')
-lj = ffdb.find_ff_params(ff_all_sdk, 'pair', atypes=('CT', 'CM'))
+lj = ffdb.find_params(ff_all_sdk, 'pair', atypes=('CT', 'CM'))
 print("Epsilon(EST1-CM) = "+lj['epsilon'])
 ```
 To modify the entry:
