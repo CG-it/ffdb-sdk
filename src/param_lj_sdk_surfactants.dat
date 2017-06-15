@@ -1,22 +1,22 @@
-pair      CM     CM      lj9_6      0.4200    4.5060  # Mol Sim 2007
-pair      CM     OA      lj9_6      0.3650    3.9870  # Mol Sim 2007
-pair      CT2    CM      lj9_6      0.3620    4.3635  # Mol Sim 2007
-pair      CT2    CT2     lj9_6      0.3120    4.2210  # Mol Sim 2007
-pair      CT2    OA      lj9_6      0.3800    3.8400  # Mol Sim 2007
-pair      CT     CM      lj9_6      0.4440    4.5455  # Mol Sim 2007
-pair      CT     CT      lj9_6      0.4690    4.5850  # Mol Sim 2007
-pair      CT     OA      lj9_6      0.4372    4.0330  # Mol Sim 2007
-pair      EO     CM      lj9_6      0.3770    4.2740  # Mol Sim 2007
-pair      EO     CT      lj9_6      0.4100    4.3400  # Mol Sim 2007
-pair      EO     CT2     lj9_6      0.3700    4.1400  # Mol Sim 2007
-pair      EO     EO      lj9_6      0.4050    4.2500  # Mol Sim 2007
-pair      EO     EOT     lj9_6      0.4200    4.2500  # Mol Sim 2007
-pair      EO     OA      lj9_6      0.4400    3.8900  # Mol Sim 2007
-pair      EOT    EOT     lj9_6      0.4370    4.2500  # Mol Sim 2007
-pair      OA     OA      lj9_6      0.4491    3.7130  # Mol Sim 2007
-pair      W      CM      lj12_4     0.3400    4.4385  # Mol Sim 2007
-pair      W      CT      lj12_4     0.3600    4.4780  # Mol Sim 2007
-pair      W      CT2     lj12_4     0.2900    4.2960  # Mol Sim 2007
-pair      W      EO      lj12_4     0.5700    4.3100  # Mol Sim 2007
-pair      W      OA      lj12_4     0.7000    3.9500  # Mol Sim 2007
-pair      W      W       lj12_4     0.8950    4.3710  # Mol Sim 2007
+pair      CM     CM      lj9_6      0.4200    4.5060  # From nonane, CT-CM-CT
+pair      CM     OA      lj9_6      0.3650    3.9870  # From 1-hexanol, CT2-CM-OA
+pair      CT2    CM      lj9_6      0.3620    4.3635  # From heptane, CT2-CM-CT2
+pair      CT2    CT2     lj9_6      0.3120    4.2210  # From heptane, CT2-CM-CT2
+pair      CT2    OA      lj9_6      0.3800    3.8400  # From 1-propanol, CT2-OA
+pair      CT     CM      lj9_6      0.4440    4.5455  # From nonane, CT-CM-CT
+pair      CT     CT      lj9_6      0.4690    4.5850  # From hexane, CT-CT
+pair      CT     OA      lj9_6      0.4372    4.0330  # From long-chain alcohol?
+pair      EO     CM      lj9_6      0.3770    4.2740  # From di-n-hexyl-ether, CT2-CM-EO-CM-CT2
+pair      EO     CT      lj9_6      0.4100    4.3400  # From diethyleneglycoldi-n-butylether, CTZ-(EO)3-CT
+pair      EO     CT2     lj9_6      0.3700    4.1400  # From dipropylether, CT2-EO-CT2
+pair      EO     EO      lj9_6      0.4050    4.2500  # From diethyleneglycoldimethylether, EOT-EO-EOT
+pair      EO     EOT     lj9_6      0.4200    4.2500  # From diethyleneglycoldimethylether, EOT-EO-EOT
+pair      EO     OA      lj9_6      0.4400    3.8900  # From diethyleneglycol, OA-EO-OA
+pair      EOT    EOT     lj9_6      0.4370    4.2500  # From dimethoxyethane, EOT-EOT
+pair      OA     OA      lj9_6      0.4491    3.7130  # From ethylene glycol, OA-OA
+pair      W      CM      lj12_4     0.3400    4.4385  # From water/dodecane
+pair      W      CT      lj12_4     0.3600    4.4780  # From water/hexane
+pair      W      CT2     lj12_4     0.2900    4.2960  # From water/heptane
+pair      W      EO      lj12_4     0.5700    4.3100  # Epsilon from hydration FE of PEG, sigma from AA-MD
+pair      W      OA      lj12_4     0.7000    3.9500  # Epsilon from hydration FE of PEG, sigma from AA-MD
+pair      W      W       lj12_4     0.8950    4.3710  # From water

@@ -1,0 +1,269 @@
+{
+  "fftype" : "sdk",
+  "params" : [
+    {
+      "comment" : "From nonane, CT-CM-CT",
+      "epsilon" : "0.4200",
+      "param" : "pair",
+      "potential" : "lj9_6",
+      "reference" : "Shinoda2007",
+      "sigma" : "4.5060",
+      "types" : [
+        "CM",
+        "CM"
+      ]
+    },
+    {
+      "comment" : "From 1-hexanol, CT2-CM-OA",
+      "epsilon" : "0.3650",
+      "param" : "pair",
+      "potential" : "lj9_6",
+      "reference" : "Shinoda2007",
+      "sigma" : "3.9870",
+      "types" : [
+        "CM",
+        "OA"
+      ]
+    },
+    {
+      "comment" : "From heptane, CT2-CM-CT2",
+      "epsilon" : "0.3620",
+      "param" : "pair",
+      "potential" : "lj9_6",
+      "reference" : "Shinoda2007",
+      "sigma" : "4.3635",
+      "types" : [
+        "CM",
+        "CT2"
+      ]
+    },
+    {
+      "comment" : "From heptane, CT2-CM-CT2",
+      "epsilon" : "0.3120",
+      "param" : "pair",
+      "potential" : "lj9_6",
+      "reference" : "Shinoda2007",
+      "sigma" : "4.2210",
+      "types" : [
+        "CT2",
+        "CT2"
+      ]
+    },
+    {
+      "comment" : "From 1-propanol, CT2-OA",
+      "epsilon" : "0.3800",
+      "param" : "pair",
+      "potential" : "lj9_6",
+      "reference" : "Shinoda2007",
+      "sigma" : "3.8400",
+      "types" : [
+        "CT2",
+        "OA"
+      ]
+    },
+    {
+      "comment" : "From nonane, CT-CM-CT",
+      "epsilon" : "0.4440",
+      "param" : "pair",
+      "potential" : "lj9_6",
+      "reference" : "Shinoda2007",
+      "sigma" : "4.5455",
+      "types" : [
+        "CM",
+        "CT"
+      ]
+    },
+    {
+      "comment" : "From hexane, CT-CT",
+      "epsilon" : "0.4690",
+      "param" : "pair",
+      "potential" : "lj9_6",
+      "reference" : "Shinoda2007",
+      "sigma" : "4.5850",
+      "types" : [
+        "CT",
+        "CT"
+      ]
+    },
+    {
+      "comment" : "From long-chain alcohol?",
+      "epsilon" : "0.4372",
+      "param" : "pair",
+      "potential" : "lj9_6",
+      "reference" : "Shinoda2007",
+      "sigma" : "4.0330",
+      "types" : [
+        "CT",
+        "OA"
+      ]
+    },
+    {
+      "comment" : "From di-n-hexyl-ether, CT2-CM-EO-CM-CT2",
+      "epsilon" : "0.3770",
+      "param" : "pair",
+      "potential" : "lj9_6",
+      "reference" : "Shinoda2007",
+      "sigma" : "4.2740",
+      "types" : [
+        "CM",
+        "EO"
+      ]
+    },
+    {
+      "comment" : "From diethyleneglycoldi-n-butylether, CTZ-(EO)3-CT",
+      "epsilon" : "0.4100",
+      "param" : "pair",
+      "potential" : "lj9_6",
+      "reference" : "Shinoda2007",
+      "sigma" : "4.3400",
+      "types" : [
+        "CT",
+        "EO"
+      ]
+    },
+    {
+      "comment" : "From dipropylether, CT2-EO-CT2",
+      "epsilon" : "0.3700",
+      "param" : "pair",
+      "potential" : "lj9_6",
+      "reference" : "Shinoda2007",
+      "sigma" : "4.1400",
+      "types" : [
+        "CT2",
+        "EO"
+      ]
+    },
+    {
+      "comment" : "From diethyleneglycoldimethylether, EOT-EO-EOT",
+      "epsilon" : "0.4050",
+      "param" : "pair",
+      "potential" : "lj9_6",
+      "reference" : "Shinoda2007",
+      "sigma" : "4.2500",
+      "types" : [
+        "EO",
+        "EO"
+      ]
+    },
+    {
+      "comment" : "From diethyleneglycoldimethylether, EOT-EO-EOT",
+      "epsilon" : "0.4200",
+      "param" : "pair",
+      "potential" : "lj9_6",
+      "reference" : "Shinoda2007",
+      "sigma" : "4.2500",
+      "types" : [
+        "EO",
+        "EOT"
+      ]
+    },
+    {
+      "comment" : "From diethyleneglycol, OA-EO-OA",
+      "epsilon" : "0.4400",
+      "param" : "pair",
+      "potential" : "lj9_6",
+      "reference" : "Shinoda2007",
+      "sigma" : "3.8900",
+      "types" : [
+        "EO",
+        "OA"
+      ]
+    },
+    {
+      "comment" : "From dimethoxyethane, EOT-EOT",
+      "epsilon" : "0.4370",
+      "param" : "pair",
+      "potential" : "lj9_6",
+      "reference" : "Shinoda2007",
+      "sigma" : "4.2500",
+      "types" : [
+        "EOT",
+        "EOT"
+      ]
+    },
+    {
+      "comment" : "From ethylene glycol, OA-OA",
+      "epsilon" : "0.4491",
+      "param" : "pair",
+      "potential" : "lj9_6",
+      "reference" : "Shinoda2007",
+      "sigma" : "3.7130",
+      "types" : [
+        "OA",
+        "OA"
+      ]
+    },
+    {
+      "comment" : "From water/dodecane",
+      "epsilon" : "0.3400",
+      "param" : "pair",
+      "potential" : "lj12_4",
+      "reference" : "Shinoda2007",
+      "sigma" : "4.4385",
+      "types" : [
+        "CM",
+        "W"
+      ]
+    },
+    {
+      "comment" : "From water/hexane",
+      "epsilon" : "0.3600",
+      "param" : "pair",
+      "potential" : "lj12_4",
+      "reference" : "Shinoda2007",
+      "sigma" : "4.4780",
+      "types" : [
+        "CT",
+        "W"
+      ]
+    },
+    {
+      "comment" : "From water/heptane",
+      "epsilon" : "0.2900",
+      "param" : "pair",
+      "potential" : "lj12_4",
+      "reference" : "Shinoda2007",
+      "sigma" : "4.2960",
+      "types" : [
+        "CT2",
+        "W"
+      ]
+    },
+    {
+      "comment" : "Epsilon from hydration FE of PEG, sigma from AA-MD",
+      "epsilon" : "0.5700",
+      "param" : "pair",
+      "potential" : "lj12_4",
+      "reference" : "Shinoda2007",
+      "sigma" : "4.3100",
+      "types" : [
+        "EO",
+        "W"
+      ]
+    },
+    {
+      "comment" : "Epsilon from hydration FE of PEG, sigma from AA-MD",
+      "epsilon" : "0.7000",
+      "param" : "pair",
+      "potential" : "lj12_4",
+      "reference" : "Shinoda2007",
+      "sigma" : "3.9500",
+      "types" : [
+        "OA",
+        "W"
+      ]
+    },
+    {
+      "comment" : "From water",
+      "epsilon" : "0.8950",
+      "param" : "pair",
+      "potential" : "lj12_4",
+      "reference" : "Shinoda2007",
+      "sigma" : "4.3710",
+      "types" : [
+        "W",
+        "W"
+      ]
+    }
+  ]
+}
