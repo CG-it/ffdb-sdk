@@ -32,4 +32,3 @@ pair     CMD3  W   lj12_4    0.2700    4.1880 # CMD3 W
 ## FFA
 pair     COOH  COOH lj9_6    0.6500    3.0000 # COOH COOH from Butyric Acid
 pair     COOH  CT   lj9_6    0.3630    4.7126 # COOH CT from Butyric Acid
-pair     COOH  W    lj12_4   0.7627    4.5418 # COOH W, geometric combination

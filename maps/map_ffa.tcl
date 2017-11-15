@@ -65,100 +65,100 @@ proc ::CGtools::map_ffa {} {
 
     variable map
 
-    set map([list map BENA]) {
-        {C O1 O2}
-        {C1 H11 H12 C2 H21 H22 C3 H31 H32}
-        {C4 H41 H42 C5 H51 H52 C6 H61 H62}
-        {C7 H71 H72 C8 H81 H82 C9 H91 H92}
-        {C10 H101 H102 C11 H111 H112 C12 H121 H122}
-        {C13 H131 H132 C14 H141 H142 C15 H151 H152}
-        {C16 H161 H162 C17 H171 H172 C18 H181 H182}
-        {C19 H191 H192 C20 H201 H202 C21 H211 H212 H213}
-    }
+    # set map([list map BENA]) {
+    #     {C O1 O2}
+    #     {C1 H11 H12 C2 H21 H22 C3 H31 H32}
+    #     {C4 H41 H42 C5 H51 H52 C6 H61 H62}
+    #     {C7 H71 H72 C8 H81 H82 C9 H91 H92}
+    #     {C10 H101 H102 C11 H111 H112 C12 H121 H122}
+    #     {C13 H131 H132 C14 H141 H142 C15 H151 H152}
+    #     {C16 H161 H162 C17 H171 H172 C18 H181 H182}
+    #     {C19 H191 H192 C20 H201 H202 C21 H211 H212 H213}
+    # }
 
-    set map([list type BENA])    {
-        COO
-        CM
-        CM
-        CM
-        CM
-        CM
-        CM
-        CT
-    }
+    # set map([list type BENA])    {
+    #     COO
+    #     CM
+    #     CM
+    #     CM
+    #     CM
+    #     CM
+    #     CM
+    #     CT
+    # }
 
-    set map([list name BENA])    {
-        O2
-        C1
-        C2
-        C3
-        C4
-        C5
-        C6
-        C7
-    }
+    # set map([list name BENA])    {
+    #     O2
+    #     C1
+    #     C2
+    #     C3
+    #     C4
+    #     C5
+    #     C6
+    #     C7
+    # }
 
-    set map([list charge BENA])  {
-        -0.1118033989
-        0.0
-        0.0
-        0.0
-        0.0
-        0.0
-        0.0
-        0.0
-    }
+    # set map([list charge BENA])  {
+    #     -0.1118033989
+    #     0.0
+    #     0.0
+    #     0.0
+    #     0.0
+    #     0.0
+    #     0.0
+    #     0.0
+    # }
 
-    set map([list mass BENA])    {
-        { 44.0095}
-        { 42.0797}
-        { 42.0797}
-        { 42.0797}
-        { 42.0797}
-        { 42.0797}
-        { 42.0797}
-        { 43.0877}
-    }
+    # set map([list mass BENA])    {
+    #     { 44.0095}
+    #     { 42.0797}
+    #     { 42.0797}
+    #     { 42.0797}
+    #     { 42.0797}
+    #     { 42.0797}
+    #     { 42.0797}
+    #     { 43.0877}
+    # }
 
-    set map([list weights BENA]) {
-        {1.0 1.0 1.0}
-        {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
-        {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
-        {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
-        {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
-        {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
-        {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
-        {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
-    }
+    # set map([list weights BENA]) {
+    #     {1.0 1.0 1.0}
+    #     {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+    #     {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+    #     {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+    #     {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+    #     {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+    #     {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+    #     {1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0}
+    # }
 
-    set map([list bonds BENA]) {
-        {O2 C1}
-        {C1 C2}
-        {C2 C3}
-        {C3 C4}
-        {C4 C5}
-        {C5 C6}
-        {C6 C7}
-    }
+    # set map([list bonds BENA]) {
+    #     {O2 C1}
+    #     {C1 C2}
+    #     {C2 C3}
+    #     {C3 C4}
+    #     {C4 C5}
+    #     {C5 C6}
+    #     {C6 C7}
+    # }
 
-    set map([list angles BENA]) {
-        {auto}
-    }
+    # set map([list angles BENA]) {
+    #     {auto}
+    # }
 
-    set map([list dihedrals BENA]) {
-        {none}
-    }
+    # set map([list dihedrals BENA]) {
+    #     {none}
+    # }
 
-    set map([list atomicnumber BENA]) {
-        22
-        24
-        24
-        24
-        24
-        24
-        24
-        25
-    }
+    # set map([list atomicnumber BENA]) {
+    #     22
+    #     24
+    #     24
+    #     24
+    #     24
+    #     24
+    #     24
+    #     25
+    # }
 
 
     set map([list map BENP]) {

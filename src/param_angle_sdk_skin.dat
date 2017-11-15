@@ -27,6 +27,6 @@ angle    CT  CM2  CT   sdk   2.5300  146.9700
 angle    CM2 CM2  CT2  sdk   2.2600  150.0700
 
 ## FFA
-angle    CM  CM   COO  sdk   11.5556  156.0014
+# angle    CM  CM   COO  sdk   11.5556  156.0014
 angle    CM  CM   COOH sdk   23.4569  159.0885
 
