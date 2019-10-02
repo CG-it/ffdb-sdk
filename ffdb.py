@@ -14,7 +14,7 @@ def load(filename):
       Returns:
         Dictionary of force field parameters
     """
-    with file(filename, 'r') as in_file:
+    with open(filename, 'r') as in_file:
         return json.load(in_file)
     return None
 
@@ -32,7 +32,7 @@ def add_params_textfile(db, ptype, filename):
         filename (str): Name of text file
 
     """
-    with file(filename, 'r') as in_file:
+    with open(filename, 'r') as in_file:
         read_pairs_text(db, in_file.read())
 
 
@@ -91,22 +91,21 @@ def read_pairs_text(db, text):
 
 def add_entries(db, filename):
     """Append entries to an existing database from a JSON file"""
-    with file(filename, 'r') as in_file:
+    with open(filename, 'r') as in_file:
         new_db = json.load(in_file)
         if (new_db['fftype'] != db['fftype']):
             raise Exception("Cannot merge databases with different \"fftype\" entries")
-        if (new_db.has_key('params')):
-            if (db.has_key('params')):
+        if ('params' in new_db):
+            if ('params' in db):
                 db['params'] += new_db['params']
             else:
                 db['params'] = new_db['params']
-        if (new_db.has_key('topo')):
-            # TODO
-            pass
+        if ('topo' in new_db):
+            raise Exception("Parsing of topology entries is not implemented yet")
 
 
 def save(db, filename):
-    with file(filename, 'w') as out_file:
+    with open(filename, 'w') as out_file:
         json.dump(db, fp=out_file, 
                   indent=2, sort_keys=True, separators=(',', ' : '))
 
