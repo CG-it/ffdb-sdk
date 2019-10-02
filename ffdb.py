@@ -36,16 +36,6 @@ def add_params_textfile(db, ptype, filename):
         read_pairs_text(db, in_file.read())
 
 
-def add_params_text(db, ptype, text):
-    """Load non-bonded pair parameters from a string
-      Args:
-        db (dict): Database dictionary
-        ptype (str): Type of entries (e.g. 'pair', 'bond', ...)
-        text (str): Input text
-    """
-#    if (ptype == 'pair'):
-
-
 def get_param_comment(line):
     """Get the comment at the end of an entry"""
     comment_pos = 0
@@ -113,6 +103,29 @@ def str(db):
     return json.dumps(db,
                       indent=2, sort_keys=True, separators=(',', ' : '))
 
+
+def types_match(types1, types2):
+    t1 = list(types1)
+    t2 = list(types2)
+
+    if len(t1) != len(t2): return False
+
+    for i in range(len(t1)):
+        if t1[i] == '*': t2[i] = '*'
+        if t2[i] == '*': t1[i] = '*'
+    if t1 == t2: return True
+
+    # Retry with reverse order
+    t1 = list(types1)
+    t2 = list(types2)[::-1]
+    for i in range(len(t1)):
+        if t1[i] == '*': t2[i] = '*'
+        if t2[i] == '*': t1[i] = '*'
+    if t1 == t2: return True
+
+    return False
+
+
 def find_params(db,
                 ptype,
                 potential=None,
@@ -123,24 +136,24 @@ def find_params(db,
         db (dict): Parameters database (as created from load())
         ptype (str): Type of parameter (e.g. 'pair')
         potential (str): Type of potential (e.g. 'lj9_6')
-        atypes (tuple): CG "atom" types (e.g. ('CM', 'CT'))
+        atypes (tuple): CG "atom" types (e.g. ('CM', 'CT')); asterisks can be
+                        used to match any type
       Returns:
         * None if no entries are found;
-        * a single entry when the match is unique;
+        * a single entry if the match is unique;
         * a list of entries if the match is not unique.
     """
     results = []
     for p in db['params']:
         match = True
-        if (ptype):
-            if (p['param'] != ptype): match = False
-        if (potential):
-            if (p['potential'] != potential): match = False
-        if (atypes):
+        if ptype:
+            if p['param'] != ptype: match = False
+        if potential:
+            if p['potential'] != potential: match = False
+        if atypes:
             atypes = list(atypes)
-            if ((p['types'] != atypes) and 
-                (p['types'] != atypes[::-1])): match = False
-        if (match):
+            if not types_match(p['types'], atypes): match = False
+        if match:
             results += [p]
     if (len(results) == 0): return None
     if (len(results) == 1): return results[0]

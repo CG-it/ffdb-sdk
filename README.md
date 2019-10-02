@@ -15,9 +15,15 @@ Each file contains dictionaries such as: `params` (set of force field parameters
 For example, the following Python code displays the epsilon parameter of the Lennard-Jones potential between CT-type and CM-type particles:
 ```
 import ffdb
-ff_all_sdk = ffdb.load('par_all_sdk.json')
-lj = ffdb.find_params(ff_all_sdk, 'pair', atypes=('CT', 'CM'))
-print("Epsilon(EST1-CM) = "+lj['epsilon'])
+ff_all_sdk = ffdb.load('par_all1_sdk.json')
+ljpair = ffdb.find_params(ff_all_sdk, 'pair', atypes=('CT', 'CM'))
+print("Epsilon(CT-CM) = ", ljpair['epsilon'])
+bonds = ffdb.find_params(ff_all_sdk, 'bond', atypes=('*', 'N'))
+for bond in bonds:
+    print("K(", *(bond['types']), ") = ", bond['k'])
+angles = ffdb.find_params(ff_all_sdk, 'angle', atypes=('*', '*', 'N'))
+for angle in angles:
+    print("K(", *(angle['types']), ") = ", angle['k'])
 ```
 To modify the entry:
 ```
