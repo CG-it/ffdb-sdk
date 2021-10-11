@@ -54,19 +54,26 @@ http://dx.doi.org/10.1021/jp010238p
 W. Shinoda, R. Devane, and M. L. Klein.
 Multi-property fitting and parameterization of a coarse grained model for aqueous surfactants.
 Mol. Simul. **33**, 27 (2007).
-http://dx.doi.org/10.1080/08927020601054050
+https://doi.org/10.1080/08927020601054050
 (experiment-based parameterization method, water, linear alkanes, ethyleneglycols, linear alcohols)
 
 **[Shinoda2010]**
 W. Shinoda, R. DeVane, and M. L. Klein.
 "Zwitterionic Lipid Assemblies: Molecular Dynamics Studies of Monolayers, Bilayers, and Vesicles Using a New Coarse Grain Force Field."
 J. Phys. Chem. B **114**, 6836 (2010).
-http://dx.doi.org/10.1021/jp9107206
+https://doi.org/10.1021/jp9107206
 (zwitterionic phospholipids: PC and PE head groups)
 
 **[MacDermaid2015]**
 C. M. MacDermaid, H. K. Kashyap, R.H. DeVane, W. Shinoda, J. B. Klauda, M. L. Klein, and G. Fiorin.
 Molecular dynamics simulations of cholesterol-rich membranes using a coarse-grained force field for cyclic alkanes.
 J. Chem. Phys **143**, 243144 (2015)
-http://dx.doi.org/10.1063/1.4937153
+https://doi.org/10.1063/1.4937153
 (cholesterol, cyclic alkanes)
+
+**[MacDermaid2020]**
+C. M. MacDermaid, K. W. Hall, R. H. DeVane, M. L.Klein, G. Fiorin
+Coexistence of Lipid Phases Stabilizes Interstitial Water in the Outer Layer of Mammalian Skin.
+Biophys. J. **118**(7), 1588-1601 (2020)
+https://doi.org/10.1016/j.bpj.2020.01.044
+(free fatty acids, ceramides)
