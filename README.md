@@ -40,6 +40,16 @@ The database files provided here are used primarily by the [CG-it](https://githu
 
 The reference implementation of this potential is provided by the [USER-CGSDK](http://lammps.sandia.gov/doc/Section_packages.html#user-cgsdk-package) package of the [LAMMPS](http://lammps.sandia.gov/) molecular dynamics program.
 
+## How to identify which molecule templates are available
+
+Conversion from atomistic topologies to CG topologies is done by CG-it, following templates for specific molecules.  Each template is defined based on residue names.  To see the list of templates defined, use:
+
+```
+import ffdb
+top = ffdb.load('top_all1_sdk.json')
+print(top['topo'].keys())
+```
+
 ## Reference articles
 
 The following papers describe parameters or topologies listed in the current database: other publications will be added as their contents are migrated here.
